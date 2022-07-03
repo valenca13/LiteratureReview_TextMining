@@ -1,0 +1,621 @@
+﻿1
+
+
+
+
+
+Operation of signalized diamond interchanges with frontage roads using dynamic reversible lane control
+
+
+
+
+
+
+                                     abstract
+
+
+Signalized diamond interchanges (SDI), connecting major highways and surface streets in urban and suburban areas, 
+are probably the most widely used interchange patterns. The limited storage space between the two closely joined intersections coupled with heavy
+traffic  volumes may easily oversaturate the facility and cause spillback problems, 
+especially with  the presence of frontage roads. This paper presents an innovative design and
+operational model for SDI by dynamically reversing certain lanes in the  internal link on
+a regular basis with the deployment of  overhead reversible lane control signs. A Binary-Mixed-Integer-Linear-Program (BMILP) 
+is formulated  to  simultaneously  optimize  lane markings, dynamic usage of the reversible lane, and signal timings for the new SDI system.
+Results from extensive numerical analyses reveal the promising property of the proposed design and operational model in expanding capacity 
+and reducing congestion at the SDI with  frontage roads.
+                                                                                                                                                    
+
+
+Keywords:
+Signalized diamond interchange
+Capacity
+Reversible lane 
+Binary-Mixed-Integer-Linear-Program
+
+
+1. Introduction
+
+
+     Diamond  interchanges  are the probably  the  most commonly   used interchange  patterns  in  urban and suburban  areas, connecting 
+major  highways  and surface  streets with  two  closely  spaced intersections.  When  traffic  demand is high,  intersections
+need to be signalized  and  may become  the bottleneck   due to the  limited   spacing between  them.  Therefore,  signalized  intersections 
+are  often  the key  operational   elements  within   the  interchange  system  (Fang and  Elefteriadou,  2006).
+     Spacing between  intersections   at  a diamond  interchange   typically   ranges from  less than  120m   to  240m   or more  (TRB,
+2000). Such proximity    creates  a number  of  interactive   effects  that  complicate   the operation   (Xu  et al., 2010).  It  limits   the
+storage capacity  available   for  queued turning   vehicles  and  may  induce  spillback   problems  on  the  internal  link.   Blockages
+and delays  due to  queue  spillback  can  then  prevent  vehicles  at  the  upstream  intersection   from   reaching  the downstream
+stop line, resulting   in inefﬁcient   utilization    of green times.  During  traffic  demand  peak periods, such  interactions  may  ﬁnally
+cause traffic  gridlock   at  adjacent  intersections.   To  address these  challenges,  it  is essential   to develop   more  efﬁcient   lane
+utilization   and  signal control   strategies  to  operate the  two  closely  space signalized  intersections.
+     In  review   of  literature,   this   unique   operational   problem   at  diamond   interchanges   was  conventionally    addressed  by
+optimizing   signal  control  plans  (Messer  and Chang,  1987;  Chaudhary  and Chu,  2000;  Tian, 2004),  falling  into   two  general
+
+
+
+
+2
+
+
+categories: namely the three-phase control (Munjal, 1971; Messer et al., 1977) and the four-phase control (Engelbrecht et al.,
+2001; Engelbrecht and Barnes, 2003; Gordon and Tighe, 2005; Pham et al., 2011). As shown in Fig. 1, the three-phase control
+treats the diamond interchange as two separate intersections, each having three phases. One phase is for through movements 
+on the surface street, the second for through and left movements from the internal links and the third for ramp movements. 
+Three-phase operation is efﬁcient if turning traffic volumes are light, and can minimize the cycle length. However, as
+turning volumes increase, this plan can lead to internal queue spillback and operational breakdown (Gordon and Tighe,
+2005). The four-phase control could avoid most queuing problems by giving each of the four approaches from which inter-
+change traffic originates a clear phase through both intersections. However, because it requires four phases, longer cycle
+lengths are needed which may reduce the capacity of the intersection (Fang, 2004). Moreover, it generally decreases the
+effective green time per cycle ratio for major movements, resulting higher expected delays than a three-phase control plan
+(TRB, 2000; Nelson et al., 2000).
+    When a diamond interchange is oversaturated with high left-turn demand, the conventional treatment of providing left-turn 
+bays with  protected left-turn phases may not be sufﬁcient to avoid long delays. Researchers have been looking for
+unconventional interchange designs to squeeze more capacity out of a diamond interchange with oversaturated traffic conditions. 
+As one of the most popular unconventional interchange designs, Diverging Diamond Interchange (DDI) has received
+increasing attention in recent years due to its cost-effectiveness over a traditional diamond interchange design. The key logic
+of DDI is to provide efﬁcient navigation for both left-turn and through movements between highway ramps, and to accommodate 
+left-turning movements onto the arterial without using a left-turn bay (Yang et al., 2013). As shown in Fig. 2, the
+reverse operations of the through traffic between two ramp terminals in a DDI design allow its left-turn traffic ﬂows from
+the freeway off-ramps to the opposing ﬂows at each sub-intersection (Edara et al., 2005). With such an assignment of ﬂow
+movements, a DDI design can signiﬁcantly reduce the number of traffic conﬂict points. And there is a great potential of the
+DDI to yield a better performance over the conventional SDI in increasing capacity and reducing delay primarily due to its
+efﬁcient two-phase signal operation (Chlewicki, 2003; Bared et al., 2005; Smith and Speth, 2008; Bared, 2009; Maji et al.,
+2013). However, the DDI concept also has some disadvantages, such as: (a) most of these analyses are based on the assumption 
+that the freeway frontage roads do not exist, or there is no need to facilitate vehicular travel between the freeway off-ramp and on-ramp, 
+for a signalized diamond interchanges with frontage roads (SDI-FR), a third phase should be added to
+accommodate the through movements on the frontage roads (Martinez and Cheu, 2012), hence the advantages of DDI are
+undermined; (b) it requires additional construction and permanent changes in layout, which cannot be turned on and off
+as needed; and (c) the reverse operations of the through traffic in the internal link in a DDI design may cause serious driving
+errors, especially the wrong-way violations, which may result in an increase in crashes.
+    One assumption underlying the above operational models is that the geometric layout, including the number of lanes on
+different directions in the internal link  as well as lane markings at intersection approach lanes, is given as an exogenous
+input and will not change throughout the operation process. However, when an intersection is oversaturated with high traffic demand, 
+the conventional signal control models may not be sufﬁcient to avoid long delays at the signalized diamond
+interchanges. Furthermore, due to spatial and environmental limitations, it is becoming increasingly difﬁcult to improve diamond 
+interchange operations through geometric improvements.
+    A further examination of current SDI operation reveals that the large and unbalanced left-turning traffic volume coupled
+with  limited spacing and turning lanes on the  internal link  contributes most to  its failure. Realizing this problem, this
+research develops a new way to signiﬁcantly improve the operation of the SDI using dynamic reversible lanes (DRL) in
+the internal link. The basic concept is to set all the left-turn lanes in the internal link as reversible by using overhead reversible 
+lane control signs. These lanes have the ﬂexibility to be used by different directions during different periods of a signal
+cycle depending on left-turn volumes and patterns. Such a design would enable a dynamic and integrated utilization of the
+internal link space and signal green times, resulting a substantial increase of the internal link capacity without the need of
+major construction.
+
+
+
+
+
+                                                                                          Overlap
+                                       Phase 1                                                                                     Phase 2
+                                                                                           Phase 1
+
+
+
+                                                                                                                                         Overlap
+                                       Phase 2                                       Phase 3
+                                                                                                                                         Phase 4
+
+
+
+
+                                       Phase 3                                       Phase 5                                 Phase 6
+                     (a) Common three-phase plan (CTP)    (b) Texas Transportation Institute four-phase plan (TTI)
+
+                                             Fig. 1. Common signalization schemes for diamond interchanges (TRB, 2000).
+
+3
+
+
+
+
+
+
+
+
+
+                                                         Fig. 2. Geometric layout of DDI design (Yang et al., 2013).
+
+
+
+    The idea of the reversible lane operation has been well accepted by practitioners in manyother applications. The principle
+is to conﬁgure the lanes of a roadway to match available capacity with varying traffic demand. One of the earliest applications 
+of reversible roadways was in Los Angeles in 1928, with a convertible lane variant known as off-center lane movement
+(Dorsey, 1948). Over the past decades, many different forms of reversible roadways have been used throughout the world to
+address a variety of needs (Wolshon and Lambert, 2004), including accommodating traffic demand associated with frequent
+and predictable unbalanced peak-period travel times (Upchurch, 1975; Agent and Clark, 1980; Karoonsoontawong and Lin,
+2011; Nava et al., 2012), special event management (Gillis, 1990; Lambert and Wolshon, 2002; Wojtowicz and Wallace,
+2010; Hua et al., 2013), and emergency evacuation (Wolshon, 2001; Theodoulou and Wolshon, 2004; Xie and Turnquist,
+2011; Ren et al., 2012).
+    Different from previous studies and applications, this study proposes to operate reversible lanes at the internal link of a
+signalized diamond interchanges with frontage roads (SDI-FR) on a dynamic and regular basis. A mathematical model is further 
+formulated to simultaneously optimize the lane markings, the dynamic usage of reversible lanes, and the signal timing
+plans to achieve the best operational performance of the SDI.
+    The rest of the paper is organized as follows. In Section 2, the basic concept of signalized diamond interchanges with
+dynamic reversible lanes (DRL) are illustrated. The integrated optimization model based on the DRL concept is formulated
+in Section 3. Evaluation of the proposed model performance is conducted in Section 4 through extensive numerical and simulation analyses. 
+Conclusions and recommendations are given at the end of the paper.
+
+
+2. The DRL control concept
+
+    The basic concept and operation of dynamic reversible lanes (DRL) at the signalized diamond interchange is illustrated in
+Fig. 3. All the left-turn lanes in the internal link are set as reversible, and can be used by left-turn traffic from different directions 
+during different periods in a signal cycle. Such design will increase the effective number of lanes used by left-turn traffic 
+thereby allocating more green time for other traffic movements and increasing the overall SDI capacity accordingly.
+    Fig. 4 further details the operational cycle of the proposed DRL system under the typical TTI four-phase control plan for
+SDI. The dynamic reversible lanes are reserved as the left-turn lanes for the eastbound direction during the green phase of
+arm 2 through and arm 5 left  turn, while used as the left-turn  lanes for westbound direction during the green phase of
+arm 6 through and arm  1 left  turn. An animation of  the proposed DRL system operating at a SDI can be found at url:
+‘‘https://www.dropbox.com/s/tlha4p4dedl19nt/SDI%20WITH%20DRL.mp4’’. Note that the reversible lanes can only serve
+one movement direction in a signal phase, so the three-phase control plan is not compatible with the DRL. Furthermore,
+the overlapping design in the TTI four-phase scheme is good for the queue storage and clearance in the reversible lanes
+and can further improve the operational efﬁciency and safety of the proposed DRL system compared with the traditional
+four-phase scheme without overlaps.
+
+
+3. The optimization model  for DRL operation
+
+    To maximize the operational efﬁciency of the proposed DRL system at the signalized diamond interchange, an optimiza-
+tion model combining the design of the lane markings, dynamic reversible lane usage, and signal timings is developed in this
+section.
+
+4
+
+
+
+
+
+
+
+
+                                             Fig. 3. Signalized diamond interchanges with dynamic reversible lanes (DRL).
+
+
+3.1. Notations
+
+    To facilitate model presentation, notations used hereafter are summarized in Table 1.
+
+3.2. Objective function
+
+    The proposed DRLsystem aims to maximize the reserved capacity at the SDI. By adopting the commonly used assumption
+that the proportions of the traffic demand remain constant, maximizing the reserve capacity is equivalent to maximizing the
+common ﬂow multiplier (Gallivan and Heydecker, 1988; Wong and Wong, 2003; Wong and Heydecker, 2011; Zhao et al.,
+2013), l, given by:
+
+       
+
+3.3. Constraints
+
+    The optimization problem shall include the ﬂow conservation constraints,
+               
+                                                                                                                                 
+                 
+
+
+       
+the right-of-way constraints,
+
+
+the lane assignment constraints,
+                                                                                                                      
+
+5
+
+
+
+
+                                                                                           Fig.  4.   Operation   of  dynamic   reversible    lanes  at  SDI.
+
+
+                          
+
+6                                                         201
+
+
+Table 1
+Notation of key model parameters and variables.
+
+    Sets and parameters
+                                                         Set of arms at the SDI
+                                              Index of arms
+                                               Set of demand origins and destinations at the SDI
+                                               An OD pair between origin o and destination 
+                                               Set of turning movements on arm 
+                                             Index of turning  movements on arm   for left-turn,  w=2  for  through movement, and  for right-turn
+                                          Index of lanes, numbering from the left  most lane
+                                    A binary indicator  showing if the OD pair (o, d) makes turning w on arm i (1 – Yes, 0 – No)
+     
+                                                          Length of the internal link 
+                                                         Number of lanes on the internal link
+                                                      Number of reversible lanes used as approach lanes on arm i
+                                                  Number of lanes on the exit that receives turning w on arm i
+                                                   Flow of movement w on arm i using lane k (vph)
+                                                    Flow of movement w on arm i (vph)
+                                                    Flow from demand origin  o to destination d (vph)
+                                                        Flow ratio of lane k on arm i
+                                                        Saturation ﬂow rate of lane k on arm i (vph)
+                                                         Average speed on the internal link (m/s)
+                                                   Minimum  speed on the internal link  (m/s)
+                                                      Average space headway for queuing vehicles on the internal link (m)
+                                                Maximum  acceptable degree of the saturation
+                                                       Main-signal  cycle length (s)
+                                        Minimum  and maximum  cycle length (s)
+                                                  Minimum  duration  of green for movement w on arm i (s)
+      
+                                                                                                                                                                          0
+                                               Clearance time for a pair of conﬂicting traffic  movements (s), weTi, w  e Tj
+
+    Decision variables
+                                                        Number of reversible lanes on the internal link
+                                                        Number of ﬁxed approach lanes on arm i
+                                                    A binary variable indicating  the permission of movement w on lane k on arm i
+                                                        Reciprocal of main-signal cycle length (1/s)
+                                                      Start of green for movement w on arm i
+                                                    Starts of green on lane k on arm i
+                                                      Green time ratio for movement w on arm  i
+                                                       Green time ratio for  lane k on arm i
+                                                      Green time ratio for  the overlap phase at the right-side intersection, as shown in Fig. 2
+
+
+
+
+                                                                                                                                                                                                            ð24Þ
+
+                                                                                                             ð34Þ
+                           v
+
+the acceptable level-of-service constraints,
+
+
+the internal link reversible lane constraints,
+
+
+the internal link overﬂow avoidance constraints,
+                 
+                     
+and non-negative constraints for all decision variables listed in Table 1.
+    Constraint (2) obtains the turning ﬂows given the set of demand origins and destinations as an exogenous input; Con-
+straint (3) indicates that the sum of sub-ﬂows of a movement on different lanes should be equal to the total ﬂow of that
+
+8
+
+movement. Constraint (4) sets the assigned lane ﬂow  to 0 if the movement w on lane k at arm i  is not permitted
+(i.e.,), where M presents an arbitrary large positive constant number.
+    Constraint (5) limits the minimum number of permitted movements on traffic lanes, which allows each lane to carry at
+least one movement; Constraint (6) sets the total number of lanes in the internal link, which is equal to the sum of the number 
+of ﬁxed approach lane on arms 1 and 5, and the number of reversible lanes in the internal link; Constraints (7), (8) gives
+the number of reversible lanes on each arm. Note that reversible lanes on arms 1 and 5 can be used as left-turn lanes, while
+other arms have no reversible lanes; Constraints (9)–(11) restrict that only left turns are permitted to use reversible lanes in
+the internal link, otherwise, it is hard to control the vehicles in the reversible lanes and not good for safety; Constraint (12)
+sets that the number of lanes at a movement’s corresponding exit arm shall be at least as many as the total number of lanes
+assigned to permit such a movement to prevent the bottleneck and undesirable traffic merging activities; Constraint (13)
+prevents internal conﬂicts among lanes at an arm: for any two adjacent traffic lanes,  (left-hand) and  (right-hand)
+lanes from arm i, if the traffic movement of turn  w is permitted on lane k + 1, then traffic movements of all other turns,
+,   3, should be prohibited on lane k to eliminate potential internal-cross conﬂicts within an arm.
+    Constraint (14) limits  the common cycle length for the  two sub-intersections at the SDI to be within  Cmin and Cmax.
+According to (Wong and Wong, 2003;Wongand Heydecker, 2011), instead of deﬁning the cycle length directly as the control
+variable, its reciprocal n=1/C, is used to preserve the linearity in the mathematical formulation; Constraint (15) conﬁnes the
+starts of the green to be within a fraction between 0 and 1 of the cycle length; Constraint (16) indicates that the green time
+ratio of a movement is subject to theminimumduration of green; Constraints (17), (18) deﬁnes the lane signal timings. More
+speciﬁcally, if a lane is shared by more than one movement, these movements must receive identical signal indication to
+avoid ambiguity. According to the TTI’s four-phase signalization scheme for diamond interchange, the left intersection at
+the SDI should be subject to Constraints (19)–(25) for its signal operation; while Constraints (26)–(32) deﬁnes the phase
+structure for the right intersection of the SDI according to TTI’s scheme. Constraints (33), (34) determine the length of the
+overlap phase at both intersections at the SDI.
+    Constraint (35) sets the ﬂow ratios on a pair of adjacent approach lanes to be identical if they share a common lane marking; 
+cik is  the ﬂow  ratio  of lane k  on arm  i which  can be calculated with       
+                                                                                                                                                                       if      ir
+Constraint (36) limits the degree of saturation for each approach to be nomore than themaximum limit to ensure acceptable
+level of service.
+    Since the reversible lanes in the internal link could only serve one direction in a signal phase, for safety clearance purpose,
+all the left-turn vehicles entering the reversible lanes shall be discharged during the corresponding downstream signal’s left-turn phase. 
+Constraint (37) ensures that the corresponding left-turn capacity at the downstream intersection should be
+greater than the volume entering the reversible lanes u is a safety marginal factor greater than 1.0 to prevent overﬂow
+and improve safety and reliability of the reversible lane operations. Constraints (38), (39) are set to ensure safe clearance
+of vehicles in the reversible lanes in the internal link.
+    During the DRL operation, overﬂow in internal link shall be prevented. Therefore, the back-of-queue for movements (1,1),
+(1,2), (5,1), and (5,2) should always be shorter than the length of the internal link, given by Constraints (40)–(43), respectively. 
+The back-of-queue can be calculated with (TRB, 2000).
+
+3.4. Solution
+
+    The above optimization model for DRL operation is a Binary-Mixed-Integer-Linear-Program (BMILP) and can be solved by
+the standard branch-and-bound routine to global optimal considering the limited number of variables for just two intersections at an SDI.
+
+
+4. Numerical examples
+
+    In this section, the performance of the SDI with DRL control is evaluated through numerical tests. The optimization results
+obtained from the proposed model will be ﬁrst compared with conventional plans, including the TTI’s four-phase operation
+(TTI) and the common three-phase operation (CTP) under different traffic demand levels. The impact of various SDI geometric conﬁgurations
+and traffic patterns on the DRL operation is also investigated through sensitivity analysis.
+
+4.1. Performance evaluation
+
+    Asignalized diamond interchange with three approach lanes and three exit lanes on each armand six lanes in the internal
+link is used as an example to evaluate the performance of the proposed DRL control model. Length of the internal link is
+100 m. dsmax is set to be 0.9, Cmin and Cmax are set to be 60 s and 120 s, d  is set as 7m, sik is set to 1800 vphpl for all lanes,
+u is set to be 1.1, v is set to 12.5 m/s, vmin is set to 10 m/s, and clearance time for any pair of conﬂicting traffic movements is
+set to be 4 s. Three traffic demand levels (low, medium, and high) are designed for the test, as summarized in Table 2.
+    The control plans and performance of the DRL are compared with TTI and CTP under all demand levels. To make a fair
+comparison between the proposed DRL and other control plans, we have applied the developed model to optimizing lane
+markings for TTI and CTP, and use TRANSYT-7F to optimize their signal timings. Since there is no existing integrated design
+
+9
+
+
+
+Table 2
+Traffic demand levels.
+
+
+
+
+for TTI  and CTP, the  conventional   enumeration   method   is used  to produce   the  optimal  design  results,  whereby   an initial
+layout  is determined   and  then  the signal  timing   is calculated.  Although   it  is not  a perfect  method,  enumeration   method   is
+applied   to  ensure  that   every   possible  lane   markings   for   TTI  and  CTP are  tried,   and   for  each  lane   marking   scheme,
+TRANSYT-7F is used to  optimize   their   signal  timings.  Therefore,  it  is  ensured  that  the  optimal   design  results  for  TTI  and
+CTP could be produced for  a fair  comparison.  In this  way, capability   ﬂexibility   of  the DRL can be identiﬁed   from  the comparison. 
+Figs. 5–7 display  the  optimized   lane markings  for  DRL, TTI, and CTP from the  model, and  Table 3 shows  the optimized
+signal timings.
+     The simulation   package  VISSIM is used as the  unbiased  evaluator  to  capture  the  stochastic  variation   of traffic   ﬂow  and
+evaluate the  performance  of different   control  strategies.  To overcome  the stochastic  nature  of  a microscopic  simulation   system, 
+an average of 20 simulation   runs  has been used. Three performance  indices,  including  the  total  throughput,   the average
+vehicular  delay, and  the maximum   queue length  in  the internal   link,  have been selected  to compare  DRL, TTI and CTP under
+different  demand  levels.  Simulation   and comparison   results  are shown  in  Fig. 8.
+     It can  be observed  that  when  traffic  demand  level  is low  or  medium,  all  three  control   plans are  comparable  in terms   of
+total throughput;    while  DRL and TTI outperform   CTP in average delay and maximumqueue    lengths.  When  the demand  level
+is high,   the  DRL control   clearly   outperforms    TTI and   CTP with   signiﬁcantly    higher  total   throughput    (11.4%  and  13.1%
+improvement)   and lower  average delays  (68.7% and 70.9% reduction). The maximumqueue    length  in  the internal   link  under
+the DRL control, though  slightly   higher  compared  with  the TTI four  phase operation,  is still  within   the storage  capacity of  the
+internal  link.  Therefore,  by  dynamically   allocating  lanes  in the  internal   link  to serve  left-turn   demands  of the  two  opposite
+directions,  DRL manages to  increase the  diamond  interchange   capacity  without   adding  delays  greatly.  TTI could  also avoid
+
+
+
+
+
+
+
+
+
+
+                                                                    Fig. 5. Optimized lane markings for the DRL control.
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                     Fig. 6. Optimized lane markings for the TTI control.
+
+10
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    Fig. 7. Optimized lane markings for the CTP control.
+
+
+
+Table 3
+Optimization results of signal timings.
+
+   Arms                                        1                     2                    3                              5                     6                      8
+
+   Movements                              
+
+   DRL      Cycle length (s)          120
+                Start of green (s)          92       92         0         0      46       46       46       32        32        60        60       106      106      106
+                Duration of green (s)    24       70       42       42      42       42       42       24        70        42        42        42         42        42
+                End of green (s)          116      42       42       42       88      88       88       56      102       102      102        28        28        28
+
+   TTI       Cycle length (s)           120
+                Start of green (s)          78       78         0         0      39       39       39       18        18        60        60        99         99        99
+                Duration of green (s)    38       77       35       35      35       35       35       38        77        35        35        35         35        35
+                End of green (s)          116      35       35       35       74      74       74       56        95        95        95         14        14        14
+
+   CTP      Cycle length (s)          92
+                Start of green (s)          58       58         0         0      29       29       29       58        58          0          0         29        29        29
+                Duration of green (s)    30       30       25       25      25       25       25       30        30        25        25        25         25        25
+                End of green (s)            88      88       25       25       54      54       54       88        88        25        25         54        54        54
+
+
+
+most  queuing  problems   and yield   high  intersection   throughput    by giving   each of  the  four  approaches  from  which   interchange 
+traffic  originates  a clear phase through  both  intersections,  but  the delay  is signiﬁcantly   higher  than the  DRL. It should
+be noticed that  the maximum queue length  in  the internal  link  of DRL control  is relatively  high  due to the  higher  frequency of
+lane allocation,   though  it  can be managed  well  by  the optimization    model  to  ensure  reliability   of  operation.
+
+
+4.2. Sensitivity analyses
+
+
+     This section  investigates   the  impact  of  various  SDI geometric  conﬁgurations    and traffic   patterns  on  the  DRL operation.
+Table 4  shows  the  layouts   of  nine  experimental cases. In  the  sensitivity   analysis,  we  use  equal  traffic   demand  at  each
+approach for  all cases. Turning  fractions  at  the frontage  roads are  set to be 35% of left  turn,  30% of through,  and 35% of right
+turn.  Turning  proportion   of left  turn  and through   on the surface  street  is set to range  from  5% to 75%, and right turn  proportion 
+is set at  25%. All other model  parameters  are kept the  same as in Section 4.1. Performances  of DRL, TTI, and CTP are compared under  all  
+experimental   cases.
+     Fig. 9 summarizes  the analysis  results  with  the  x-axis of each sub-picture   representing   the proportion   of left-turn    (LT) on
+the surface  streets, and  the  y-axis being  the  resulting   reserve capacity  of  SDI.
+     One can observe that  both  DRL and TTI outperform   CTP in terms of improving   the  SDI capacity under  all  test cases; however 
+their  performances   are shown   to be  affected  by many  factors,  including   the  number  of  lanes in  the  internal   link,  the
+length of  the internal   link, and  the proportion   of left  turns.  There exhibits  an obvious  descending  trend  in SDI capacity  under
+TTI control  with  the  increase  of left-turn   proportion    on the  surface-street;  while   the capacity  under  DRL remains  relatively
+stable. This  is primarily   due  to  the fact  that  setting   dynamic  reversible  lanes  improves  the  level  of ﬂexibility    of  the  SDI to
+accommodate  turning   traffic  demand.  Therefore, the  DRL control  is shown  to  outperform   the TTI in  improving   SDI capacity
+when  the left-turn    proportion   on the  surface-street   is high.
+     When  the length   of the  internal  link   is short  (see Fig. 9a–c), the  DRL outperforms  TTI in  terms  of  SDI capacity. With   the
+increase of  the  internal  link   length,  the  SDI capacity  under  DRL decreases but  the  capacity  under  TTI remains  unchanged,
+indicating   that  when   the  internal   link  is  sufﬁciently    long  (more  than  150  m),  the  TTI operation   is  better.  This  is  due to
+the fact  that  longer  internal   link  requires  increased  clearance time   for reversible   lane operations.
+
+11
+
+
+
+
+        
+           
+
+                      Low-volume scenario           Medium-volume scenario           High-volume scenario
+
+                                                              Fig. 8. Performance evaluation results.
+
+
+
+Table 4
+Experimental cases.
+
+   Scenario Number of approach lanes Number of exit lanes Number of lanes in the internal link Length of the internal link (m)
+
+
+
+
+
+    It is also interesting to ﬁnd that the DRL has the potential to improve the capacity of SDI evenwhen thenumber of lanes in
+the internal link is unequal for both directions. Table 5 summarizes the comparison of throughput at the SDI (the one used in
+Section 4.1) under the operation of CTP, TTI, and DRL with different number of internal link lanes. The SDI is assumed to be
+operated under a high traffic demand level shown in Table 6, and is due for an enhancement to improve its current operation.
+A total of 8 candidate enhancement plans are designed. Plans 1–3 keep the number of lanes in the internal link unchanged
+and use CTP, TTI, and DRL to operate the SDI; plans 4–6 add only one lane in the internal link and use CTP, TTI, and DRL to
+operate the SDI; and plans 7–8 add two lanes in the internal link using CTP and TTI. One can observe in Table 5 that the DRL
+with only one lane added (plan 6) outperforms all other candidate plans in terms of total throughput at the SDI. Even
+
+12
+
+
+ 
+                      Proportion of LTs from surface street Proportion of LTs from surface street Proportion of LTs from surface street
+                               DRL   TTI    CTP                              DRL   TTI    CTP                              DRL   TTI    CTP
+                       
+
+
+
+  
+    
+
+    Proportion of LTs from surface street Proportion of LTs from surface street Proportion of LTs from surface street
+
+                            DRL   TTI    CTP                              DRL   TTI    CTP                              DRL   TTI    CTP
+   
+
+
+
+                                                                              65 
+
+                                                                                                                                                                                   70 
+
+           
+                      Proportion of LTs from surface street Proportion of LTs from surface street Proportion of LTs from surface street
+                               DRL   TTI    CTP                              DRL   TTI    CTP                              DRL   TTI    CTP
+                                                            
+
+           number of approach & exit lanes = 3 number of approach & exit lanes = 3 number of approach & exit lanes = 4
+           number of lanes in the internal link = 6 number of lanes in the internal link = 7 number of lanes in the internal link = 8
+
+                                                          Fig. 9. Performance comparison among DRL, TTI and CTP.
+
+
+Table 5
+Comparison of throughputs at the SDI with different number of internal link lanes.
+
+   Plans                                                                                                  Throughput (vehs)           Difference with plan 6 (%)
+
+   Plan 1               Original design + CTP (6 lanes in the internal link)   6330                                
+   Plan 2               Original design + TTI (6 lanes in the internal link)    6421                                 
+   Plan 3               Original design + DRL (6 lanes in the internal link)   7376                                
+   Plan 4               Adding one lane  (7 lanes in the internal link) 6417                                
+   Plan 5               Adding one lane + (7 lanes in the internal link)  6504                                 
+   Plan 6               Adding one lane  (7 lanes in the internal link) 8110                                
+   Plan 7               Adding two lanes  (8 lanes in the internal link) 6761                               
+   Plan 8               Adding two lanes  (8 lanes in the internal link) 7520                                 
+
+
+
+Table 6
+Traffic demand for throughput analysis.
+
+   
+
+13
+
+
+
+compared  with  plans  that  add two  lanes in  the  internal  link   (plans 7  and 8), plan  6 yields  signiﬁcantly   higher throughputs.
+This is primarily   due to the  fact that  the added one  lane could be set as the reversible  lane  used by different  directions   during
+different  periods  of a signal  cycle under  the DRL while  TTI and CTP only favor  the direction   with   more lanes. Such an advantage 
+of DRL is  particularly   useful  for  interchange   enhancement  where  the  limited   available  space prevents  the  addition   of
+more than  one  lane in  the  internal  link.
+
+
+5. Conclusion
+
+
+     A new  design  and  operation  of  signalized   diamond  interchange   with   frontage  roads  using  dynamic  reversible   lanes is
+developed in  this  paper with   the objective   to increase  capacity  and relieve  congestion  at the  SDI with  limited   storage space
+between  the  two  closely  joined  intersections   coupled  with   heavy traffic   volumes.  A Binary-Mixed-Integer-Linear-Program
+(BMILP) is formulated   to  simultaneously   optimize   lane  markings,  dynamic   usage of the  reversible  lane,  and signal  timings
+for the  new SDI system.  Numerical  analyses  are conducted  to evaluate  the  performance  the  proposed  design and compared
+it with  the  Texas Transportation  Institute   four-phase  plan  (TTI) and the common  three-phase  plan  (CTP) under different
+traffic demand  levels  and geometric   conﬁgurations,   from  which  the  following   conclusions   could be  drawn:
+
+
+    (1)  The new design  outperforms   CTP under all test scenarios  in terms  of increasing  the  capacity of  a diamond  interchange
+          (up  to 37% improvement   of capacity).  Whencompared   with   the TTI control,  the  new design  yields better  performance
+          (up  to 30% improvement   of capacity)   when the  left-turn   proportion   on  the surface-street   exceeds 20% and the length
+          of  the internal   link  is within   150  m. Thus, it  is particularly   promising   for  use at diamond   interchanges  with  very  limited
+          space for  expansion.
+    (2)  The new  design  is shown  to  be effective  in  reducing  average  delays at  the diamond   interchange  under  medium   and
+          high   traffic  demand   levels.  The highest  reduction   is  achieved  at  the  highest   demand  level,  resulting   in  68.7% and
+          70.9% reduction   of delay  time  compared   with  TTI and  CTP, respectively.  Thus, the  new  design  is very  promising   for
+          use at  diamond  interchanges   experiencing  heavy  traffic   volumes  and high  delays.
+    (3)  Under  high  traffic  demand  levels,  substantial   improvement   in  the  SDI throughput   could  be  achieved  by adding  just
+          one  lane in  the  internal  link   and operating   with  the  DRL. Such an advantage  of the  new  design is  particularly   useful
+          for  interchange   enhancement  where  the  limited   available  space prevents   the addition   of  more  than  one lane  in  the
+          internal   link.
+
+
+     It should  be noted  that  the  new DRL system  has the ﬂexibility    of working   part  time  in  real world   applications,  only  activated  
+when  needed  (e.g. high  volume   and  overﬂow).   With   the  advance  of vehicle-infrastructure-integration        technology,
+more precise control  of  vehicles entering  the  internal  link  wouldbecome   possible  to further   enhance the operational   reliability  
+of the  new  DRL system. However,  since  the  proposed  DRL design is new,  the  ill-intentioned    drivers   might  cause safety
+problem,  careful  driver  behavior   studies and  adequate  driver  education  have  to be  carried  out  before the  new  DRL system
+is perfected  and implemented    in the  ﬁeld.  Vehicle  detectors  could  be used to  control  vehicles  entering  the  reversible  lanes
+in practice  and  ensure the  operation   reliability   of  the DRL control.

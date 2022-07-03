@@ -1,0 +1,732 @@
+﻿1
+
+
+
+
+       The  Intermittent Bus Lane signals setting within an area
+
+
+                                                 
+
+
+                 
+
+
+
+
+Abstract
+
+    Intermittent Bus Lane (IBL) used for bus priority is a lane in which the status of a given section changes
+according to the presence or not of a bus in its spatial domain: when a bus is approaching such a section,
+the status of that lane is changed to BUS lane, and after the bus moves out of the section, it becomes a
+normal lane again, open to general traffic. Therefore when bus services are not so frequent, general traffic
+will not suffer much, and bus priority can still be obtained. This measure can be operating at a single city
+block, but if all related control parameters along bus lines are considered together, more time gains can be
+obtained. In this paper, the basic structure and operation of IBL  around  a single intersection are brieﬂy
+introduced, then the construction of  an objective function and its  relationships with the related priority
+control parameters along one bus line and their simpliﬁcations are described. Finally the calculations of
+the priority control  parameters when there are several connected bus lines within an area and some simulation results are discussed.
+
+
+Keywords: Bus priority; Public transport; Bus lane; Traffic control
+
+
+
+
+2
+
+
+
+   Nomenclature
+
+
+the entrance of IBL on arm 
+
+ the exit of IBL on at 
+  the  intersection
+   a group of  intersections downstream of  along a bus line
+  the  average distance between consecutive vehicles when the queue is about to be
+              discharged
+  the average space occupied by a vehicle in the queue
+delays of a bus at Aj in the ith  cycle under 
+ delays of a bus at Aj in the ith cycle under 
+  
+the delays of vehicles facing intersection  in the ith cycle
+a bus coming to Aj from  its west, south, east or north is represented respectively by
+ the length of  
+ 
+ split  in the ith cycle at 
+the moment a bus coming to after its cycle starts
+                                                
+the moment of IBL  signals turned on at 
+
+cycle length
+a combination of the achievement to bus and inﬂuences to other traffic ﬂow only at 
+a combination of the achievement to bus and inﬂuences to other traffic ﬂow only at
+total traveling of  a bus from  
+the objective function
+desired bus speed
+total  delays of a bus at 
+a weighed combination of the achievement to bus and inﬂuences to other traffic
+ﬂow  along the bus line from 
+the general traffic control parameters at in the ith cycle
+the priority  control parameters at in the ith  cycle
+the weight coeficient for the importance of intersections
+the weight coeficient for the importance of a bus
+ the weight coeficient for the importance of lines
+ offset in the ith  cycle at 
+ a shift  from 
+
+
+
+
+1. Introduction
+
+   In recent years interest has grown for granting priority to bus with signals control, by the developments 
+of technologies in computer, communication, sensors, and Automatic Vehicle Locating
+(AVL) (Bell, 1992; Hounsell and Cheney, 1999; Balke et al., 2000; Mirchandani et al., 2001). But
+
+3
+
+
+in cases with heavier traffic,  even if dynamic  locations of  buses are exactly known, when no
+dedicated bus lanes are provided, buses may still be involved in the general traffic ﬂow, sometimes
+having to suffer heavy time losses. In practice, because it is not always possible to easily ﬁnd free
+space for the bus lanes, especially in city centres, permanent dedication of one lane in the cases
+with lower frequency of bus services is very inefficient.
+   This has led to the new concept of Intermittent Bus Lane (IBL), introduced by Viegas (1996).
+This is a lane in which the status of a given section changes according to the presence or not of a
+bus in its spatial domain: when a bus is approaching such a section, the status of that lane is changed
+to BUS lane, and after the bus moves out of the section, it becomes a normal lane again, open
+to general traffic. This will ensure that the privileged lane status is active only for the time strictly
+needed for the bus to run through it with less delays, and the normal traffic does not suﬀer much
+because this is applied to streets with low frequency of bus services. The change of lane status is
+marked by the change of condition (on/off) of a series of longitudinal lights along the line separating
+that lane from the next lane. Such a solution should be much more efficient than that simply
+managing green times as buses approach intersections, as there are very frequent cases of significant 
+congestion all along the length of streets and avenues, irrespective of the distance from the
+intersections.
+   The structure of IBL system and its basic principle, the movements of vehicles and buses on the
+IBL, the integration of IBL  on an existing Urban Traffic Control (UTC) system, the inﬂuences of
+IBL signals to other ﬂow, the related priority  signal settings around a single intersection and its
+advantages with simulation have been described in the papers (Viegas and Lu, 1997, 1999, 2001).
+   In  practical cases, a bus has to pass through several intersections on its way. Although whenever
+a bus comes to an intersection the related priority signals could be turned on, and its movement 
+at this  intersection can be improved, the fact that  the traffic ﬂows between intersections
+inﬂuence each other, recommends that the signals for more than one intersection be considered
+together.
+   In most existing UTC systems, signals at different intersections are co-ordinated to handle these
+inﬂuences, so that the traffic ﬂow within an area is improved (Gartner, 1985; Shepherd, 1994). For
+instance in SCOOT (Robertson, 1986; Bretherton et al., 1998), the cycle times at every intersection
+within an area or sub-area are the same, and the offsets and splits are used to adjust the inﬂuence
+between intersections.
+   But optimisation in these systems is aimed at the general traffic ﬂow, not at buses. Furthermore
+some settings like offsets are closely related to the speeds of traffic ﬂow. Therefore under the same
+signal settings, buses might actually be delayed more than the average of other vehicles. In calculating
+ the priority   signals for  buses, when several intersections are considered together, a big
+improvement can be expected.
+   This paper describes the application of IBL technique within an area where there are several bus
+lines, showing how the co-ordinated setting of IBL (longitudinal) signals and traffic control (transversal)
+signals at a set of intersections in an urban area can signiﬁcantly improve the overall performance
+of traffic movements in that area. In Section 2, the basic structure and operation of IBL
+around a single intersection are brieﬂy introduced. In Section 3, some relations when a bus moves
+along a bus line with IBL are established, then their simpliﬁcations are described in Section 4. Section 5
+shows the calculations of priority signals when there are several connected bus lines within
+an area. Finally, an example and some conclusions are given in Section 6.
+
+4
+
+
+2. The basic principle  and  operation of  IBL   technique
+
+
+    The concept  of IBL   technique  could  be realized in  several practical  ways,  but ﬁrst  it  should  be
+designed to  be operating   under  all  necessary restraints,  rules and  safety  from  the  point  view  of
+traffic  engineering (McShane  et al., 1998). One of  them is to  install  some kind  of longitudinal   light
+signal equipment  on the pavement  along the  separation line  between the IBL  lane  and its adjacent
+lane, the status of  the IBL   lane being shown  through  the  aspect of those signals, based on  the approach
+of  buses and other traffic  situations   (Viegas and Lu,  1997; Ehmanns  and Ludmann,   2000).
+Approaching  buses and other  vehicles will  have their  degrees of freedom deﬁned  by the settings of
+those signals, just  like  it  happens with   normal  traffic   signals at  intersections.
+    In  order   to  make  the  proposed  IBL   technique   be  easily accepted  by  both   bus  and  vehicle
+drivers,  and also  to facilitate   their  management  and  control  in  practical   cases, the similar  structures
+of  bus-priority    facility,   which  have  been used in  Freeways,  Arterial    Streets or  Terminals,
+and rules  for  the movements  of  buses and other  vehicles on  them can  be used here. A  simpliﬁed
+structure of  an IBL   based on the normal  road  section is shown  in Fig.  1, where the rightmost   lane
+on the input  arm  to  intersection  Aj is used as an IBL,   with  a geometry  similar  to that  of  a normal
+bus lane. Its  entrance and exit are separately at a1,11(j) and a1,12(j). Some kind of light signals
+will  be placed  on  the pavement  along  the  dividing  line  between  lane 11 and  lane  12. The  status
+of lane  11 will  be changing  according  to  these signals. For  example,  when the  longitudinal   lights
+all are  ﬂashing  on, the  status  of lane  11 is that   of a  special bus  lane, whose function   now  is  the
+same as the   normal  bus  lane,  where  only   buses (and   some other   priority    vehicles) can  enter
+and be moving.  And  after  the longitudinal   lights  all  have been turned off,  lane 11 is changed back
+to a  normal  one, open  to  all  vehicles accepted on  that  street.
+    Movements  of  buses on a bus lane (when  they are  respected) always suffer little   inﬂuence from
+other vehicles. But  in  dealing  with  the IBL,   because lane 11 is in the normal   lane status (open  ac-
+cess) before the IBL  signals are turned  on, some ‘‘general’’  vehicles are moving  on lane 11. If  there
+were many vehicles in  lane 11, the coming  bus would  suffer heavy  delays, thus receiving  much less
+priority   than  with   a  normal  bus  lane.  The  IBL   scheme must  be designed  so that   this  will  not
+happen.
+
+
+
+
+
+
+
+
+
+
+                                     Lane 13                                                         
+
+                                    Lane 12                                                         
+
+                                                Lane 11                             IBL            
+
+
+
+                                                       Fig. 1. A simpliﬁed structure of IBL.
+
+5
+
+
+   The system is designed to not permit the vehicles on lane 12 to pass through the ﬂashing separation
+line into lane 11. It should also not be possible for the vehicles which are moving on lane
+11 to freely switch into other lanes, for safety and ﬂow stability reasons. In order to decrease the
+inﬂuences by other vehicles to the bus movement on IBL, there should be few other vehicles on it,
+like on a normal bus-lane. Instead of from space, here the measure is done from time. In other
+words, the design of the  system is based on giving enough ‘‘ﬂashing separation’’ time  before
+the arrival of the bus to a given street section, to allow an effective longitudinal (downstream) discharge
+of the vehicles that were driving on that lane, and restricting at the same time any additional 
+entry of general traffic onto that  section.
+   Now  suppose the IBL signals have been turned on before the moment bus arrives at .
+After that, since vehicles on IBL keep moving out of the stop-line at but no new vehicles
+entering into IBL, until the bus comes to ), there should have already been a release of space
+in front  of it  on lane 11, thus allowing  the bus to keep moving at its  intended speed. In other
+words, for any traffic  ﬂow case, the free space in front of an approaching bus could always be
+obtained through adjusting the on-switching moment of the related IBL signals (supposing the
+traffic originally  occupying the section of road ahead of  has conditions to keep ﬂowing,
+thus releasing the space where it was). Normally the heavier the traffic ﬂow  is; the earlier the
+IBL signals should be turned on. For a lighter ﬂow, they are turned on later, and under very light
+ﬂow conditions, IBL  signals do not even need to be switched on.
+   Because the ﬂashing IBL signals have direct inﬂuences to the traffic ﬂow besides them on lane
+11 and lane 12, but the bus movement is inﬂuenced only by the traffic ﬂow in front of it and no
+longer by the ﬂow behind it, the IBL  signals after the position of the moving bus are not necessarily kept on.
+Here they will be designed to be automatically turned off following the moving bus,
+or the IBL  signals in front  of and behind the bus are separately kept on and off. After the bus
+moves out of lane 11, all ﬂashing lights are off, therefore all  space on lane 11 is changed back
+to be in normal lane status again.
+   Although  some of the effects of concentration of general traffic in lanes still occur after
+the system is switched back to normal traffic control mode, those effects actually are distributed
+also to the other arms of the intersection, based on the traffic conditions detected on each of them,
+and then soon disappear in less than one or two cycles (Viegas and Lu, 1997, 1999, 2001).
+   Normally,  IBL would not be operating independently, but integrated with a conventional UTC
+system, as UTC systems have already been installed in many cities (Shepherd, 1994). The general
+structure of the integrated system is similar as a conventional UTC system, but with two 
+additional interfaces (Viegas and Lu, 2001). One is connected to a kind of AVL system, and the other
+is for driving IBL signals. Although simple loop detectors are not sufficient for bus location, some
+AVL  technologies, like GPS system, have been successfully used for bus location with accuracy
+around 5m (Smith et al., 1994; Hill, 2001). The IBL lights would probably consist of LED arrays
+installed in a small box inserted in the pavement. LED arrays are extremely visible and reliable,
+because they have multiple small lights working in parallel. At every box, there is an element to
+keep these small lights on or off, based on commands issued by a local controller. Installation
+costs should not be too high, as the LED system is installed in some of Madrid main arteries,
+just to highlight  the division line of  a regular (permanent) bus lane. The control parameters of
+the integrated system are going to be the moments of the related IBL  signals being turned on
+and the signal settings at intersections.
+
+6
+
+
+3. The movement of a bus along a bus line
+
+   In  this section, the question in interdependencies of signal settings at intersections along a bus
+line is treated. Within a road network,  suppose there are intersections, and
+every one has a typical structure with four two-way streets being connected. Along every input
+arm where a bus line may pass through, there are at least two lanes, therefore one of them could
+be used as an IBL if it is needed as in Fig. 1. Traffic signals are operating at every intersection,
+which normally are represented with cycle , split , and offset (TRB, 1994). The control parameters
+in the ith cycle (i =1,2,3,...) at intersection Aj then can be described by 
+
+. In practice, the optimal control parameters, can be continuously adjusted on
+                                                                                           j
+optimising an objective function, which might have many forms, like delays, stop, capacity etc.
+(Shepherd, 1994). Because the proposed system is going to improve the trips of buses, the delays
+are chosen as the objective function. In other words, after the signal settings  are applied, the
+                                                                                                                       j
+vehicles facing intersection in the ith cycle will have minimised delays,, which could be
+easily obtained (McShane et al., 1998). Similarly, for all J intersections, the control parameters
+are jointly   chosen with  ,   and a  general objective function  with
+, which is a kind of combination of  all ,  or . The optimal
+control parameters at all J intersections in the ith cycle, then are obtained through optimising.
+For  simplicity (Diakaki  et al., 2000; Chang and Lin, 2000; Papageorgiou, 1995), the
+cycle time at every intersection is assumed as ﬁxed, i.e. all intersection have the same cycle time
+   for  all .
+   First suppose there is only one bus line passing through some intersections within the area from
+                                                                                                                                                 (i)
+, and now a bus is moving towards intersection from  at the moment 
+                                                                           
+after its ith cycle starts or at               
+resents respectively that the bus is coming to Aj from its west, south, east or north. Under the control parameters,
+, this bus will be delayed for   in the ith  cycle (Viegas and Lu,
+                                                                              
+2001).
+   For  the same bus, now suppose the bus priority with IBL technique is used, i.e. IBL signals on
+                                                                                                        
+the related arm  are going  to be applied at                                        
+  means that IBL  signals are turned on  before or after  the moment the
+bus comes to, and the signals at intersection are also shifted from the point to
+                                                                                                                                           
+ (Viegas and Lu, 2001). Since the original  have been calculated from an
+                                                                          j
+                                                          (i) are needed to be adjusted for bus priority.   The actual
+UTC system, only  and 
+                                                                                                                            (i)). Now  under
+bus priority control parameters at then are deﬁned with 
+, the delays of the same bus at in the ith cycle are only. Because the
+(i) then can be described as a function delays of bus are also inﬂuenced by its coming moment, 
+ say (Viegas and Lu, 2001).
+                                    
+                                                to pass through arm  and intersection after the
+   The bus then should spend            
+                                                        (j) is the length of and is the expected speed of the
+priority signals are applied, where 
+                                          ,  the bus can pass through intersection 
+bus moving along it. If                
+within the ith  cycle, then it will  no longer be affected by the signals at  after the ith cycle, or
+        (i + 1) = 0. Otherwise it is still at  and will be inﬂuenced by the signals of the (i + 1)th cycle.
+
+Similar as in the ith  cycle case, its delays in the (i + 1)th cycle will  be a function  of 
+                                                                                                                                        
+                             (i + 1), where (i + 1) is inﬂuenced by (i)
+                                                           
+
+7
+
+   In  UTC  systems, if two  intersections are too far  apart, normally  their  signals cannot (and
+should not) be co-ordinated (Robertson, 1986). Here it is supposed that the bus can move from
+one intersection to the next one within two cycles. In case of two intersections being very far away,
+the movements of a bus passing through these two intersections are also supposed to be not
+directly inﬂuencing each other and the priority control parameters at two such intersections are, then are chosen with  
+calculated independently. The total delays of bus at 
+                  
+   Along  this bus line, say the intersection after. The bus will come to. Because the ith cycle
+intersection at the moment 
+at starts at, in which  might be different from , this moment
+                                                                                                                                            
+is assumed to be located within its  cycle, 
+                     in which  and can be obtained directly through,
+
+
+     
+
+
+                                                                   (j)  and. If the block is short and the bus suffers
+From (1), it is known that  is related to 
+little delay at,  it might, i.e. the bus moves to the next intersection even within the
+same cycle, otherwise, might be more than one cycle later. The total delays of the bus at intersection
+, will be calculated similarly as for .
+   Along the bus line suppose the bus now is at intersection Aj0 . Its total travelling from, can be directly obtained through,
+
+                  
+
+If is chosen as the objective function, and all control parameters, are
+                                                                                                                       
+obtained through , the bus will be travelling in less time along the line from  to
+ . But in the meantime, the general traffic ﬂow might also be strongly  inﬂuenced (delayed),
+which is also important in  practice. In order to  get more advantage for the bus while reducing
+those negative inﬂuences on general traffic, the objective function used here is chosen as
+
+
+
+In which  is the total penalty (sum of  time losses) to other traffic at the intersections
+from Aj0 to AJ0 after the related priority signals have been applied (Viegas and Lu, 2001). And
+ab is the weight coeficient for the importance of a bus compared to the other vehicles in general
+traffic. The bigger ab is taken; the more important the bus is. If , no consideration for the bus
+even exists. After a bigger ab is used, the buses can get more advantages, but also bigger delays will
+be imposed on general traffic. ab then is adjusted on practical situations to get different levels of
+bus priority, and also different inﬂuences to other traffic ﬂow. The ‘‘natural’’ rule would be to take
+ab equal to the ratio between the average numbers of people being transported in a bus and in a
+vehicle (mostly private cars) in the general traffic.
+   The optimal  bus priority control  parameters,  could be obtained directly through
+ It now  has  become a   typical  mathematical  programming
+
+8
+
+
+problem. If   all their  relationships  are known,  the control  parameters at  all  intersections 
+ after  cycle can be computed, cycle by cycle and intersection by intersection, until
+the bus passes through the last intersection, AJ0, on the bus line.
+   Although  traffic ﬂows  could be estimated or predicted, in practical situations as they are affected
+by many factors, the traffic situations several cycles later or/and several intersections away
+cannot be estimated so accurately. And   furthermore, when  dealing with  the individual   bus,
+although its current location could be known by various types of sensors (Hill, 2001), it will become
+more difficult to accurately predict its future locations.
+   In  the existing UTC systems, normally the control parameters for near cycles are adjusted continuously,
+based on the new information (messages from sensors) to keep its objective function at
+optimal values, but the signal settings for several cycles later are not yet known. Since the integrated system
+is based on an existing UTC system, if X have not been obtained, cannot be known too.
+   So that, from both the calculations and the messages that could be used, it will be very difficult
+to directly obtain all control parameters in (4), and the process should be simpliﬁed. The following
+chapter addresses the simpliﬁcation procedure.
+
+
+
+4. The simpliﬁcation of the controls
+
+   In  order to  simplify  some results in last section, those non-important factors should be neglected.
+First, according to the principle of IBL technique, the system should be designed to allow
+the bus to be moving at a speed close to vb thus would not be directly related to X 
+                                                                                                                                                   
+and , therefore these values are going to be not included into the objective function.
+   For  all intersections along the line from, they could always be divided into two parts,
+one  containing  only,   and  the  other   one  containing  the  following   intersections,
+ which here will   be represented as. Based on  this division,  and
+ all can be further  divided into two  parts too,  or 
+and,  in  which  are only related to the signal settings
+at   and are directly related to signals at  say  and indirectly to
+ as the moment when the bus is coming to  was inﬂuenced by. Because when a bus
+comes to after among  is going to be adjusted again, to the bus still standing
+at intersection, it will actually suffer less inﬂuences from  than from the choice of
+. Similarly, the inﬂuences become weaker and weaker from In other words,
+in  and  should be clearly more important than. After these
+factors are combined, based on , the general objective function is constructed with
+,
+
+      
+
+in which and is chosen, 
+for   are not so important.  is a combination of the time gains of the bus
+and delays to general traffic only at , whereas  covers the same combination for the following intersections.
+
+9
+
+Now when a bus is coming towards of intersection  along its trip from, the
+optimal priority control parameters, can be directly obtained through . If 
+
+exists, the results of  could be directly calculated through (Anderson and
+
+Moore, 1990). Since are the priority control parameters at different intersections, 
+could be further divided into two independent parts, then also has
+
+
+is only related to , but not to  at other intersections.
+
+Suppose now the optimal results obtained directly from (6) are in 
+and  . In the practical control process, since the signals are going to be adjusted cycle by cycle and also intersection
+by intersection, when the bus is moving towards intersection  after , the control parameter
+at , which belongs to , will be adjusted again. According to the new detected or
+estimated traffic message, which of course are more accurate than their previous estimates at the
+moment when the bus was at Aj, the new control parameters at 
+and
+
+ can be obtained through oX p
+new message.
+Furthermore, when 
+ are given to, instead of with  , the new results obtained
+from 
+ are changed to . In other words, if the priority signal settings at inter-
+
+section are applied with 
+and are
+, it could be controlled better than in  , since 
+results obtained from situations closer to the real ones. But at this moment, as the bus has already
+passed through and the signal settings in 
+were actually applied at, it is impossible to
+
+change the signal settings at  from  
+to . It means that even X and X are the results,
+
+which are calculated very accurately from (6), but because of some un-predictable factors at other
+intersections, , the obtained 
+still might not be the best one for the controls at the intersections 
+
+downstream along the line.
+As it has been explained above, normally the farther two intersections are apart; the weaker
+their relations are. To the bus being at, the traffic situations at have less inﬂuences than
+at Aj to the bus movement, which means that some intersections which are too far away from 
+along the line can be discarded from Aj++, say only one, two or three intersections will be used for
+Aj++, where lower weights are used for the intersections farther away.
+According to the practical traffic situations and the locations of bus line, theoretically, there
+could be many different ways to simplify. Here the terminal cases are used for their simplifications. 
+So called terminal cases are the cases which may be most probably happening at,
+and their relationships with are described by some static representations, instead of being
+
+10
+
+described dynamically in detail. After a terminal case for is given, the process to calculate
+the optimal control parameters at, is similar to the case of individual intersections. In some
+
+UTC systems (Shepherd, 1994), like in TRANSYT, as the control parameters are chosen
+according to different time periods, the signal settings at could be known in advance. In other
+systems, like SCOOT, although the detected traffic messages are used to determine the signal settings,
+which are varying cycle by cycle, but normally in order to decrease the inﬂuences, the signals
+between two adjacent cycles are not adjusted too much, so the estimated signal settings at every
+intersection within a few cycles still could not be very deviated from the real ones.
+Although when IBL signals are applied earlier, more advantages can be obtained to the bus
+movement, IBL signals should not be applied too early if we don't want to penalise general traffic
+too much. For most cases, it is found that the obtained tIBL are distributed around ,
+(Viegas and Lu, 2001). So that one of special settings used in the terminal case then could be chosen 
+with  i.e. the IBL signals at  are assumed to be turned on separately at the
+moments whenever the bus arrives at their entrances. As in a practical case, after the bus comes to
+intersection , is going to be determined again, the real operating  might be
+different from , but in average, it is closer to the point  than to any other
+real. Therefore in adjusting the IBL signals from this point, the produced inﬂuence will
+be smaller than from other points.
+After one of the terminal cases is given,  will become constants instead of variables, therefore in (6),
+it should be in 
+ then is changed to be a function only related to
+
+ The optimal X  can be directly obtained from 
+
+ the results obtained from
+As it is shown in (6), from the other side, if is given with 
+ It means that if the signals at have been
+are the optimal ones of , say in 
+
+applied in , it is better to choose X as the control parameters at the next intersections .
+
+But in practical cases, X might be not the same as their initial settings given in the terminal
+
+case. If it is found that there are too big differences between them, the terminal case itself should
+be adjusted, or X will be obtained through several steps of alternative between X and X,by
+
+which X and X could be more suitable to the practical situations.
+
+The process of alternative calculations between can be brieﬂy represented as that
+
+are ﬁrst assumed to be given in the terminal case, under which the optimal values of
+are obtained through 
+say in . Now after X is given with 
+
+new set of  are obtained by 
+ say in are similar, it means
+
+that the signal settings at, which might be applied, are close to the pre-assumed ones, then
+
+could be used as X. Otherwise, the obtained results at A are shifted from their pre-assumptions. 
+If the difference is too big,
+should be adjusted to the . Such as 
+
+ could be chosen as the new , by which the next new 
+
+ are computed as in the previous step. The process is going to be repeated several times,
+
+are more or less close to their pre-assumptions.
+
+11
+
+5. Several bus lines in an area
+
+   In practice, within a same area there might be more than one bus line. If two lines are connected
+somewhere, the movements of buses on different lines may inﬂuence each other, so the related IBL
+signals along different lines should be determined together.
+   Normally  a  real bus line  always crosses many intersections from its starting to  the ending
+points, and at any given moment, more buses will be moving along it. In most cases, two adjacent
+buses along the same line and in the same direction are many intersections away, so we can supposed
+their movements do not inﬂuence each other. But for the case with more bus lines, if there is
+a common intersection located in the downstream paths of buses on different lines, their movements
+will inﬂuence each other. Because the locations of all buses are changing with time, their
+downstream intersections are also changing. When there are more connected lines, it may become
+difficult to  quickly ﬁnd which buses on different lines inﬂuence each other.
+   In order to make the problem easy, here we ﬁrst divide every real bus line with the same number
+but with opposite directions into two different lines, and then every line is further divided into several
+short lines with only one bus in each. Every short line starts from the current location of the
+bus and only contains the blocks and some intersections downstream, this number of relevant
+downstream intersections having been calibrated based on the formulas shown in the sections
+above.
+   So at different moments, the short line dealing with one particular bus may contain different
+blocks and intersections. All real bus lines will be divided in  this way and the lines used below
+in this paper are the divided short lines. Therefore the connection of any two lines can be easily
+determined only through whether both lines have common intersections downstream from current
+bus locations. Furthermore, for more lines, they could always be divided into some groups, by
+which any line is connected with at least another line in the same group, but never connected with
+lines in other groups. This means that the movement of one bus will not be inﬂuenced by signals at
+intersections on lines belonging to another group, therefore the priority  control  parameters at
+intersections along lines in different groups can be calculated independently. While the locations
+of buses are changing as they move along their lines, the groups are also continuously redeﬁned in
+the same way.
+   Suppose there are Nb lines in a group and at the ith cycle, the bus on linem (m=1,2,...,Nb)is
+moving towards intersection Ajm. For every line, its travelling objective function is shown as in (5).
+Since in practice lines might have different levels of importance, for instance the line along the
+arterial may have more priority  than on  the side street, here the general objective function for
+all Nb buses at the ith cycle is chosen as
+
+  
+
+in which bm are weight coefficients. Normally, , but if  line m is more important.
+   First suppose , i.e. there are only two connected lines and they are of the
+same importance, and along every line four downstream intersections are chosen, or along ,
+there are intersections  and along , with intersections ,
+ where bus 1 and bus 2 are separately moving towards and in the current cycle.
+
+12
+
+
+Similarly   to  the  case of  one line,   here Xp  is represented  by  
+Although   there  are different   connections  of  two  lines  and  also different   locations  of  bus  1 and
+bus 2 on   the lines,  they  could  be divided  into  several  typical  cases.
+    The ﬁrst  one is that  both  bus 1 and bus 2are  moving   towards  the same intersection  
+  in the  current  cycle  from  different  directions,   then after  , those two  buses are
+moving  towards  different  intersections.  According   to  the construction   of  will
+both be  related to  the signals at  intersection   and  are not independent.  Here a
+                                                                                          .   Because after  the  two
+new variable   is  chosen with   
+buses are moving   to  different   intersections,  become independent.    then
+can be represented  as . In practice, sometimes  two  buses might  be
+moving  along  the  same IBL   towards  , or/and  after   to  another  common  intersection.
+In this  case, it only issues priority   to the ﬁrst  coming  bus, but  by following   it,  the second bus actually beneﬁts too.
+Then two  in  are reduced to  choose only one,
+and the  other  calculations  stay  the same.
+
+       
+                  could  be obtained   separately through
+      
+
+      
+       
+
+When the  terminal   cases for line  m1 and  line  are separately  given,    can  be directly   obtained
+                                                                                                                           pj1–2
+through   (8).
+    The second case is that bus 1 and bus 2are  moving  to  different  intersections  at the
+current  cycle, or , but  several cycles later, they  are both  moving  towards  another  common intersection,  
+say  from  different   directions.  However,  
+are not independent,  for  they  all include  the signals at  . But since they appear in  the terminal
+cases, after they  are given,     and   can  be obtained  independently   through,
+                                             
+
+
+Another  case is that after  bus 1 passes through  intersection  in the ith  cycle along  line it is
+moving towards  in the ith  cycle, and in  the meantime,  bus   moving  towards  along line
+m2 in the ith cycle too,  or  , but   . And after  that the  two buses
+are moving  towards   different  intersections.  Similarly,    for  this  case can be reconstructed   into
+
+13
+                                 
+
+
+four independent  parts, in which are the signal
+settings at the  intersections  after along line  m1. In the  meantime,  is also  further  divided into  two  parts,
+
+      
+
+in which represents the inﬂuences of  bus m1 at intersection   and the inﬂuences 
+at intersections   after on  line . Therefore   will   be related   to   and
+, but  will be inﬂuenced  by   and 
+    The objective  function   in   then  becomes
+
+      
+
+      
+                  in  this  case can be obtained   through;
+      
+
+             
+
+After   the  terminal   cases are  given  to     can  be  obtained
+                                                                                                          
+through  (15)  and (16).
+    Similarly   for  the  case of,  i.e. when  there  are more  than  two   connected bus  lines  in  a
+group, is ﬁrst  divided  into  several independent  parts,  on which   is reconstructed,  then
+after the terminal   cases are given, the related optimal   control  parameters  can be directly  obtained
+like through   (8),  (11), (15)  or (16).
+    While  buses are moving  along  their  lines within   an area, according  to  their  locations,  the  lines
+are continuously   divided  into  different  groups.  The priority   control   parameters  will  be computed
+group  by group,  then  to  drive  the related  signals.  The process is going  to  be repeated  to continuously issue priority to the bus movements.
+
+
+6. The application  and  conclusions
+
+
+    Let us now consider  a small example as shown in  Fig. 2. Suppose a bus is going to  be moving  on
+its path  with  fourteen  intersections, from   A1 to A14. The bus line  will  pass through  A1, A2, A3 and
+A4 in direction  W–E,  then turn  right  at A4 to  through  A5, A6, A7 andA8  in N–S,  and then  turn  left
+at  A8 to   pass through   A9,  A10, A11, A12,  A13 and  A14 in  W–E   again.  The  distances  between
+
+14
+
+
+
+
+
+                                             Fig. 2. A bus line passing through 14 intersections.
+
+
+adjacent intersections  along  this  path are  respectively 150, 150,  100, 150, 130, 110, 120, 130,  140,
+120, 130, 140, 140, 140, and  140 m. Around   every  intersection  and on  every arm,  their  traffic  situations
+are   also  chosen  similarly   with,   and
+in  which  is saturation  ﬂow  rate; are the average coming ﬂow  rates
+during  three  periods  of one  cycle;  vc is the  average speed of  traffic
+ﬂow;  vb the  desired bus  speed; dq the  average space occupied  by  a  vehicle in  the  queue  and dr
+the  average distance  between  consecutive  vehicles  when  the  queue  is  about   to  be  discharged
+(Viegas and  Lu,  2001).
+    The priority   control   parameters  at every intersection   along the  line  have been calculated  separately
+for  different  control   strategies. The  ﬁrst  strategy  is the independent  (myopic)   one: when  a
+bus comes to intersection ,  the priority   signal  settings are obtained   only according  to  the traffic
+situations  around , without   considering  other  intersections,  or . In  the  second strategy,
+  has been chosen. In  calculating   the priority   parameters  at , here the  possible inﬂuences
+at  intersection     are  also  included,   which  are  obtained   on  the   assumptions  of   
+,  i.e. the IBL   signals at  are supposed to  be turned  at once after  the bus  has passed
+through . In  the third   strategy  is also chosen, but  in ,      i.e.  the delays
+of the  bus at  without   priority   signals are used.  In the  fourth   strategy,   and  
+are chosen, i.e.  the  IBL   signals at  any  intersection  will   be applied   at once  when  a bus  appears
+there, without   considering  the  real traffic   situations.
+    Because after IBL  signals are applied,  the delays of  the bus on  IBL  are only  related to  the number
+of  vehicles ahead of  it  but  not  to  their  movements,  and also  it  is not  so easy to  describe the
+inﬂuence to every  individual  vehicle  due to IBL  signals (Viegas  and Lu,  2001; Leutzbach,  1988), in
+calculating  the  priority    control   parameters,  macro-simulations    have been  used, in  which  every
+cycle is divided   into  several periods  and  every period   has a different  traffic   ﬂow  condition,   then
+the inﬂuences  to  a group  of  vehicles are  calculated  separately.  The weight  coefficients  are taken
+as ab =6,a1  =  0.75. While   the bus  is moving   along  the line,  all  related  optimal   priority   control
+parameters are quickly   calculated  with  the mountain   climbing  method.  The  obtained  results with
+the four  strategies  are summarised  in  Table 1.
+    At  the ﬁrst line  of Table  1, Aj is the number  of  the intersection  along the  bus line, and (1)  means
+that  the bus moves  in  W–E  direction  and  (2), in  N–S;  PCP  represents the priority    control  parameters.
+In the  example, it  chooses the change of the  offset (DXj)  and tIBL; tb, the coming  moments
+
+15
+
+
+
+
+                      Table 1
+                
+
+
+
+                            Comparison of effectiveness of different control strategies
+                          
+
+
+
+                                                                     
+
+                                                                               467
+
+16
+
+
+
+of the bus andDb   the delays of  the bus at every intersection.   At  the bottom  of  the table,  Trt  is the
+total  travel  time of  a bus along  this path:  -1,   -2,  -3,  -4  and  -5,  correspond  to  the four
+bus priority   strategies  and to  the absence of  priority   signals.
+    According  to  the principle  of  IBL,  IBL   signals could  be operating  independently  in  each block,
+and also co-ordinately   at several blocks  along  the bus line.  In either  way,  the travelling  times  of a
+bus along the  line are always  improved,  compared  with  the case without  bus priority   signals,  as it
+is shown  from  Table  1 that  ,   ,     and   all  are less than  .
+    From  and     being  less than  ,  it  is  known  that   the priority    control   parameters
+obtained  when  considering   more  intersections   together  can  produce   bigger  advantages  to  the
+bus movements  than  when  working   with  one  intersection  at  a time,  but  in  the  meantime,  as in
+average  are  similar  to  PCP-1  at  all  fourteen  intersections,  the  general  traffic
+ﬂow  still  did  not  suffer greater  delays in  the co-ordinated   strategies.
+    It  is also  found  that      are similar,   but  in  some cases, are  smaller
+than those of  , which  means that the priority   control   parameters obtained  with  
+will  produce  somewhat  smaller delays  to  the general  traffic  ﬂow.
+    In conclusion,  joint  consideration   of IBL  signals and  traffic  light  signals at intersections  leads to
+lower time  losses in bus operation,  but  these gains can be signiﬁcantly  improved  if  there is an integrated control
+of  several intersections  along the  bus line, with  bigger  advantages obtained  for  bus movements,
+with   less or similar   delays imposed  to other  traffic   ﬂow.
+
+
+
