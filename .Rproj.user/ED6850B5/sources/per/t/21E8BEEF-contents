@@ -56,6 +56,7 @@ df <- subset(df, df[2]=="1")
 
 ```{r}
 A78_85 <- df[df$Year >= 1978 & df$Year<=1985,]
+
 ```
 
 #### Select only the abstract
@@ -63,7 +64,13 @@ A78_85 <- df[df$Year >= 1978 & df$Year<=1985,]
 ```{r}
 A78_85 <- A78_85$Abstract
 
+A78_85 <- tm_map(A78_85, PlainTextDocument)
+strings <- c("x") 
+abstracts <- str_replace_all(A78_85, strings, "x")
+A78_85final <- data.frame(A78_85)
+
 ```
+
 
 ### Data Cleaning 
 
@@ -85,10 +92,7 @@ A78_85 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 # Consider two similar words as the same. 
 
 ```{r}
-A78_85 <- tm_map(A78_85, PlainTextDocument)
-strings <- c("x") 
-abstracts <- str_replace_all(A78_85, strings, "x")
-A78_85final <- data.frame(A78_85)
+
 ```
 
 >**Note*:* In the case of this work we did not choose any word to be considered as the same. Nonetheless, this process is important if you have words that are synonym. 
@@ -98,7 +102,7 @@ A78_85final <- data.frame(A78_85)
 ```{r}
 tokenizing_abstract <- A78_85final %>%
   mutate(id = row_number()) %>% #Create new id for each abstract
-  unnest_tokens(word) %>%
+  unnest_tokens(word, abstract) %>%
   anti_join(stop_words) #Remove stopwords (english package of stopwords)
 ```
 

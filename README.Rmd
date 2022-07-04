@@ -1,5 +1,5 @@
 ---
-title: "Guidelines for using text mining in review papers"
+title: "Guidelines for using text mining for reviewing papers"
 output: github_document
 ---
 
