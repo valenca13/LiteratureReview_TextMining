@@ -1,0 +1,4 @@
+"0","#A78_85 <- tm_map(A78_85, PlainTextDocument)"
+"0","#strings <- c(""x"") "
+"0","#abstracts <- str_replace_all(A78_85, strings, ""x"")"
+"0","A78_85final <- data.frame(A78_85)"

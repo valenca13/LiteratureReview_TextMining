@@ -1,0 +1,152 @@
+---
+title: "Historical Analysis of abstracts"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This code was elaborated to evaluate the evolution of topics discussed in the literature throughout the years. We divide the abstracts of the papers in different corpus according to the year their were published and perform a word frequency count. 
+
+### Import libraries
+
+```{r message=FALSE, warning=FALSE}
+library(tm)
+library(NLP)
+library(tidyverse)
+library(tidytext)
+library(readxl)
+library(textstem)
+```
+
+
+### Import table
+
+```{r cars}
+systematicreview <- read_excel("Data/table_systematic_review.xlsx")
+```
+
+### Convert the table into a dataframe and take a look
+
+```{r}
+df <- data.frame(systematicreview)
+```
+
+
+* BOTAR CODIGO PARA VISUALIZAR OS PRIMEIROS RESULADOS DA TABELA e descrever cada variável
+
+>**Note:** In this code we we want to access the papers that were considered coherent for performing and historical analysis. 
+
+#### Remove column "Authors"
+
+```{r}
+df <- df[,-c(7)] 
+```
+
+#### Filter only papers that were considered relevant for the analysis. "Frequent abstract" = 1.
+
+```{r}
+df <- subset(df, df[2]=="1") 
+```
+
+### Select the period you want to analyze
+
+### * 1978 - 1985 
+
+```{r}
+A78_85 <- df[df$Year >= 1978 & df$Year<=1985,]
+```
+
+#### Select only the abstract
+
+```{r}
+A78_85 <- A78_85$Abstract
+
+```
+
+### Data Cleaning 
+
+```{r}
+#Remove punctuation
+text <- gsub(pattern = "\\W", replace = " ", A78_85)
+#Remove Numbers (digits)
+text2 <- gsub(pattern = "\\d", replace = " ", text)
+#Lowercase words
+text3 <- tolower(text2)
+#remove single words 
+text4 <- gsub(pattern = "\\b[A-z]\\b{1}", replace = " ", text3) 
+#Remove whitespace
+text5 <- stripWhitespace(text4)
+#Lematize terms in its dictionary form
+A78_85 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
+```
+
+# Consider two similar words as the same. 
+
+```{r}
+A78_85 <- tm_map(A78_85, PlainTextDocument)
+strings <- c("x") 
+abstracts <- str_replace_all(A78_85, strings, "x")
+A78_85final <- data.frame(A78_85)
+```
+
+>**Note*:* In the case of this work we did not choose any word to be considered as the same. Nonetheless, this process is important if you have words that are synonym. 
+
+### Tokenize words from abstracts
+
+```{r}
+tokenizing_abstract <- A78_85final %>%
+  mutate(id = row_number()) %>% #Create new id for each abstract
+  unnest_tokens(word) %>%
+  anti_join(stop_words) #Remove stopwords (english package of stopwords)
+```
+
+```{r}
+adicional_stopwords <- tribble(
+  ~word,~lexicon,
+  "study", "CUSTOM",
+  "paper", "CUSTOM",
+  "article", "CUSTOM",
+  "based", "CUSTOM",
+  "results", "CUSTOM",
+  "information","CUSTOM",
+  "research", "CUSTOM")
+
+stop_words2 <- stop_words %>%
+  bind_rows(adicional_stopwords) 
+
+#Add new stopwords and repeat the tokenization process
+tokenizing_abstract <- A78_85final %>%
+  mutate(id = row_number()) %>% 
+  unnest_tokens(word, abstracts) %>%
+  anti_join(stop_words2) 
+```
+
+### Frequency of words
+
+```{r}
+word_counts <- tokenizing_abstract %>%
+  count(word) %>%
+  filter(n>1) %>% #Filter words that appear more than "n" times
+  mutate(word2 = fct_reorder(word, n)) %>% 
+  arrange(desc(n)) 
+```
+
+### Plot word count
+
+```{r}
+ggplot(
+  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+) +
+  geom_col() + 
+  coord_flip() + 
+  labs(
+    title = "Most frequent words of filtered abstracts: 1978 - 1985",
+    x = "Words", y ="Normalized frequency - Total of 2 papers"
+  )
+```
+
+
+
+

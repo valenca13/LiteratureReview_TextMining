@@ -41,11 +41,11 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A78_85 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. In this case we pted not to use this funciton.
+# Consider two similar words as the same.
 A78_85 <- tm_map(A78_85, PlainTextDocument)
-strings <- c("x") 
-abstracts <- str_replace_all(A78_85, strings, "x")
-A78_85final <- data.frame(A78_85)
+strings <- c("neighborhoods")
+abstracts <- str_replace_all(A78_85, strings, "neighborhood")
+A78_85final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A78_85final %>%
@@ -117,10 +117,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A86_90 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words. 
+# Consider two similar words as the same
 A86_90 <- tm_map(A86_90, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A86_90, strings, "x")
+strings <- c("road")
+abstracts <- str_replace_all(A86_90, strings, "street")
 A86_90final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -190,10 +190,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A91_95 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
+# Consider two similar words as the same.
 A91_95 <- tm_map(A91_95, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A91_95, strings, "x")
+strings <- c("roads")
+abstracts <- str_replace_all(A91_95, strings, "streets")
 A91_95final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -265,10 +265,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A96_00 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
+# Consider two similar words as the same.
 A96_00 <- tm_map(A96_00, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A96_00, strings, "x")
+strings <- c("cities")
+abstracts <- str_replace_all(A96_00, strings, "city")
 A96_00final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -311,8 +311,8 @@ word_counts <- tokenizing_abstract %>%
 ggplot(
   word_counts, aes (x = word2, y = n/max(n), fill = "red")
 ) +
-  geom_col() + 
-  coord_flip() + 
+  geom_col() + #Criar gr?fico
+  coord_flip() + #inverter gr?fico pra mostrar as palavras
   labs(
     title = "Most frequent words of filtered abstracts: 1996 - 2000",
     x = "Words", y ="Normalized frequency - Total of 19 papers"
@@ -339,10 +339,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A01_05 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
+# Consider two similar words as the same.
 A01_05 <- tm_map(A01_05, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A01_05, strings, "x")
+strings <- c("cities")
+abstracts <- str_replace_all(A01_05, strings, "city")
 A01_05final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -414,10 +414,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A06_10 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words. 
+#Consider two similar words as the same.
 A06_10 <- tm_map(A06_10, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A06_10, strings, "x")
+strings <- c("cities")
+abstracts <- str_replace_all(A06_10, strings, "city")
 A06_10final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -450,7 +450,7 @@ tokenizing_abstract <- A06_10final %>%
 #Frequency of words
 word_counts <- tokenizing_abstract %>%
   count(word) %>%
-  filter(n>10) %>% #Filter words that appear more than "n" times
+  filter(n>10) %>% ##Filter words that appear more than "n" times
   mutate(word2 = fct_reorder(word, n)) %>% 
   arrange(desc(n)) 
 
@@ -488,10 +488,10 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A11_15 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words.
+#Consider two similar words as the same
 A11_15 <- tm_map(A11_15, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A11_15, strings, "x")
+strings <- c("cities")
+abstracts <- str_replace_all(A11_15, strings, "city")
 A11_15final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
@@ -524,17 +524,17 @@ tokenizing_abstract <- A11_15final %>%
 #Frequency of words
 word_counts <- tokenizing_abstract %>%
   count(word) %>%
-  filter(n>40) %>% #Filter words that appear more than "n" times
-  mutate(word2 = fct_reorder(word, n)) %>% 
-  arrange(desc(n)) 
+  filter(n>40) %>% #Filtrar palavras que aparecem apenas mais de 100 vezes
+  mutate(word2 = fct_reorder(word, n)) %>% #Ordenar no gr?fico por ordem decrescente
+  arrange(desc(n)) #Colocar em ordem decrescente nas contagens
 
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/216, fill = "red")
 ) +
-  geom_col() + 
-  coord_flip() + 
+  geom_col() + #Criar gr?fico
+  coord_flip() + #inverter gr?fico pra mostrar as palavras
   labs(
     title = "Most frequent words of filtered abstracts: 2011 - 2015",
     x = "Words", y ="Normalized frequency - Total of 103 papers"
@@ -561,15 +561,15 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A16_20 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words.
+#Consider two similar words as the same
 A16_20 <- tm_map(A16_20, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A16_20, strings, "x")
+strings <- c("cities")
+abstracts <- str_replace_all(A16_20, strings, "city")
 A16_20final <- data.frame(abstracts)
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A16_20final %>%
-  mutate(id = row_number()) %>% #Create new id for each abstract
+  mutate(id = row_number()) %>% #Criar novo ID para cada paper
   unnest_tokens(word, abstracts) %>%
   anti_join(stop_words) #Remove stopwords (english package of stopwords)
 
@@ -593,17 +593,17 @@ stop_words2 <- stop_words %>%
 
 #Add new stopwords and repeat the tokenization process
 tokenizing_abstract <- A16_20final %>%
-  mutate(id = row_number()) %>% 
+  mutate(id = row_number()) %>% #Criar novo ID para cada paper
   unnest_tokens(word, abstracts) %>%
-  anti_join(stop_words2) 
+  anti_join(stop_words2) #Remove stopwords (english package of stopwords)
 
 
 #Frequency of words
 word_counts <- tokenizing_abstract %>%
   count(word) %>%
-  filter(n>130) %>% #Filter words that appear more than "n" times
-  mutate(word2 = fct_reorder(word, n)) %>% 
-  arrange(desc(n)) 
+  filter(n>130) %>% #Filtrar palavras que aparecem apenas mais de 100 vezes
+  mutate(word2 = fct_reorder(word, n)) %>% #Ordenar no gr?fico por ordem decrescente
+  arrange(desc(n)) #Colocar em ordem decrescente nas contagens
 
 
 #Plot word count
