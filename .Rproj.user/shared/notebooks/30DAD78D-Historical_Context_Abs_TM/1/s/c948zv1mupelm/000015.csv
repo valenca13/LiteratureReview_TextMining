@@ -1,6 +1,0 @@
-"0","A78_85 <- A78_85$Abstract"
-"0",""
-"0","A78_85 <- tm_map(A78_85, PlainTextDocument)"
-"2","Error in UseMethod(""tm_map"", x) : 
-  no applicable method for 'tm_map' applied to an object of class ""character""
-"

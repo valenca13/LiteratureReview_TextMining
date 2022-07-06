@@ -1,1 +1,0 @@
-{"frames":[{"func":"tm_map(A78_85, PlainTextDocument)","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in UseMethod(\"tm_map\", x) : \n  no applicable method for 'tm_map' applied to an object of class \"character\"\n"}

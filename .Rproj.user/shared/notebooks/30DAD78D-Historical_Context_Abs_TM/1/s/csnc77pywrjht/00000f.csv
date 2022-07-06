@@ -1,0 +1,5 @@
+"0","word_counts <- tokenizing_abstract %>%"
+"0","  count(word) %>%"
+"0","  filter(n>1) %>% #Filter words that appear more than ""n"" times"
+"0","  mutate(word2 = fct_reorder(word, n)) %>% "
+"0","  arrange(desc(n)) "
