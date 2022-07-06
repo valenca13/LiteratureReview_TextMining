@@ -15,9 +15,6 @@ systematicreview <- read_excel("Data/table_systematic_review.xlsx")
 
 df <- data.frame(systematicreview)
 
-#Remove column (authors)
-df <- df[,-c(7)] 
-
 # Filter only papers that were considered relevant for the analysis. "Frequent abstract" = 1. 
 df <- subset(df, df[2]=="1") 
 
@@ -25,7 +22,7 @@ df <- subset(df, df[2]=="1")
 A78_85 <- df[df$Year >= 1978 & df$Year<=1985,]
 
 # Select only the abstract
-A78_85 <- A78_85$Abstract
+A78_85 <- A78_85[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -41,11 +38,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A78_85 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. In this case we pted not to use this funciton.
-A78_85 <- tm_map(A78_85, PlainTextDocument)
-strings <- c("x") 
-abstracts <- str_replace_all(A78_85, strings, "x")
 A78_85final <- data.frame(A78_85)
+colnames(A78_85final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A78_85final %>%
@@ -101,7 +95,7 @@ ggplot(
 A86_90 <- df[df$Year >= 1986 & df$Year<=1990,]
 
 # Select only the abstract
-A86_90 <- A86_90$Abstract
+A86_90 <- A86_90[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -117,11 +111,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A86_90 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words. 
-A86_90 <- tm_map(A86_90, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A86_90, strings, "x")
-A86_90final <- data.frame(abstracts)
+A86_90final <- data.frame(A86_90)
+colnames(A86_90final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A86_90final %>%
@@ -173,8 +164,9 @@ ggplot(
 
 # Select papers from 1991 - 1995
 A91_95 <- df[df$Year >= 1991 & df$Year<=1995,]
+
 # Select only the abstract
-A91_95 <- A91_95$Abstract
+A91_95 <- A91_95[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -190,11 +182,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A91_95 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
-A91_95 <- tm_map(A91_95, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A91_95, strings, "x")
-A91_95final <- data.frame(abstracts)
+A91_95final <- data.frame(A91_95)
+colnames(A91_95final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A91_95final %>%
@@ -248,8 +237,9 @@ ggplot(
 
 # Select papers from 1996 - 2000
 A96_00 <- df[df$Year >= 1996 & df$Year<=2000,]
+
 # Select only the abstract
-A96_00 <- A96_00$Abstract
+A96_00 <- A96_00[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -265,11 +255,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A96_00 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
-A96_00 <- tm_map(A96_00, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A96_00, strings, "x")
-A96_00final <- data.frame(abstracts)
+A96_00final <- data.frame(A96_00)
+colnames(A96_00final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A96_00final %>%
@@ -322,8 +309,9 @@ ggplot(
 
 # Select papers from 2001 - 2005
 A01_05 <- df[df$Year >= 2001 & df$Year<=2005,]
+
 # Select only the abstract
-A01_05 <- A01_05$Abstract
+A01_05 <- A01_05[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -339,11 +327,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A01_05 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-# Consider two similar words as the same. We opted not to replace words.
-A01_05 <- tm_map(A01_05, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A01_05, strings, "x")
-A01_05final <- data.frame(abstracts)
+A01_05final <- data.frame(A01_05)
+colnames(A01_05final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A01_05final %>%
@@ -397,8 +382,9 @@ ggplot(
 
 #Select papers from 2006 - 2010
 A06_10 <- df[df$Year >= 2006 & df$Year<=2010,]
+
 # Select only the abstract
-A06_10 <- A06_10$Abstract
+A06_10 <- A06_10[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -414,11 +400,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A06_10 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words. 
-A06_10 <- tm_map(A06_10, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A06_10, strings, "x")
-A06_10final <- data.frame(abstracts)
+A06_10final <- data.frame(A06_10)
+colnames(A06_10final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A06_10final %>%
@@ -472,7 +455,7 @@ ggplot(
 # Select papers from 2011 - 2015
 A11_15 <- df[df$Year >= 2011 & df$Year<= 2015,]
 # Select only the abstract
-A11_15 <- A11_15$Abstract
+A11_15 <- A11_15[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -488,11 +471,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A11_15 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words.
-A11_15 <- tm_map(A11_15, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A11_15, strings, "x")
-A11_15final <- data.frame(abstracts)
+A11_15final <- data.frame(A11_15)
+colnames(A11_15final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A11_15final %>%
@@ -544,8 +524,9 @@ ggplot(
 
 # Select papers from 2016 - 2020
 A16_20 <- df[df$Year >= 2016 & df$Year<=2020,]
+
 # Select only the abstract
-A16_20 <- A16_20$Abstract
+A16_20 <- A16_20[,9]
 
 #Data Cleaning 
 #Remove punctuation
@@ -561,11 +542,8 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 A16_20 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-#Consider two similar words as the same. We opted not to replace words.
-A16_20 <- tm_map(A16_20, PlainTextDocument)
-strings <- c("x")
-abstracts <- str_replace_all(A16_20, strings, "x")
-A16_20final <- data.frame(abstracts)
+A16_20final <- data.frame(A16_20)
+colnames(A16_20final) <- c("abstracts")
 
 #Tokenize words from abstracts
 tokenizing_abstract <- A16_20final %>%

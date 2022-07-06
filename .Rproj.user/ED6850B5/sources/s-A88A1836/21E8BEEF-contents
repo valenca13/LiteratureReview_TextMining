@@ -132,7 +132,7 @@ tokenizing_abstract <- A78_85 %>%
   anti_join(stop_words2) 
 ```
 
-### Frequency of words
+#### Frequency of words
 
 ```{r}
 word_counts <- tokenizing_abstract %>%
@@ -142,7 +142,7 @@ word_counts <- tokenizing_abstract %>%
   arrange(desc(n)) 
 ```
 
-### Plot word count
+#### Plot word count
 
 ```{r}
 ggplot(
@@ -157,7 +157,7 @@ ggplot(
 
 > The process is the same for other periods of time. At the end, it is possible to compare the most frequent words in abstracts of papers from different periods. 
 
-In case you want to check how to perform this algorithm in the other periods, the complete code that was used for the paper can be assessed through the [script file](Scripts/Script word count per year.R). 
+In case you want to check how to perform this algorithm in the other periods, the complete code that was used for the paper can be assessed through the [script file](Scripts/Script_Historical_Analysis.R). 
 
 
 

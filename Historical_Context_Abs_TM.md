@@ -584,7 +584,7 @@ tokenizing_abstract <- A78_85 %>%
 
     ## Joining, by = "word"
 
-### Frequency of words
+#### Frequency of words
 
 ``` r
 word_counts <- tokenizing_abstract %>%
@@ -594,7 +594,7 @@ word_counts <- tokenizing_abstract %>%
   arrange(desc(n)) 
 ```
 
-### Plot word count
+#### Plot word count
 
 ``` r
 ggplot(
@@ -615,4 +615,4 @@ ggplot(
 
 In case you want to check how to perform this algorithm in the other
 periods, the complete code that was used for the paper can be assessed
-through the [script file](Scripts/Script%20word%20count%20per%20year.R).
+through the [script file](Scripts/Script_Historical_Analysis.R).
