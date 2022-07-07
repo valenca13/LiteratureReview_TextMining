@@ -1,0 +1,7 @@
+"0","# select 15 most frequent terms in each topic"
+"0","word_probs <- lda_topics %>%"
+"0","  group_by(topic) %>%"
+"0","  top_n(15, beta) %>%"
+"0","  ungroup() %>%"
+"0","  #Create term2, a factor ordered by word probability"
+"0","  mutate(term2 = fct_reorder(term, beta))"

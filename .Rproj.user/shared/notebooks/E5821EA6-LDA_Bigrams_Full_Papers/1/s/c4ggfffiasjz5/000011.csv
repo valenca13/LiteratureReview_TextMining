@@ -1,0 +1,6 @@
+"0","ldaOut <- LDA(dtm,"
+"0","             k, "
+"0","             method=""Gibbs"", "
+"0","             control=list(seed = 42)) "
+"0","          "
+"0",""

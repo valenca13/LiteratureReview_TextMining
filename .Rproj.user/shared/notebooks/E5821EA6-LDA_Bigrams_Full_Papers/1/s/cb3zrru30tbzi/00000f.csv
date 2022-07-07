@@ -1,0 +1,5 @@
+"0","lda_topics <- ldaOut %>%"
+"0","  tidy(matrix = ""beta"") %>%"
+"0","          arrange(desc(beta))"
+"0",""
+"0",""

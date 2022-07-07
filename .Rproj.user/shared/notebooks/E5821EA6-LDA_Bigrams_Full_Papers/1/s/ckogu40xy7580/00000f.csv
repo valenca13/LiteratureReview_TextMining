@@ -1,0 +1,4 @@
+"0","#Covert each paper to a line"
+"0","t_corpus <- text_bigram %>% tidy()"
+"2","Error: No tidy method for objects of class character
+"
