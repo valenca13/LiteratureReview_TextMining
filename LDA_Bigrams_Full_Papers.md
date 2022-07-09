@@ -149,9 +149,10 @@ ggplot(
 ```
 
 ![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
-\>Note: If you run the algorithm many times, the topics will maintain
-the same. Nonetheless, the order of the topics may appear differently
-which is coherent to the “bag of words” assumption.
+
+> Note: If you run the algorithm many times, the topics will maintain
+> the same. Nonetheless, the order of the topics may appear differently
+> which is coherent to the “bag of words” assumption.
 
 ### Bigrams
 

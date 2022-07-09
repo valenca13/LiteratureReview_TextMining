@@ -56,10 +56,10 @@ systematicreview <- read_excel("Data/table_systematic_review.xlsx")
 df <- data.frame(systematicreview)
 
 kbl(df%>% slice_head(n=8)) %>%
-  kable_styling(bootstrap_options = "striped", font_size = 8)
+  kable_styling(bootstrap_options = "striped", font_size = 8, full_width = F)
 ```
 
-<table class="table table-striped" style="font-size: 8px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 8px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:right;">
