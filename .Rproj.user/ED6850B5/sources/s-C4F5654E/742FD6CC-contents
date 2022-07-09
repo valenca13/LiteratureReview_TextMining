@@ -46,9 +46,7 @@ docs <- lapply(x, FUN = paste, collapse = " ")
 
 #### Data cleaning
 
-
-
-```{r pressure, echo=FALSE}
+```{r}
 #Remove punctuation
 text <- gsub(pattern = "\\W", replace = " ", docs)
 #Remove Numbers (digits)

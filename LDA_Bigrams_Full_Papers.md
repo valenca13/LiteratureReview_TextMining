@@ -39,6 +39,29 @@ docs <- lapply(x, FUN = paste, collapse = " ")
 
 #### Data cleaning
 
+``` r
+#Remove punctuation
+text <- gsub(pattern = "\\W", replace = " ", docs)
+#Remove Numbers (digits)
+text2 <- gsub(pattern = "\\d", replace = " ", text)
+#Lowercase words
+text3 <- tolower(text2)
+#remove single words 
+text4 <- gsub(pattern = "\\b[A-z]\\b{1}", replace = " ", text3) 
+#Remove whitespace
+text5 <- stripWhitespace(text4)
+#Lematize terms in its dictionary form
+text6 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
+
+adicional_stopwords <- c("good","represent", "present", "different","london", "may","datum","taipei", "numb", "much", "one", "two", "can", "fig", "will", "arm", "along", "xpj", "figure", "thus","aviv", "tel", "dsc","dscs","traf","also","study", stopwords("en"))
+#remove stopwords
+text7 <- removeWords(text6, adicional_stopwords)
+
+# Remove words for bigrams
+new_stopwords <- c("ow", "exible", "cantly","wick", "exibility", "uence", "uences", "ned")
+text_bigram <- removeWords(text7, new_stopwords)
+```
+
 #### Create corpus
 
 ``` r
@@ -125,7 +148,7 @@ ggplot(
   labs(x = "term")
 ```
 
-![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 \>Note: If you run the algorithm many times, the topics will maintain
 the same. Nonetheless, the order of the topics may appear differently
 which is coherent to the “bag of words” assumption.
