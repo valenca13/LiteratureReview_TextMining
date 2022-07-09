@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Take a look at the examples
 
-* [Historical Context Analysis]("Historical_Context_Abs_TM.Rmd"): 
+* [Historical Context Analysis]("Historical_Context_Abs_TM.md"): 
 
 ## Codes
 
