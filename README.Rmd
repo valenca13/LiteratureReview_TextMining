@@ -11,18 +11,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Historical Context Analysis](Historical_Context_Abs_TM.md) 
 
-## Codes
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+* [Specific Paper Analysis](LDA_Bigrams_Full_Papers.md)
