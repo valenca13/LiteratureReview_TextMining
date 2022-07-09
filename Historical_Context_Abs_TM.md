@@ -58,11 +58,11 @@ df <- data.frame(systematicreview)
 kbl(df%>% slice_head(n=8)) %>%
   kable_styling(bootstrap_options = "striped", font_size = 7, fixed_thead = T) %>%
   kable_paper() %>%
-  scroll_box(width = "2000px", height = "200px")
+  scroll_box(width = "2500px", height = "200px")
 ```
 
 <div
-style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; overflow-x: scroll; width:2000px; ">
+style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; overflow-x: scroll; width:2500px; ">
 
 <table class="table table-striped lightable-paper" style="font-size: 7px; margin-left: auto; margin-right: auto; font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; margin-left: auto; margin-right: auto;">
 <thead>
