@@ -56,37 +56,38 @@ systematicreview <- read_excel("Data/table_systematic_review.xlsx")
 df <- data.frame(systematicreview)
 
 kbl(df%>% slice_head(n=8)) %>%
-  kable_styling(bootstrap_options = "striped", font_size = 8, full_width = F)
+  kable_styling(bootstrap_options = "striped", font_size = 8, fixed_thead = T) %>%
+  kable_minimal()
 ```
 
-<table class="table table-striped" style="font-size: 8px; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table table-striped lightable-minimal" style="font-size: 8px; margin-left: auto; margin-right: auto; font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
-<th style="text-align:right;">
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
 ID
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
 Historical_Analysis
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
 Specific_Analysis
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 Keyword
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 Journal
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 Title
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 Authors
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
 Year
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 Abstract
 </th>
 </tr>
