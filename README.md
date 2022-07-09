@@ -1,15 +1,11 @@
-Guidelines for using text mining in review papers
+Using text mining in systematic literature reviews
 ================
 
-## GitHub Documents
+### Take a look at the examples
 
-This is an R Markdown format used for publishing markdown documents to
-GitHub. When you click the **Knit** button all R code chunks are run and
-a markdown file (.md) suitable for publishing to GitHub is generated.
+-   [Historical Context Analysis](%22Historical_Context_Abs_TM.Rmd%22):
 
-## Including Code
-
-You can include R code in the document as follows:
+## Codes
 
 ``` r
 summary(cars)
