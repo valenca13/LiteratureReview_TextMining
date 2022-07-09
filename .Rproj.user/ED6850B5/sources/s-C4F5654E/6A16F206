@@ -3,7 +3,7 @@
     "path": "G:/O meu disco/Thesis/Artigo Revisao Systematica - LDA/Github_Review_textmining/Review_Papers_Text_Mining/Scripts/LDA R script.R",
     "project_path": "Scripts/LDA R script.R",
     "type": "r_source",
-    "hash": "3322234111",
+    "hash": "2087662604",
     "contents": "",
     "dirty": false,
     "created": 1657202404127.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "115,34",
-        "scrollLine": "96"
+        "cursorPosition": "161,0",
+        "scrollLine": "133"
     },
     "folds": "",
-    "lastKnownWriteTime": 1657207181,
+    "lastKnownWriteTime": 1657371892,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657207181269,
+    "last_content_update": 1657371892773,
     "read_only": false,
     "read_only_alternatives": []
 }

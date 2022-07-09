@@ -44,7 +44,7 @@ text5 <- stripWhitespace(text4)
 #Lematize terms in its dictionary form
 text6 <- lemmatize_strings(text5, dictionary = lexicon::hash_lemmas)
 
-adicional_stopwords <- c("good","represent", "present", "different","london", "may","datum","taipei", "numb", "much", "one", "two", "can", "fig", "will", "arm", "along", "xpj", "figure", "thus","aviv", "tel", "dsc","dscs","traf","also","study", stopwords("en"))
+adicional_stopwords <- c("good","represent", "present", "different","london", "may","datum","taipei", "numb", "much", "one", "two", "can", "fig", "will", "arm", "along", "xpj", "figure", "thus","aviv", "tel", "dsc","dscs","traf","also","study", "hackney", "wick", stopwords("en"))
 #remove stopwords
 text7 <- removeWords(text6, adicional_stopwords)
 
@@ -52,8 +52,8 @@ text7 <- removeWords(text6, adicional_stopwords)
 writeLines(as.character(text7[[1]]))
 
 # Remove words for bigrams
-new_stopwords <- c("ow", "ï", "exible", "cantly","wick", "â", "exibility", "uence", "uences", "ned")
-text_bigram <- removeWords(text7, new_stopwords)
+#new_stopwords <- c("ow","exible", "cantly","wick", "exibility", "uence", "uences", "ned")
+#text_bigram <- removeWords(text7, new_stopwords)
 
 # Create corpus from vector
 corpus <- Corpus(VectorSource(text7))
@@ -112,17 +112,14 @@ library(tidyverse)
 library(tidyr)
 library(broom)
 
-#Covert each paper to a line
-t_corpus <- text_bigram %>% tidy()
-#t_corpus
+#Create dataframe
+df_corpus <- data.frame(text7)
 
-#create dataframe
-df_corpus <- data.frame(t_corpus) 
 
 #Create biagrams by separating words in sequences of 2. 
 bigrams_df <- df_corpus %>%
   unnest_tokens(output = bigram,
-                input = x,
+                input = text7,
                 token = "ngrams",
                 n = 2)
 
@@ -147,7 +144,6 @@ bigram_counts <- bigrams_filtered %>%
   count(word1, word2, sort = TRUE)
 
 #Create network of bigrams
-
 #filter for common combinations of biwords that appear at least 15 times.
 bigram_network <- bigram_counts %>%
   filter(n > 15) %>%
@@ -163,3 +159,4 @@ ggraph(bigram_network, layout = "fr") +
   geom_node_point(color = "lightblue", size = 4) +
   geom_node_text(aes(label = name), vjust = .7, hjust = 0.1) +
   theme_void()
+

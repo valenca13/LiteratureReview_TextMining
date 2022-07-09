@@ -1,4 +1,4 @@
-﻿1
+﻿f1
 
 
 
@@ -68,7 +68,7 @@ relatively low-density  usage, which implies a high cost to implement.  As an ex
 of the use of expensive vehicles, high fuel costs, heavily congested traffic, and a low ratio of  busy to idle vehicles (see Powell et al.,
 2011). In addition  to  the costs, this is a  major environmental  concern, since the burning  of fossil fuels  in vehicles is a major  contributor
 to global warming.  If ridesharing  systems and other forms of public transit  increase in efficiency, fewer people will  rely  on
-personal vehicles to meet their  transport needs. Thus a smart on-demand system could be a signi ﬁcant step in  reducing costs and
+personal vehicles to meet their  transport needs. Thus a smart on-demand system could be a signiﬁcant step in  reducing costs and
 carbon emissions worldwide.
      The state of a transit  system can change rapidly, and static  models lack the ﬂexibility  to  adapt to changes in a timely  manner.
 Because they ignore the elasticity of demand and price,  such models can result in  inefficiencies that  stem from  overestimation of
@@ -107,7 +107,7 @@ has been asserted that if ﬁve  percent of new  vehicles sold in  2030 (about  
 would save about 7million  barrels of oil  per year and reduce annual greenhouse gas emissions by 2.1–2.4 million metric tons of CO2
 per year, which  is equal to  the emissions savings from more  than a thousand 2-megawatt  wind  turbines (Greenblatt  and Saxena,
 2015; Greenblatt and Shaheen, 2015). The technology which is needed to enable automation, particularly at levels 3–5 (based on the
-levels of AVs which have been de ﬁned by The National Highway Transportation  Safety Administration),  is extremely sophisticated
+levels of AVs which have been deﬁned by The National Highway Transportation  Safety Administration),  is extremely sophisticated
 and would  have to make use of  high-performance computational  hardware,  state-of-the-art online  models, decision-making algorithms,
 and real-time information.   Our proposed methodology could possibly be applied as a decision support tool for  future urban
 mobility  systems such as smart taxis and autonomous vehicle  ﬂeets. The smart system could also offer numerous transportation,
@@ -259,7 +259,7 @@ called checkpoints.
 formulated the problem as a hybrid predictive  control problem  using state-space models and a two-stage look-ahead and proposed a
 particle swarm optimization (PSO) heuristic to solve it. Mitrović-Minić  et al. (2004) proposed a double-horizon-based heuristic for the
 dynamic pickup  and delivery  problem  which  considers the impact  of the  decision on both  a short-term  horizon and  a long-term
-horizon when  assigning a new request to  a vehicle. Ichoua  et al.  (2006) de ﬁ ned a new strategy based on dummy customers 
+horizon when  assigning a new request to  a vehicle. Ichoua  et al.  (2006) deﬁned a new strategy based on dummy customers 
 (representing predicted requests) on vehicle routes to provide good coverage of future request arrivals. Ulmer et al. (2017) proposed an
 MDP for dynamic routing  problems and showed that route-based MDPs are equivalent to the conventional MDP model. Thomas and
 White (2004) formulated  an expected cost-to-go function for dynamic  route selection as an MDP with look-ahead demand requests.
@@ -302,7 +302,7 @@ conditional expected future cost portion, which  is otherwise computationally  d
 York City taxicab data  were conducted to test the efficiency  of the proposed approach.
      This study investigates a tour-based ride-sharing/hailing   model that  captures (a) tour length  per vehicle, (b)  passenger waiting
 times, (c) dynamic price with  elasticity  of demand, and (d) customers’ queue-joining threshold  with  respect to the socially efficient
-level. Compared to  traditional  ﬂ exible transit  services such as dial-a-ride, ridesharing  services based on this model  could offer  a
+level. Compared to  traditional  ﬂexible transit  services such as dial-a-ride, ridesharing  services based on this model  could offer  a
 distinct cost advantage and operational efficiency, and in the long run provide local residents with new employment opportunities  to
 serve as self-driver systems.
 
@@ -771,7 +771,7 @@ of a customer being delayed, which is called Erlang’s C formula (see Gross and
 Krishnan (1987,1990) showed that V n+ 1−Vn satis ﬁes Eq (A.4) and that the value function in an M //Msis given by:
 
 where Erl (,s a)is the Erlang’s formula with s servers and the offered load of aλ= / ̂ μandw is the average delay for service which gives
-Since relative costs alone are signi ﬁcant, we set V0 to 0 and obtain
+Since relative costs alone are signiﬁcant, we set V0 to 0 and obtain
 
 Thus, the contribution to the relative value during the time interval  is
 
