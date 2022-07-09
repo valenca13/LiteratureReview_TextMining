@@ -3,7 +3,7 @@ Using text mining in systematic literature reviews
 
 ### Take a look at the examples
 
--   [Historical Context Analysis](%22Historical_Context_Abs_TM.md%22):
+-   [Historical Context Analysis](Historical_Context_Abs_TM.md)
 
 ## Codes
 
