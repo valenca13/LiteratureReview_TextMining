@@ -56,7 +56,7 @@ df <- data.frame(systematicreview)
 kbl(df%>% slice_head(n=8)) %>%
   kable_styling(bootstrap_options = "striped", font_size = 7, fixed_thead = T) %>%
   kable_paper() %>%
-  scroll_box(width = "500px", height = "200px")
+  scroll_box(width = "2000px", height = "200px")
 ```
 
 
