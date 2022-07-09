@@ -1435,7 +1435,7 @@ value for FDM selection was 7.30; seven critical indices were above this thresho
 were  implemented   in  the  DNP  to  obtain   the  quarterly  weight
 changes in the indices in 2009–2016. The weights of Index A1 were
 0.1172, 0.1600, and 0.1431 in  2009, 2013, and 2016, respectively.
-The weight  non-signi ﬁ cantly increased before decreasing over the
+The weight  non-signiﬁcantly increased before decreasing over the
 years. Therefore, the  function of  the index  is (1 is negative). 
 The index  had the  lowest weight  of  the seven selected
 indices.  The  corresponding  weights  for  Index  A2  were  0.1427,

@@ -16,5 +16,5 @@
 "0","text7 <- removeWords(text6, adicional_stopwords)"
 "0",""
 "0","# Remove words for bigrams"
-"0","new_stopwords <- c(""ow"", ""ï"", ""exible"", ""cantly"",""wick"", ""â"", ""exibility"", ""uence"", ""uences"", ""ned"")"
+"0","new_stopwords <- c(""ow"", ""exible"", ""cantly"",""wick"", ""exibility"", ""uence"", ""uences"", ""ned"")"
 "0","text_bigram <- removeWords(text7, new_stopwords)"

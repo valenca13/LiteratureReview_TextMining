@@ -1,4 +1,4 @@
-Untitled
+Full paper analysis - Topic Modelling and bigrams
 ================
 
 ## Import libraries
@@ -55,14 +55,14 @@ str(dtm)
 ```
 
     ## List of 6
-    ##  $ i       : int [1:12703] 1 1 1 1 1 1 1 1 1 1 ...
-    ##  $ j       : int [1:12703] 1 2 3 4 5 6 7 8 9 10 ...
-    ##  $ v       : num [1:12703] 1 5 1 1 6 1 1 1 4 1 ...
+    ##  $ i       : int [1:12694] 1 1 1 1 1 1 1 1 1 1 ...
+    ##  $ j       : int [1:12694] 1 2 3 4 5 6 7 8 9 10 ...
+    ##  $ v       : num [1:12694] 1 5 1 1 6 1 1 1 4 1 ...
     ##  $ nrow    : int 12
-    ##  $ ncol    : int 5153
+    ##  $ ncol    : int 5145
     ##  $ dimnames:List of 2
     ##   ..$ Docs : chr [1:12] "1" "2" "3" "4" ...
-    ##   ..$ Terms: chr [1:5153] "ability" "able" "abstract" "accept" ...
+    ##   ..$ Terms: chr [1:5145] "ability" "able" "abstract" "accept" ...
     ##  - attr(*, "class")= chr [1:2] "DocumentTermMatrix" "simple_triplet_matrix"
     ##  - attr(*, "weighting")= chr [1:2] "term frequency" "tf"
 
@@ -95,23 +95,15 @@ ldaOut <- LDA(dtm,
              k, 
              method="Gibbs", 
              control=list(seed = 42)) 
-```
 
-``` r
 lda_topics <- ldaOut %>%
   tidy(matrix = "beta") %>%
           arrange(desc(beta))
 ```
 
-``` r
-#lda_topics <- LDA(corpus,
-              #k, 
-              #method="Gibbs", 
-              #control=list(seed = 42))
-```
+#### select 15 most frequent terms in each topic
 
 ``` r
-# select 15 most frequent terms in each topic
 word_probs <- lda_topics %>%
   group_by(topic) %>%
   top_n(15, beta) %>%
@@ -120,8 +112,9 @@ word_probs <- lda_topics %>%
   mutate(term2 = fct_reorder(term, beta))
 ```
 
+#### Plot the topics
+
 ``` r
-# Plot term2 and the word probabilities
 ggplot(
   word_probs,
   aes(term2,beta,fill = as.factor(topic))
@@ -132,4 +125,73 @@ ggplot(
   labs(x = "term")
 ```
 
-![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+\>Note: If you run the algorithm many times, the topics will maintain
+the same. Nonetheless, the order of the topics may appear differently
+which is coherent to the “bag of words” assumption.
+
+### Bigrams
+
+#### Import Libraries
+
+``` r
+library(quanteda)
+library(igraph)
+library(ggraph)
+library(tidyverse)
+library(tidyr)
+library(broom)
+```
+
+#### Create dataframe
+
+``` r
+df_corpus <- data.frame(text_bigram)
+```
+
+#### Create bigrams by separating words in sequences of 2
+
+``` r
+bigrams_df <- df_corpus %>%
+  unnest_tokens(output = bigram,
+                input = text_bigram,
+                token = "ngrams",
+                n = 2)
+```
+
+#### Count bigrams
+
+``` r
+bigrams_df %>%
+  count(bigram, sort = TRUE)
+```
+
+#### Separate words into two columns
+
+``` r
+bigrams_separated <- bigrams_df %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+```
+
+#### Remove stopwords
+
+``` r
+bigrams_filtered <- bigrams_separated %>%
+  filter(!word1 %in% stop_words$word) %>%
+  filter(!word2 %in% stop_words$word)
+```
+
+#### Count the number of times two words are always together
+
+``` r
+bigram_counts <- bigrams_filtered %>%
+  count(word1, word2, sort = TRUE)
+```
+
+#### Create network of bigrams
+
+``` r
+bigram_network <- bigram_counts %>%
+  filter(n > 15) %>% #filter for the most common combinations of bigrams that appear at least 15 times.
+  graph_from_data_frame()
+```
