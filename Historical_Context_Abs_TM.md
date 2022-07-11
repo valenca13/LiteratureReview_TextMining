@@ -119,8 +119,8 @@ adicional_stopwords <- tribble(
   "study", "CUSTOM",
   "paper", "CUSTOM",
   "article", "CUSTOM",
-  "based", "CUSTOM",
-  "results", "CUSTOM",
+  "base", "CUSTOM",
+  "result", "CUSTOM",
   "information","CUSTOM",
   "research", "CUSTOM")
 
