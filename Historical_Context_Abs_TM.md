@@ -1,10 +1,10 @@
-Historical Analysis of abstracts
+Historical analysis of abstracts
 ================
 
 This code was elaborated to evaluate the evolution of topics discussed
-in the literature throughout the years. We divide the abstracts of the
+in the literature throughout the years. We divided the abstracts of the
 papers in different corpus according to the year they were published and
-perform a word frequency count.
+executed a word frequency count for each of these periods.
 
 #### Import libraries
 
@@ -21,6 +21,11 @@ library(kableExtra)
 
 #### 1. Import table
 
+After the keyword definition and paper collection, the main information
+from the papers were passed to an Excel sheet. Additionally, we created
+two columns for filtering the papers for the historical context analysis
+and the [specific paper analysis](LDA_Bigrams_Full_Papers.md).
+
 ``` r
 systematicreview <- read_excel("Data/table_systematic_review.xlsx")
 ```
@@ -34,13 +39,14 @@ systematicreview <- read_excel("Data/table_systematic_review.xlsx")
     analysis.
 
 -   `Specific_Analysis`: In the filtering process, papers that were
-    selected for full paper analysis through topic modelling, bigrams
-    and qualitative analysis were assigned as “1”. Otherwise, paper were
-    assigned as “0” and were not included in the full paper analysis.
+    selected for full paper analysis are thereby were directly related
+    to the topic of the literature review were assigned as “1”.
+    Otherwise, papers were assigned as “0” and were not included in the
+    full paper analysis.
 
 -   `Keyword`: The keywords used in the paper.
 
--   `Journal`: The journal the paper was published.
+-   `Journal`: The name of journal the paper was published.
 
 -   `Title`: The title of the published paper.
 
@@ -145,7 +151,7 @@ word_counts <- tokenizing_abstract %>%
   arrange(desc(n)) 
 ```
 
-#### Plot word count
+#### 5. Plot word count
 
 ``` r
 ggplot(
