@@ -26,7 +26,7 @@ funding, supplemental material, disclosure statement, references.
 > by the model was only from the paper’s text body.
 
 ``` r
-folder <- "Data\\Full papers for LDA_bigrams"
+folder <- "Data\\Full_papers"
 
 filelist <- list.files(folder, pattern = ".txt") #select only documents ".txt"
 
@@ -218,4 +218,17 @@ bigram_counts <- bigrams_filtered %>%
 bigram_network <- bigram_counts %>%
   filter(n > 15) %>% #filter for the most common combinations of bigrams that appear at least 15 times.
   graph_from_data_frame()
+
+set.seed(2016)
+
+a <- grid::arrow(type = "closed", length = unit(.15, "inches"))
+
+ggraph(bigram_network, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
+                 arrow = a, end_cap = circle(.07, 'inches')) +
+  geom_node_point(color = "lightblue", size = 4) +
+  geom_node_text(aes(label = name), vjust = .7, hjust = 0.1) +
+  theme_void()
 ```
+
+![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->

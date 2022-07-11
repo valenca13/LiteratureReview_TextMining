@@ -3,7 +3,7 @@
     "path": "G:/O meu disco/Thesis/Artigo Revisao Systematica - LDA/Github_Review_textmining/Review_Papers_Text_Mining/README.Rmd",
     "project_path": "README.Rmd",
     "type": "r_markdown",
-    "hash": "187523368",
+    "hash": "4049862183",
     "contents": "",
     "dirty": false,
     "created": 1656854752792.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,111",
+        "cursorPosition": "18,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1657570308,
+    "lastKnownWriteTime": 1657570685,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657570308825,
+    "last_content_update": 1657570685618,
     "read_only": false,
     "read_only_alternatives": []
 }

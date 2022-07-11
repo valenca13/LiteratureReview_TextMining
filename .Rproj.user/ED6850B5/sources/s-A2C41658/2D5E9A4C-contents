@@ -7,15 +7,23 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This tutorial is an open repository for the replication of the results from the paper: 
+This repository was developed the replication of the results from the paper: x
 
-### Dataset
+### 1. Dataset
 
-#### 1. [Excel sheet with main information of papers and filtering process.](/Data/table_systematic_review.xlsx)
+#### * [Excel sheet with main information of papers and filtering process.](/Data/table_systematic_review.xlsx)
 
-#### 2. [Full eligible papers used for the topic modelling and bigrams in .txt* and .pdf.](/Data/Full paper for LDA_bigrams)
-### Take a look at the examples
+#### * [Full eligible papers used for the topic modelling and bigrams in .txt* and .pdf.](/Data/Full_papers/)  
+
+
+### 2. Take a look at the tutorial
 
 * [Historical Context Analysis](Historical_Context_Abs_TM.md) 
 
 * [Specific Paper Analysis](LDA_Bigrams_Full_Papers.md)
+
+### 3. Code
+
+The full scripts for the 
+
+#### 
