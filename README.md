@@ -29,7 +29,7 @@ reference above**.
     using word frequency counts in abstracts.
 
 -   [Specific Paper Analysis](LDA_Bigrams_Full_Papers.md): Detecting the
-    main topics expressed in literature by using topic modeling and
+    main topics expressed in the literature by using topic modeling and
     bigrams in full papers.
 
 ### 3. Code

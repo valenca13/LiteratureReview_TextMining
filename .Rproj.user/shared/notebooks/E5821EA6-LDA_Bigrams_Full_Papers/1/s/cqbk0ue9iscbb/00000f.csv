@@ -1,5 +1,5 @@
 "0",""
-"0","folder <- ""Data\\Full papers for LDA_bigrams"""
+"0","folder <- ""Data\\Full_papers"""
 "0",""
 "0","filelist <- list.files(folder, pattern = "".txt"") #select only documents "".txt"""
 "0",""

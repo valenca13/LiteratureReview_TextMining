@@ -1,4 +1,4 @@
-Historical analysis of abstracts
+Historical context analysis - word frequency counts
 ================
 
 This code was elaborated to evaluate the evolution of topics discussed
@@ -6,7 +6,7 @@ in the literature throughout the years. We divided the abstracts of the
 papers in different corpus according to the year they were published and
 executed a word frequency count for each of these periods.
 
-#### Import libraries
+#### 1. Import libraries
 
 ``` r
 library(tm)
@@ -19,7 +19,7 @@ library(skimr)
 library(kableExtra)
 ```
 
-#### 1. Import table
+#### 2. Import table
 
 After the keyword definition and paper collection, the main information
 from the papers were passed to an Excel sheet. Additionally, we created
@@ -56,7 +56,10 @@ systematicreview <- read_excel("Data/table_systematic_review.xlsx")
 
 -   `Abstract`: The abstract of the published paper.
 
-#### 2. Convert the table into a dataframe and take a look at the first 8 papers
+> **Note:** For more information about the inclusion and exclusion
+> criteria, please check section 2.2 of the paper.
+
+#### 3. Convert the table into a dataframe.
 
 ``` r
 df <- data.frame(systematicreview)
@@ -66,15 +69,15 @@ df <- data.frame(systematicreview)
 > considered coherent for performing an historical analysis. Therefore,
 > the papers that were filtered “Historical_Analysis” = 1.
 
-#### 3. Filter only papers that were considered relevant for the analysis. “Historical_Analysis” = 1.
+#### 4. Filter only papers that were considered relevant for the analysis. Thus, “Historical_Analysis” = 1.
 
 ``` r
 df <- subset(df, df[2]=="1") 
 ```
 
-#### 4. Select the period you want to analyze
+#### 5. Select the period you want to analyze
 
-#### Papers from 1978 to 1985
+##### Papers from *1978 to 1985*
 
 ``` r
 A78_85 <- data.frame(df[df$Year >= 1978 & df$Year<=1985,])
@@ -86,7 +89,10 @@ A78_85 <- data.frame(df[df$Year >= 1978 & df$Year<=1985,])
 A78_85 <- A78_85[,9]
 ```
 
-##### Data Cleaning
+#### 6. Data Cleaning
+
+This step is extremely important for the text mining to provide
+meaningful words that can help detect how topics evolve over time.
 
 ``` r
 #Remove punctuation
@@ -106,7 +112,10 @@ A78_85 <- data.frame(A78_85)
 colnames(A78_85) <- c("abstract")
 ```
 
-##### Tokenize words from abstracts
+#### 7. Tokenize words from abstracts
+
+Tokenization is the process of breaking a text chunk into smaller parts.
+In this case, we are breaking into single words.
 
 ``` r
 tokenizing_abstract <- A78_85 %>%
@@ -141,7 +150,7 @@ tokenizing_abstract <- A78_85 %>%
 
     ## Joining, by = "word"
 
-#### Frequency of words
+#### 8. Frequency of words
 
 ``` r
 word_counts <- tokenizing_abstract %>%
@@ -151,7 +160,7 @@ word_counts <- tokenizing_abstract %>%
   arrange(desc(n)) 
 ```
 
-#### 5. Plot word count
+#### 9. Plot word count
 
 ``` r
 ggplot(
@@ -172,4 +181,4 @@ ggplot(
 
 In case you want to check how to perform this algorithm in the other
 periods, the complete code that was used for the paper can be assessed
-through the [script file](Scripts/Script_Historical_Analysis.R).
+[here](Scripts/Script_Historical_Analysis.R).

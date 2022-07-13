@@ -1,7 +1,7 @@
-Full paper analysis - Topic Modelling and bigrams
+Specific paper analysis - Topic Modelling and bigrams
 ================
 
-## Import libraries
+#### 1. Import libraries
 
 ``` r
 library(tm)
@@ -16,11 +16,12 @@ library(SnowballC)
 library(textstem)
 ```
 
-## Import dataset
+#### 2. Import papers
 
-After downloading the papers we converted to “.txt” files and manually
-removed: information of the authors and journal, acknowledgments,
-funding, supplemental material, disclosure statement, references.
+After downloading the papers we converted the pdf files to “.txt” files
+and manually removed: information of the authors and journal,
+acknowledgments, funding, supplemental material, disclosure statement,
+references.
 
 > Note: This prior data cleaning ensures that the information provided
 > by the model was only from the paper’s text body.
@@ -37,7 +38,7 @@ x <- lapply(filelist, FUN = readLines) #Considers each line as a different eleme
 docs <- lapply(x, FUN = paste, collapse = " ")
 ```
 
-#### Data cleaning
+#### 3. Data cleaning
 
 ``` r
 #Remove punctuation
@@ -62,15 +63,18 @@ new_stopwords <- c("ow", "exible", "cantly","wick", "exibility", "uence", "uence
 text_bigram <- removeWords(text7, new_stopwords)
 ```
 
-#### Create corpus
+#### 4. Create corpus
+
+A corpus is a collection of texts. In this case, the corpus is going to
+group all the papers.
 
 ``` r
 corpus <- Corpus(VectorSource(text7))
 ```
 
-### Topic modelling - Latent Dirichlet Allocation (LDA)
+#### 5. Topic modelling - Latent Dirichlet Allocation (LDA)
 
-#### Create Document-Term-Matrix (DTM)
+##### a) Create Document-Term-Matrix (DTM)
 
 ``` r
 dtm <- DocumentTermMatrix(corpus) 
@@ -89,7 +93,7 @@ str(dtm)
     ##  - attr(*, "class")= chr [1:2] "DocumentTermMatrix" "simple_triplet_matrix"
     ##  - attr(*, "weighting")= chr [1:2] "term frequency" "tf"
 
-##### count ten words that appear more frequently
+##### b) Take a look at the ten words that appear more frequently
 
 ``` r
 dtm.matrix <- as.matrix(dtm)
@@ -103,7 +107,7 @@ print(topten)
     ##         system        traffic           city transportation          urban 
     ##            408            397            330            327            320
 
-#### Define the number of topics (k)
+##### c) Define the number of topics (k)
 
 ``` r
 k <- 6
@@ -111,7 +115,7 @@ k <- 6
 
 > Note: The number of topics is defined prior to the model.
 
-#### Run LDA using Gibbs sampling
+##### d) Run LDA using Gibbs sampling
 
 ``` r
 ldaOut <- LDA(dtm,
@@ -124,7 +128,10 @@ lda_topics <- ldaOut %>%
           arrange(desc(beta))
 ```
 
-#### select 15 most frequent terms in each topic
+##### e) Select 15 most frequent terms in each topic.
+
+> **Note:** The number of terms you want to display depends on your
+> analysis.
 
 ``` r
 word_probs <- lda_topics %>%
@@ -135,7 +142,7 @@ word_probs <- lda_topics %>%
   mutate(term2 = fct_reorder(term, beta))
 ```
 
-#### Plot the topics
+##### f) Plot the topics
 
 ``` r
 ggplot(
@@ -154,9 +161,9 @@ ggplot(
 > the same. Nonetheless, the order of the topics may appear differently
 > which is coherent to the “bag of words” assumption.
 
-### Bigrams
+#### 6. Bigrams
 
-#### Import Libraries
+##### a) Import Libraries
 
 ``` r
 library(quanteda)
@@ -167,13 +174,13 @@ library(tidyr)
 library(broom)
 ```
 
-#### Create dataframe
+##### b) Create dataframe
 
 ``` r
 df_corpus <- data.frame(text_bigram)
 ```
 
-#### Create bigrams by separating words in sequences of 2
+##### c) Create bigrams by separating words in sequences of 2
 
 ``` r
 bigrams_df <- df_corpus %>%
@@ -183,21 +190,21 @@ bigrams_df <- df_corpus %>%
                 n = 2)
 ```
 
-#### Count bigrams
+##### d) Count bigrams
 
 ``` r
 bigrams_df %>%
   count(bigram, sort = TRUE)
 ```
 
-#### Separate words into two columns
+##### e) Separate words into two columns
 
 ``` r
 bigrams_separated <- bigrams_df %>%
   separate(bigram, c("word1", "word2"), sep = " ")
 ```
 
-#### Remove stopwords
+##### f) Remove stopwords that may have remained in the corpus
 
 ``` r
 bigrams_filtered <- bigrams_separated %>%
@@ -205,14 +212,14 @@ bigrams_filtered <- bigrams_separated %>%
   filter(!word2 %in% stop_words$word)
 ```
 
-#### Count the number of times two words are always together
+##### g) Count the number of times two words are always together
 
 ``` r
 bigram_counts <- bigrams_filtered %>%
   count(word1, word2, sort = TRUE)
 ```
 
-#### Create network of bigrams
+##### h) Create network of bigrams
 
 ``` r
 bigram_network <- bigram_counts %>%
