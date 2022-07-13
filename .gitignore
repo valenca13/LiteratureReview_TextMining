@@ -1,10 +1,10 @@
-git rm --cached .Rproj.user/**
 # Session Data files
 .RData
 
 # RStudio files
 .Rproj.user/
-  .Rproj
+
+.Rproj
 
 # History files
 .Rhistory
