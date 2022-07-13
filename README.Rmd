@@ -20,7 +20,7 @@ If you use any of the material in this repository, **please cite the reference a
 
 * [Excel sheet with main information of all collected papers and filtering process.](/Data/table_systematic_review.xlsx)
 
-* [Full eligible papers used for the topic modelling and bigrams in .txt* and .pdf.](/Data/Full_papers/)  
+* [Full eligible papers used for the topic modelling and bigrams in *.txt](/Data/Full_papers/)  
 
 
 #### 2. Guidelines 

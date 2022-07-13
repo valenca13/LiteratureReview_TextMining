@@ -22,7 +22,7 @@ reference above**.
     filtering process.](/Data/table_systematic_review.xlsx)
 
 -   [Full eligible papers used for the topic modelling and bigrams in
-    .txt\* and .pdf.](/Data/Full_papers/)
+    \*.txt](/Data/Full_papers/)
 
 #### 2. Guidelines
 
