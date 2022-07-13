@@ -40,4 +40,4 @@ The full scripts used for producing all the results are found in:
 
 -   [Historical Context Analysis](/Scripts/Script_Historical_Analysis.R)
 
--   [Specific Paper Analysis](/Scripts/LDA%20R%20script.R)
+-   [Specific Paper Analysis](/Scripts/Script_Specific_Analysis.R)

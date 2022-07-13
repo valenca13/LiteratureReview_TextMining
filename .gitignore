@@ -1,0 +1,12 @@
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+  .Rproj
+
+# History files
+.Rhistory
+
+# PDF papers
+.pdf
