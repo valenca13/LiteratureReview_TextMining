@@ -1,3 +1,4 @@
+git rm --cached .Rproj.user/**
 # Session Data files
 .RData
 
