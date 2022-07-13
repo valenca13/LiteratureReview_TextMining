@@ -1,0 +1,986 @@
+﻿1
+                                                                                                    
+
+
+
+
+
+Flexible spaces as a “third way” forward for planning urban shared spaces              
+
+
+
+
+
+1.  Introduction                                                                                                 
+                                                                                                                         
+     Once  the   site  of   a  small  but   active   urban  scene,  downtown        
+Christchurch, New Zealand, tends to be quiet most evenings, since the        
+2010 and 2011 earthquakes ﬂattened much of its  center. And while  a        
+scattered handful  of  clubs,  restaurants, and  cafés continue  to  draw        
+nightlife  downtown, Christchurch's dominant features are now the vast              
+number of compromised  structures and vacant lots  where earthquake        
+damaged buildings once stood.                                                                       
+     This  setting made  the scene at  Christchurch's “Dance-o-Mat”  one        
+evening in the Fall of 2016 all the more incongruous. In a ﬁeld of rubble       
+where a  high-rise  once stood, the  Dance-O-Mat is  an oasis of  light,         
+sound, and motion  in  the midst  of  an otherwise inanimate  nocturnal         
+urban  landscape. Created by  “Gap  Filler”   a  local   non-pro ﬁt group        
+dedicated to bringing  life and art  to the city's numerous empty spaces,       
+the Dance-o-Mat consists of an open-air dance ﬂoor with ﬂoodlights and     
+loudspeakers, a mirror ball,  and a  re-purposed coin-operated washing       
+machine sporting an audio jack. Inserting a $2NZD coin into the slot of         
+the washing machine activates the lights  and speakers, allowing users        
+to plug a music player  into the  system for an impromptu  public dance        
+party. This particular  Saturday night  has seen half a dozen local teen-        
+agers, a pair  of international   artists,  a family  from  the  US with  two
+small children, and a mob of jovial North Islanders all sharing the ﬂoor,       
+dancing to a mix of hip-hop, classic disco, and Japanese lounge/techno
+in an increasingly  interactive,  ebullient,  and multi-generational  street              
+party.  And this  evening  is no  anomaly.  This experimental  project  is        
+currently seeing almost 2000 activations  per year and may become an        
+international   franchise  with    new  Dance-O-Mats  in   Canadian  and        
+Australian cities (Gates, 2015).                                                                       
+     While  unique, the Dance-O-Mat is emblematic of a new generation        
+of what  we  describe as “Flexible  Spaces” in  cities  with  a surplus  of        
+underused, abandoned, or vacant space, along with  a  need for urban        
+revitalization.  Such experiments are often characterized by their limited
+duration, temporary  use of borrowed land,  and experimental, community
+ driven design and operation. This study interrogates the possibility
+of  using such “Flexible   Spaces” as tools for  pursuing  a third-way   of
+engaging in  urban planning  for shared space, instead of conventional
+expert-led  and procedural-participatory  frameworks.
+Speciﬁcally, we propose a framework  for  creating Flexible  Spaces
+that   are   minimally    regulated,   reconﬁgurable  and  democratically
+available on a rotating basis to individuals  and groups who wish to use
+those spaces for activities of a limited spatial and temporal tenancy. By
+enabling  a broad range of users to engage in the ongoing creation and
+management of the built environment,  free from most of the traditional
+processes of land use regulation, Flexible Spaces potentially offer a new
+approach  that  can sidestep many longstanding  shortcomings of  planning. 
+ We address these shortcomings in  Section 2. Section 3  outlines
+what  a coherent  approach to  planning  through  Flexible Space might
+look  like,  based upon a  set of conceptual guides.  Section 4 examines
+how Flexible Space can help address the endemic problems of planning.
+Finally,  Section 5 offers a series of empirical  case studies to illustrate
+how and why  these conceptual guides can offer a new, “third   way”  to plan.
+
+2.   The problems  with   planning
+
+Traditional  planning seeks to base policy decisions on processes that
+go beyond political exigency or executive authority.  Although there are
+a number  of  well-established contemporary  approaches to  planning,
+they are distinguished by where they place ultimate discretion  over the
+analysis and  evaluation of  policy  decisions, generally within   two  distinct   frameworks; 
+the  expert-led  and the  public  participation  models
+Brody,  Godschalk,& Burby,  2003; Day,  1997;  Fagence, 1977; Innes,1996;   Juarez&Brown,    2008). 
+In   expert-led  frameworks,   decision-making
+
+
+2
+
+ is based on urban  planners' expertise; whereas public  participation 
+frameworks  are intended to  generate opportunities for  citizens        
+and communities to express their needs and offer their knowledge with        
+planners mediating those processes.                                                              
+     In   countries  of   the  core,  dominant   planning   approaches have        
+evolved in response to broader social dynamics. The post-World War II        
+faith in  science and expert knowledge led  to practices that  vested authority  
+in  professional  planners (Brooks,  2002; Filion,   2001; Taylor,         
+1998). The subsequent backlash against the worst of 1950s and 1960s             
+expert driven  planning  – including   urban renewal  and  dysfunctional        
+modernist “vertical  slums”–reﬂected   a broader  challenge to the post-war 
+status quo and the disempowerment  of marginalized  populations.        
+Critics  of   conventional  approaches  excoriated  the   anti-democratic        
+vesting of authority  in planners, and the  resulting class and racial bias        
+animating  much  of  their  work   (Harvey,  1978).  Planning  education        
+began to rethink  planning as a tool  for  providing  communities both  a       
+voice in the policy decisions affecting them, and an opportunity to share       
+their knowledge of their  own neighborhoods and needs (Brooks, 2002).      
+The resulting  procedural-participatory  model  rapidly  gained  political         
+momentum as a vehicle to  incorporate stakeholders into  the decision-making  
+process (Arnstein,  1969;  Brooks,  2002).  Under  this  model,              
+governments describe major projects in early planning stages, and give       
+citizens opportunities to provide feedback throughout decision-making,        
+development  and  implementation.  The  planner's  resulting   role  has
+shifted towards the  ‘mediator expert’,  combining the  interpretation  of         
+citizen   feedback    with    support    of    community    decision-making             
+(Campbell& Marshall, 1999).                                                                           
+     Notwithstanding  planners' best efforts, the procedural-participatory              
+model has, in  practice, fallen  short  of its  ideals of  opening up  urban        
+planning to  those who have long  been excluded due to a  lack of economic, 
+cultural  and/or  political  power. It  often fails to  enhance public        
+participation,  include disfranchised communities, or create meaningful              
+opportunities     for    their      input,     (Carson,    2011;    Day,     1997;        
+Juarez&Brown,  2008; Reddel&Woolcock,   2004). While  planners and        
+theorists have attempted  to address these shortcomings by proposing              
+intensive  communication,  collaboration,   and  deliberation   processes       
+(Anderson, Cissna,& Clune, 2003; Campbell& Marshall,  1999; Dennis,             
+2006; Forester, 1999), wealthy, well-connected, and/or  well-organized
+stakeholders [referred  herein  as “elites”]  nonetheless remain  able to              
+drive  planning  outcomes (Maginn,  2007)  reinforcing   the  sense that        
+planning simply  serves to legitimate   the preferences of powerful  stakeholders (Carr,  2014).  
+Additionally,   the  tendency of  individuals  to         
+reject uncertainties associated with changes to their  environments has
+made “NIMBYism”–the  insistence that change happen “not in my back              
+yard”–inescapable,       impeding  essential  policies   and  investments        
+(Barlow, 1995; Devine-Wright,  2009; Lake, 2007).                                         
+     The  coexistence of  these two  paradigms  has led  to  a  structural         
+contradiction within   planning practice. Notwithstanding  the ostensible        
+dominance of  the procedural-participatory   model,  the  expert-led approach continues 
+to  pervade the  planning  profession (see, e.g., Ellis,        
+2005). And while  public input  based processes remain “best practices”            
+(Slater, 1984),  planners simultaneously incorporate  those approaches       
+with  expert-led practices at  a variety  levels (Brody  et al., 2003)  with         
+planners and policy   makers able to  vary  the  discretionary  authority         
+vested in the  public (or  even sub-groups of the  public)  depending on        
+when and how  each approach is mobilized  (Carr, 2014).  By enabling        
+planners to shift discretionary authority  between the public,  elites, and       
+other stakeholders on  an  ad-hoc basis, contemporary  planning  often        
+combines the  worst  of both  approaches, putting   the  public  through        
+intensive processes while disregarding their input when it is not aligned       
+with   the  interests  of   more   powerful   constituencies  (Carr,  2012).         
+Moreover, a  growing   literature  aﬃrms   planners' longstanding  complaints that 
+politicians  often  undermine even  the best designed planning  processes 
+(Anderson  et  al.,  2003;  Carr,  2014;   Cuthill,   2004;        
+Innes& Booher, 2004).                                                                                     
+     It  is unfair,  however, to lay the  blame for planning's ills  entirely  at        
+the  feet  of  individual   planners,  or  the  planning  discipline.  Because
+planners  occupy an  uncomfortable  space between the  governed and
+those who  govern, it  is  unsurprising  that they  often  have limited  influence                                                                                                                   74
+ on either.  Indeed, it  has been argued that  even though politicians,
+the public, and even planners themselves have seen planning as a
+ﬂawed project,  contemporary approaches persist because they enable
+elected  officials to  enact policy  while  avoiding  the wrath  of powerful
+stakeholders (Carr, 2012) and the greater voting  public  (Carr, 2014).
+Further  critiques  of planning  are rooted  in  forces as broad as the
+working   of real  estate markets,  and  as intimate  as  those of  human
+psychology. Given  the  permeability  of  planning  to  politics,  it  is  unsurprising
+ that  Marxist critics  have treated planning  as a tool of capitalism,
+while  highlighting  the inability  of  conventional planning to alter
+existing land use patterns driven by capital investment (Harvey, 2003).
+Moreover, there is a growing concern that stakeholders are often poorly
+situated to meaningfully  participate in  planning, as humans often fail to
+accurately predict whether planning  outcomes will be satisfactory once
+implemented  (Tetlock, Skitka,&  Boettger, 1989). In turn,  this tendency
+may be seen as fueling NIMBY resistance to even the most democratically
+ and carefully  articulated  planning outputs.
+These critiques indicate the extent to which contemporary planning
+suffers from  a  host of  largely  unresolved  structural  problems. These
+include:
+1) The tendency of planners to pre-determine outcomes, bringing their
+own  biases and predisposed approaches to planning exercises;
+2)  The  failure  of  urban   planning  to  integrate  truly   democratic  representation in  decision-making;
+3)  The tendency  of economic,  political,  and  cultural  elites  to overly inﬂuence  planning outcomes;
+4)  The inability  of stakeholders to accurately envision how they will be impacted by proposed planning  outcomes;
+5)  The inescapability of  NIMBY resistance;
+6)  The failure   of elected  oﬃcials  and  other  governmental  actors to translate planning  outcomes into policy;
+7)  And the limits  that logics of private property  and capital investment place upon planning.
+Accordingly,  any  alternative  to conventional  planning  approaches should seek to address some, if not all, of  these entrenched problems.
+ 
+3.  Flexible  Space deﬁned
+
+Our proposed elements for a de ﬁ nition of Flexible  Space were developed through
+an extended series of observations in a  variety of international
+contexts, including  site visits  in Australia  and USA and extended periods
+of residence in Japan and New Zealand. We have drawn
+upon our experiences to analyse a range of ﬂexible spaces emerging in
+different cities across diverse socio-cultural,  political,   economic, and environmental  contexts.
+Based on our analysis of  the case studies outlined below,  we offer
+the  following characteristics of Flexible Space as a starting  point for
+envisioning  how  consciously created environments  that  integrate  alternative  
+approaches  to  tenancy,  use,  exclusivity,  and  imagination
+might  address some of the failures  of conventional  planning.  Flexible
+Spaces are intended to  offer  reconﬁgurable, rotating,  non-permanent,
+non-exclusive  forms of  land  use that enable a  broad range  of spatial
+experiments. For convenience, we describe individuals  or  groups who
+exercise a period of  management over Flexible Spaces as “activators”,
+and those for whom the space is created and/or  who end up using the
+space as “users”.  Additionally,   some Flexible  Spaces may need  ‘administrators’:
+individuals  or  groups who  intermediate between  potential  activators, 
+users and other  parties, such as landowners or governmental 
+authorities. Ideally,  activators and administrators are part of the
+communities  where Flexible  spaces emerge, endeavoring  to  address
+recognised problems  felt   by  the  broader  community.  We  offer  the
+
+
+
+
+3
+
+
+
+following  seven characteristics as  guidelines for  creating  spaces that             
+allow activators  and users to plan by doing.                                                        
+
+
+A) Fixed, non-renewable, spatio-temporally  limited  tenancies. Flexible        
+     Spaces should be characterized by tenancies long enough to enable            
+     development, modest investment,  use, continuity,   and promotion,              
+     while  still  being  ﬁnite.  Without   suggesting minimal  or  maximum             
+     periods of  tenancy, the  appropriate  durations  will  depend on  the             
+     broader  context for   the space, regional  social  and  economic dynamics, 
+     and even the proposed uses. It is hard to imagine a tenancy
+     of less than two  weeks or more than a year  at most being feasible.        
+     Too short a time would prevent activators  and users to fully explore             
+     a use, and longer tenancies might  suggest a degree of permanence            
+     that  undermines ﬂexibility,   and  could encourage primarily   proﬁt-             
+     focused projects. Instead, the goal should be to allow enough time to           
+     enable development, use and exploration while  maximizing  opportunities 
+     for subsequent experimental uses and maintaining a sense of          
+     immediacy.                                                                                                       
+
+
+B) Shared tenancies. Activators'  tenancies should rarely  be exclusive.        
+     Ideally,  multiple   activators  will   simultaneously  use  and share a             
+     given space. This may take the form of concurrent use of the same or          
+     overlapping spaces, or of different activators'  uses alternating over             
+     time.  The goal is  to  explore the  bene ﬁts from potentially  complimentary 
+     uses that are otherwise precluded by exclusive approaches             
+     to property.  Ideally,  bringing  together multiple  visions  for a  space            
+     will  allow the function  of that space to evolve, reﬁne, and hybridize.            
+
+
+C) Reconﬁgurable space.  To  the  greatest  extent  possible,  Flexible        
+     Spaces should be changeable. While proscribing materials  and designs 
+     is  beyond  our  scope, certain  commonalities  can  be  listed.              
+     Materials  should be movable,  ﬂexible, multipurpose,  and without         
+     predetermined  function.  The  cable reel,  collapsible  theatre  riser,        
+     folding  chair,   shipping  pallet,  shipping  crate,  jersey  barrier,   oil
+     barrel, industrial  scaff old system, and shipping container all typify         
+     the components that  can help structure  and enable Flexible  Space            
+     due to  their fungibility,   recyclability,   durability,  scalability,  accessibility,             
+     malleability,   and  ﬂexibility.   While  Flexible  Space offers             
+     opportunities and challenges for activators  and designers alike, it is             
+     essential that objects created or modiﬁed for a given  Flexible Space            
+     do not foreclose alternate future  uses.                                                           
+                                                                                                                              
+D) Minimalist  regulatory  frameworks. The function of Flexible Space is            
+     to enable user and activator innovation.  Any  regulatory framework              
+     governing a  Flexible Space – whether required  by a governmental              
+     agency, cooperative,  property   owner,  or  hosting   organization  –             
+     should be minimal.  Ideally,  it should be limited  to:                                        
+     1. Ensuring compliance with  relevant health, safety, environmental,             
+         and criminal  laws;                                                                                       
+     2. Providing   fair,  open, and  democratic processes for  choosing a             
+         succession of activators and setting appropriate spatio-temporally            
+         bounded tenancies;                                                                                     
+     3. Ensuring  the  ongoing availability   and  viability   of  the  Flexible             
+         Space.                                                                                                          
+                                                                                                                              
+These three functions are intended to protect users and activators, while
+maximizing  opportunities  for  them to  create, evolve,  and experience        
+bene ﬁcial uses. And because Flexible Space is inherently experimental,           
+it must also be a space for potential  failures  and the resulting  lessons,            
+such that even struggling  uses normally have  the chance to run  their              
+tenancies.                                                                                                            
+                                                                                                                              
+E) The requirement  of  new uses. At the  conclusion of  a tenancy, the              
+     replacement tenancy should be, as much as possible, a new use so as        
+     to enable experiment  and renewal. This feature is  also intended to              
+     promote   equal  opportunities   for   other   activators   and  prevent
+             conventional  planning,  as Flexible Space eliminates the  punishing
+those who simply  seek to continue a prior  activator's work.
+
+F)  Designing for unscheduled uses. Flexible  Spaces should  provide 
+space for unscheduled, impromptu, and ﬂeeting uses, enabling users
+to simply show  up and  brieﬂy  be an activator. These can be self-regulated                                                                                                                  75
+areas or areas with an informal sign-up. They should be subject to minimal  regulation,
+have limited tenancies and should not disrupt previously  established activators' uses.
+
+G) Free or  minimal   cost tenancies. To  encourage a  range of  spatial
+experimentation,  and to reduce the  barriers to  less privileged activators,
+the cost of  activating  should  be kept  to  a minimum,   preferably  free.
+This is intended  to allow  for  uses that are neither  capital  intensive,
+nor proﬁt-focused. While new businesses creation is not incompatible with  Flexible Space, for-proﬁt tenancies should be
+limited,  or proﬁts shared with other activators to support alternative uses.
+
+H) Potential on-site  expansion. As experimental spaces, Flexible Spaces
+should enable their activators' experiments to develop a life  beyond
+the original  tenancy. For uses that are potentially commercialized or
+supportable  through  grants, crowdsourcing, membership,  or other
+forms of funding,  Flexible Spaces may serve as launching points for
+more permanent projects elsewhere. For uses that could scale out to
+become more  conventional  forms  of public  space, the  temporary
+space may offer a proving or test ground.
+
+4.  The  case for Flexible Space
+
+The foregoing guide for creating Flexible Spaces is intended to help
+address  many,  if  not   all  of  the  structural   failures  of   conventional
+planning described above:
+
+1)  The tendency of planners to pre-determine outcomes. Once created,
+Flexible  Space eliminates the need  for planners'  interventions,  replacing
+them  with   a  succession of activators   from  a  variety  of
+backgrounds. The requirements  of limited  tenancies and new  uses
+can prevent a given activator's preferences or biases from locking in
+the character or use of that space. And by allowing individual biases
+and  preferences (whether those of an  activator  or the users of  the
+space) to fully   ﬂower  over the  duration  of  a limited  tenancy, the
+beneﬁts,  shortcomings, contradictions, and possibilities  inherent to
+such approaches may be fully explored and built upon. This is not to
+say that conventional planning approaches cannot lead to, or cannot
+be essential for the  creation  of flexible  spaces in some cases. We
+would expect that  ﬂexible  space can be used as a planning tool in
+both expert  driven and participatory  planning exercises. Nor is it to
+say  that   framing  a  planning   project  around   ﬂexible  space approaches
+would necessarily insulate it from  the inﬂuences of expert
+based and/or   participatory   planning   practices.  Rather, Flexible
+space planning creates a direction forward that is not inherently tied
+to  either of  these traditional  approaches, and is structured  around
+minimizing  the  inﬂuence of experts  and the  tendency to  channel
+community  input through  expertise.
+
+2)  The failure  of planning  to integrate truly  democratic  input  in decision making.
+By  replacing  a democracy  of procedure  with a democracy of  process, and  by replacing planning by planners with
+planning  by activators  and  users, Flexible Spaces potentially  help
+address endemic concerns about  the  failure  of  procedural-participatory planning  (let  alone expert-rational  planning)  to ensure that
+stakeholder input is genuinely democratic and inclusive.  Activators'
+tenancies must be distributed in a fair,  open, transparent,  and democratic  way. The barriers  to  doing  so are much lower than in
+
+
+4
+
+
+
+     aspects of conventional planning, by which intensive involvement is         
+     often rewarded by adverse permanent decisions, notwithstanding an            
+     individual  or group's best efforts. Instead, Flexible spaces both lower           
+     the stakes for  planning  with  ﬁnite  tenancies and reward  involvement 
+     by enabling groups and individuals to directly put their  visions             
+     into  action. Also, non-activator  users can “vote with  their  feet”,in                
+     deciding whether, how, and when, to use a given Flexible Space at a           
+     given time, rewarding successful uses with greater user engagement.          
+     Any  given use will   allow  planners and  policy  makers to  see how             
+     much the  users of a  given tenancy actually  represent the  broader             
+     public without   having that use “locked in”.  In  short, Flexible Space
+     allows people to envision, try, and evaluate proposed uses in real         
+     time.                                                                                                                 
+                                                                                                                              
+3)  The tendency  of   elites  to  exclusively  drive   planning  outcomes.             
+     Flexible space planning is  perhaps most promising  in its  ability  to              
+     bring new,  previously excluded populations  into the  project of city              
+     making. While  a number of the projects we  draw upon below  were             
+     initiated,  envisioned  and/or  administered  by those who  might  be             
+     considered “creative  class” due to  their  cultural,   political,  and/or              
+     economic leverage, what we  ﬁnd  most intriguing  about  these projects 
+     is  their  ability  to  either  create or  suggest new  openings for             
+     marginalized  stakeholders  to   meaningfully   engage in   planning.
+     Indeed, an  embrace of ﬂexible  space planning  points the  way  towards 
+     a new role for architects, planners, and urbanists. Rather than            
+     serving either  as experts to  whom  the public  should  defer, or  interpreters  
+     through  which   public  input  must  be  ﬁltered  and  implemented, 
+     we  propose to  instead  position  these creative  professionals 
+     as  creators and  enablers of  ﬂexible  spaces in  which  the             
+     public may  subsequently plan by doing.                                                         
+                                                                                                                              
+Similarly, several of  the characteristics outlined  above are intended to             
+ensure as broad a  range of  activators  and users in  ﬂexible space as             
+possible. Limited   tenancies  should  help  immunize   Flexible  Spaces            
+against privileged  activators  seeking  to  use that  space to  either  reinforce 
+patterns of  structural  advantage, or to  pursue long-term  maximization  
+of capital  investment. While  nothing  would prevent  elites –             
+whether economic, political   and/or  cultural  – from  serving as activators, 
+the democratic distribution of tenancies and minimal tenancy costs
+would  create spaces for otherwise marginalized  populations  to  participate 
+as activators  as  well.  Likewise,  because the sheer amount  of        
+process involved in conventional participatory planning often precludes
+a huge swath of  the population   from being  meaningfully  involved  in         
+planning, the elimination  of much,  of this process promises to open up            
+flexible space activation to a  broader range of  actors. And while  successful 
+creation  and administration   of  ﬂexible space –  like  any  improvement 
+to  the built  environment  –  could open the  door  to neighborhood gentriﬁcation, 
+this  link is  not inevitable.  Rather, if regulators              
+and/or  activators are  truly  representative of  the community,  Flexible              
+Space could provide a bulwark  against gentriﬁcation by directly  tying              
+planning to community  needs. For example, the use of a ﬂexible space            
+to provide needed resources for homeless members of a community in a
+neighborhood with  a large  at-risk population  could  help render those         
+community  members “in   place” while  discouraging gentriﬁcation  at              
+their expense.                                                                                                       
+                                                                                                                              
+4)  The inability  of stakeholders to envision planning outcomes. One of             
+     the  greatest potential  strengths  of  Flexible  Spaces as a planning              
+     method is that they  shift participatory  planning  from an exercise of             
+     anticipation   to  an  exercise of  exploration.   Instead of  having to             
+     predict whether or not a given use of space will be beneﬁcial, useful,            
+     orderly,  or interesting,  Flexible Spaces enable users and other sta-        
+     keholders to try  new uses without  having to  commit  to them. This              
+     approach circumvents the  often fear-based input  that  many stakeholders 
+     bring to  conventional planning.                                                          
+                                                                                                                              
+5) The  persistence of  NIMBYism.  On  one hand,  we  anticipate  that
+Flexible  Spaces may provoke  a  greater  level  of  NIMBYism  than
+conventional  land  uses.  Their  unpredictability   might   inspire  resistance                                                                                                                   76
+to such experimental sites, and will mean that they need to
+be located  carefully.  On the other  hand, the  potential  to  test new
+uses may help assuage NIMBY resistance to those uses if they ultimately  move off-site  to other  locations. 
+By providing lived experience and feedback from neighbouring  stakeholders, Flexible Spaces
+may help reduce baseless or knee-jerk opposition to  otherwise suitable uses in other locations.
+
+6)  The failure   of  government  to  translate  planning  into  policy. By
+minimizing   the government's role  in  planning, Flexible  Spaces reduces
+the gap between planning and policy. Instead, activators and 
+users become  temporary  policymakers.  And  while  governmental
+entities  sponsoring Flexible  Spaces might  try  to  inﬂuence  which
+activators  and  users have  access to those  spaces, hopefully  this
+tendency will  be outweighed by the political  and social capital  that
+can accrue to governmental  policy  makers by allowing   minimally
+regulated,  maximally  democratic  Flexible  Spaces to serve as true
+breeder-reactors for artistic, entrepreneurial, recreational, and other land use innovations.
+
+7)  The limits  of planning  to alter existing  private property  and capital
+investment.  Here again,  existing  patterns of  land  ownership  and
+capital investment can create substantial barriers to  the creation of
+true  Flexible Spaces. That said, the limited  duration  of tenancy inherent
+to a Flexible Space means that privately held, undeveloped or
+underdeveloped, land  can become a temporary Flexible Space. The
+case studies discussed below provide a variety  of  examples of privately  held  property
+hosting  transitory  uses  to  reinvigorate  the urban  core.
+It  is  easy to  envision contexts  in  which  property  developers,
+private  ﬁrms,   or  NGO's  at  least  temporarily dedicate
+property as Flexible Space in order to engage in public  relations,
+community   outreach,  and/or   capacity  building  with   community
+stakeholders. Equally importantly,  Flexible Space empowers people
+to  begin to experience community outside the  contexts of privately
+or governmentally  controlled property.
+
+Flexible  Spaces also offer   additional  advantages  over  dominant contemporary  practices:
+
+1) Creating  space for experimentation  and  utopia.  Instead of  having
+planners  or  stakeholders envision what  uses are  best for  a given
+space; Flexible Space allows activators to try out different uses that
+may   seem utopic,   idealistic,   and/or   otherwise   impractical.   By
+minimizing  regulation, the entire  community is able to draw  on the
+imagination  of  each of its  members. Thus, Flexible  Spaces enable
+true  experimentation   in  land   use, in   contrast  to  contemporary
+planning   which  often   limits   experimentation   to  large-scale entrepreneurship
+in the name of  maximizing capital  return.
+
+2) Eliminating the mundane abuses of procedural-participatory  planning.  
+Procedural-participatory   planning  is  often  numbingly   time intensive  (Carr,  2012).
+Flexible  space reduces the need for committee,  council,   planning,   and  other  meetings  that   community
+members and other  stakeholders must devote hours  to,  hoping to have their   voices  heard. Instead,  communities  and  stakeholders
+have an opportunity for  direct feedback – becoming and/or working directly  with   activators and  users, deciding which  uses they want
+and whether  to support a given  Flexible Space use.
+
+3)  Introducing  ﬂexibility   to  planning.  Many  of  planning's  problems 
+stem from  the  permanence inherent to  its  charge. Planning  must
+usually be presumed to  be, “forever”.  By introducing  transience to
+planning, political  and policy  ﬂexibility  are likewise incorporated. A
+given activator's approach to a Flexible Space can evolve in light of
+
+
+5
+
+
+
+     feedback from other users, community,  and stakeholders.                       
+
+
+4)  Planning as a continual process. Flexible spaces have the promise to     
+     render  planning  a  healthy,  creative  process in  which  there  is  a
+     constant cycle  of activator  planning,  experimentation,  evaluation,              
+     renewal, planning,  and experimentation.                                                   
+                                                                                                                         
+5)  Planning as a  source of value  to  policy  makers and stakeholders.        
+     Flexible  Spaces offer a relatively  safe, low  cost space for  experimentation 
+     in  innovation,  entrepreneurship, creativity,  placemaking        
+     and  marketing.  Flexible  Spaces can enable  grassroots economic,       
+     social,  and  environmental   development  without    the  traditional         
+     limits  of large-scale, long-duration capital  investment.                             
+                                                                                                                         
+6)  Flexible Space can be an effective way to promote placemaking and       
+     community  development. Flexible  and short-term  uses have a positive 
+     impact in  connecting communities, and in linking  people with        
+     places. The shared activation of a Flexible Space can empower local
+     networks  because it  allows  users and  activators  to  develop new        
+     bonds of communication  and trust.                                                                 
+                                                                                                                         
+7)  Scaling out  practices of  innovation.   While  the case studies  upon        
+     which  our analysis is based are largely focused on urban, post  disruption  
+     contexts we would  argue that  their lessons can potentially         
+     scale out to  a  variety  of urban  public  and community   spaces, including 
+     those that are not dealing with the aftermath of economic or        
+     natural  disaster. The  beneﬁts of  flexible space, including  the  potential  to empower a broader range of  stakeholders while reducing        
+     the  costs of experimentation  and  involvement  with   planning  can       
+     potentially  apply  to  suburban,  peri-urban  and rural  open  spaces.       
+     And while  flexible space approaches may not make sense for planning  infrastructure, 
+     public  housing and the  like,  they can  provide        
+     productive  tools for  planning parts  of housing projects,  residential        
+     neighborhoods or commercial districts, giving  users the opportunity              
+     to  engage in  ongoing processes of planning  and  experimentation        
+     within  their  environments.                                                                         
+                                                                                                                         
+     These may be strong claims to make for the potential bene ﬁts of an       
+approach to planning  that has yet  to be fully  attempted.  Nonetheless,       
+the longstanding shortcomings of  traditional  planning  and the success      
+of existing  ﬂexible  space projects – as discussed below – strongly  recommend further efforts  to try  this “third   way”.                                            
+                                                                                                                         
+5.  Empirical  pathways   for  Flexible  Space                                                  
+                                                                                                                         
+     The  foregoing  theoretical  framework  springs  from  an  increasing        
+number of  case studies that support  the practicalities  and beneﬁts of        
+Flexible Space. This section focuses on empirical examples of Flexible        
+Space in  both:  1)  post-disaster recovery  and rebuilding   contexts  in        
+Christchurch (New  Zealand) and North-eastern Japan; and  2) in  contexts of 
+socio-economic transition,   exploring  the  cases of Newcastle        
+(NSW, Australia) and Detroit  (Michigan,  USA). The transitional  activities 
+that emerged in post-earthquake Christchurch, and the creation of        
+short-term spaces in North-eastern Japan after  the 2011  tsunami, demonstrate 
+the power of  Flexible Space to support communities after  a        
+disaster, whereas projects in Newcastle and Detroit speak to the beneﬁts   
+of ﬂexibly  repurposing vacant urban  spaces under sudden social and        
+economic changes. By examining projects  which  exhibit  many of  the        
+features of Flexible Space, this section explores what such spaces might     
+look like while  making a case for approaches to planning that embrace             
+ﬂexibility.  These projects have fueled culturally   vibrant  development        
+while  allowing  a broad  range of  individuals  to  “plan  by  doing”  free        
+from the  constraints of  traditional  planning  – including  creative-class      
+professionals and artists  who  often  serve as  a vanguard  for  experi-        
+mentation, small  entrepreneurs, members of  cultural  and racial  min-         
+ority  groups, and people left  behind or  disempowered by natural  and        
+
+5.1.  Flexible Spaces in post-disaster recovery and rebuilding
+
+Flexible urban  spaces have been essential for post disruption community 
+recovery  and  rebuilding   as evidenced  by  the   examples of
+Christchurch,  New  Zealand  and  North-eastern  Japan. Well-located,
+thoughtfully  designed, safe and accessible space has been an essential
+resource for  response, mobilization,  and empowerment  in post-earth-quake
+Christchurch   (Dionisio&  Pawson, 2016;   Wesener, 2015).   In
+North-eastern  Japan, short-term structures accommodated social amenities 
+in  temporary housing areas after the 2011 tsunami,  encouraging
+people to  create new social bonds amidst  displaced communities. We
+focus on spatial experiments the wake of disasters because these large-scale
+disruptions tend to  create unique openings and  needs within  cities,
+real  estate markets, and  planning  practices  for  Flexible  Spaces (Solnit,  2009).
+
+5.1.1.  The transitional city: Christchurch, New Zealand
+
+Notwithstanding   the  unprecedented damage the  2010  and  2011
+earthquakes in ﬂicted upon  Christchurch, its  Central  Business District
+(CBD), and its residents, initial   planning responses to rebuilding  were
+highly   traditional.  Reﬂecting conventional expert-led approaches, the
+Canterbury Earthquake Recovery Authority (CERA) was created by the
+central  government, removing  jurisdiction  over the  CBD and most affected
+areas from the  Christchurch  City Council  (CCC). CERA's focus
+was on creating a permanent plan for rebuilding.  In contrast, while  the                                                                                                                   77
+CCC has been largely excluded from planning  the CBD's future, it  has
+adopted  a procedural-participatory  approach to  planning for  the transitional,
+temporary, and transient uses of spaces vacated after the
+earthquakes. This approach informed the award winning ‘Share an Idea’
+project, in May 2011, which  successfully gathered 106,000 responses to
+the CCC's call for ideas and aspirations for the future  of Christchurch.
+The conﬂict  between these two approaches in Christchurch's post-quake real-politics
+has demonstrated the limits  of both.  Expert-led approaches have  dominated,
+with  CERA's Central  City  Recovery Plan (CCRP) ignoring the outputs of  “Share an Idea”,
+and  limiting  community  consultation or  engagement. Instead, the CCRP was expedited in a
+100 day expert  led process during  which  community  vision was only
+present,  if   at  all,   through   the  interpretations   of  planning   experts
+(Bennett,        2014;         Dionisio&  Pawson,        2016;         Kingham,
+Dionisio,&Newman,   2016).   Even so, delays  by  private  landholders,
+disputes between  the  state Earthquake  Commission and  private  insurers,
+and  the ponderousness of  government have,  to  date, 
+largely prevented the CCRP from translating  planning into  actual  reconstruction.
+And  because governmental decision  makers have hindered the implementation  of  the public  input  from  “Share an  Idea”,
+the procedural-participatory approach  has likewise   failed  to  gain  traction  in Christchurch.
+
+In contrast, ﬂexible,  grass-roots planning has started to  ﬁll the vacuum
+created by the failure of both  conventional planning approaches,
+providing  many of  the city's post-quake successes. 
+Community groupshave temporarily  reactivated  spaces vacated by extensive demolitions
+across the  city  to  address community  needs, demonstrating  the  environmental
+and social value of  ﬂexible planning.  Although not always
+explicitly   framed as addressing social issues, these Flexible Spaces have 
+beneﬁtted Christchurch's communities by promoting  social connectedness 
+and opportunities  for  food resilience,  while  inspiring  similar  initiatives  throughout  the city.
+For  example, Gap Filler  – the  creators of  the Dance-O-Mat – is  a
+leading   creative-led  regeneration   enterprise  advocating   short-term
+transformation  of urban spaces focused on social amenities to reconnect
+the  people with the city  (Gap Filler, 2016; Wesener, 2015). 
+Their other signiﬁcant projects include the Pallet Pavilion – a short-term venue for
+cultural  and social activities,  built   of wooden  pallets – and  the Commons,
+a space for  collaborative  work on  different temporary projects
+
+
+
+6
+
+
+
+and public  events, managed and organized by  community  and social        
+justice groups.  The Commons  regularly  hosts food  trucks,  a bicycle         
+maintenance shop, and other small local businesses and NGO's. Smaller    their  
+Gap Filler initiatives  include  the Think  Differently  Book Exchange, an        
+old refrigerator  transformed into  a shared community  lending library;         
+and the Painted Piano project, which  makes old pianos publicly  available 
+in  vacant spaces across the city (Gap Filler,  2016).  These short-term projects  
+are widely  acclaimed,  highly  used, and help  reconnect communities and the  city, 
+while  empowering  local networks  by reducing investment risks to participating in small local businesses. 
+                       
+     Similarly,  Greening  the Rubble  has been creating  short-term gardens 
+and pocket parks in empty spaces throughout the city for over ﬁve       
+years. Working with local authorities,  organisations, builders, sponsors,       
+and landowners  Greening the  Rubble  has created amenities  as play        
+parks,  urban   farms,  and   green  patches   (Wesener,  2015).   While        
+ephemeral, these  projects  have demonstrated  that  ﬂexibly   creating        
+urban space with  the support  and collaboration  of  local  stakeholders       
+can provide tangible  environmental  and social value  to communities,         
+and give those long  denied a meaningful  voice in  planning an  opportunity  to “plan by doing”.                                                                                
+
+     For example, The Kākano Café and Cookery School (Fig. 1)  brings        
+
+Māori  food  and  cultural  traditions   into  the  community,   while  supporting people to grow,  
+harvest, and cook food in healthier  ways. This        
+Flexible space is led by a  local Māori  mother of  ﬁve,  Jade Temepara,       
+with  the support  of her family   and close friends. It  focuses on family         
+wellbeing, community  empowerment, and better social connectedness.            
+     The success of these projects, however, has not happened in  a vacuum. 
+The systematic  creation of  ﬂexible  spaces in Christchurch  has       
+depended on support provided by Life in  Vacant Spaces (LiVS). Fitting      
+our de ﬁnition of  “administrators”,  LiVS develops connections, and assists 
+with the negotiations  between landowners of vacant land and activators  (Dionisio&  Pawson, 2016;  Wesener, 2015).  
+LiVS  also  helps different types of activators to implement ideas for the temporary use of     
+vacant open spaces (Life In  Vacant  Spaces, 2016). The LiVS website        
+provides resources for the development of  ﬂexible spaces, such as use     
+license agreements, building consents, and information  on small  business 
+funding and regulation (Life In Vacant Spaces, 2016). Since 2012,       
+LiVS has mediated the development of a signi ﬁcant number of projects,      
+including  The Kākano Café and the ‘Nature  Play Park’, an interactive         
+natural space in which  LiVS, negotiated between CERA as landowner,       
+and ‘Greening the Rubble’  as activator. Similarly,  LiVS has supported                                                                                                                  
+and  facilitated  the ‘Inconvenience Store’— a  conceptual shop and art
+space where customers can get items and local produce in exchange for
+time – and Dorothy's Tea Room, a mobile British style tearoom. In
+so doing, LiVS' work as an administrator  is essential to enabling short-term
+transient, and mobile  uses of spaces.
+
+5.1.2.  Flexibility  of  spaces use for  social  connectedness: North-eastern
+
+Japan
+
+The post-tsunami recovery  in  North-eastern Japan has been characterized by
+tensions between top-down  and community  driven  paradigms for reconstruction.
+The Japanese government has a long tradition of  relying   on   technological, 
+industrial and  engineering-based  approaches to  risk management and post-disaster reconstruction,  which
+often    fail    to    account    for    social   considerations    (Puppim    de
+Oliveira &   Fra.Paleo, 2016). For  example, soon after  the  2011  earth-quake 
+and tsunami, the government began constructing sea walls in the
+most affected prefectures in North-eastern Japan, while  many affected
+communities opposed this approach. Sea walls negatively impact local
+ecology, and  hinder  the  relation  between built  environment  and  sea
+(Dionisio&  Pawson, 2016).  Rejecting  resolute,  heavy, high-tech,  engineered
+government solutions, local communities have instead focused on community  needs,
+emphasizing  soft measures and  tactical  interventions, 
+featuring  shared, collaborative, and  ﬂexible schemes of construction and management.
+Ishinomaki  2.0 was created by local residents from a broad range of 
+backgrounds to  support   community  and  businesses in  coping  with
+temporary   displacement and  in  restoring  livelihoods   in  Ishinomaki,
+Miyagi   Prefecture, after   the  2011  tsunami.  The  project  focuses on
+Ishinomaki Chuo shopping  street, by linking  businesses that lost their
+venues in  the tsunami  with  owners of  vacant spaces (Ishinomaki  2.0
+Archives,  2012).  As an  “administrator”,   Ishinomaki   2.0 has  also facilitated
+the  conversion of unoccupied  spaces into community spaces,
+and the  creation of  shared business management schemes that enable
+people  to create  and run  new enterprises. In  the initial   stages of the
+project,  the negotiation process focused in talking with landowners, and
+advocating the  importance of  opening up vacant  spaces, garages, and
+unutilized  areas for reactivation by the very kinds of residents often left
+without  a voice  in traditional,  top-down  government disaster relief  efforts.
+Further,  Ishinomaki  2.0 worked  to  develop sharing  schemes to
+beneﬁt different parties,  based  on  collaboration,   cooperation   and
+partnership  between  local  NGOs, landowners   and  residents. These
+
+
+
+
+                                                                                                   
+
+
+
+                                                                                                                   78
+
+7
+
+                                                                                                                                                        Fig. 2. Irori Café, Ishinomaki, Japan, September 2016.
+                                                                                                                                                        Photography: courtesy of Irori Café.
+
+
+
+
+
+
+projects have been so successful and valued that the local community         
+has committed to continuing  this  model for  solving future  community        
+problems rather than  returning to  “business as usual” (Ishinomaki  2.0
+Archives, 2012).
+                                                                                                                         
+     Ishinomaki  2.0′s most successful space conversion projects include
+the Irori  Cafe (Fig.  2) and the  Fukkou Minpaku  accommodation. The                                                                                                                                                                                                                                     
+owner of a  cafe destroyed in the tsunami.  Offering inexpensive coffee                                                                                                                         
+and tea, free Wi-Fi  access, electricity, books and  magazines, the Café                                                                                                                         
+has  become  an  important    rendezvous  space  for   the  community                                                                                                                        
+(Ishinomaki  2.0 Archives, 2012).  Similarly,  an  empty building   in the                                                                                                                        
+city  center was converted  into  a new  accommodation space, Fukkou                                                                                                                        
+Minpaku,   to   host  visitors   and   volunteers  coming   to   Ishinomaki                                                                                                                        
+(Ishinomaki 2.0  Archives, 2012).  It has simultaneously  contributed to                                                                                                                         
+the  local  economy while   addressing the  lack  of  short-term   accommodation in  North-eastern Japan.
+                                                                                                                         
+     The  Ishinomaki  2.0  project  has also  enabled  shared schemes of                                                                                                               
+business management and temporary tenancy. The Reconstruction Bar                                                                                                                         
+was built  soon after the  tsunami, providing  space to experiment  with                                                                                                                         
+temporary  management. Each weekday has  a different  management                                                                                                                         
+team and anyone in the  community can  be a temporary manager – in        
+the manner of  a Flexible  Space “activator”  (Ishinomaki  2.0  Archives,
+2012). This experiment  has established social and entrepreneurial  relationships 
+between residents and neighbors  within  the affected  comunities, promoting 
+new local  business ventures. Ishinomaki 2.0  also       
+facilitated a  space sharing between two small businesses, a traditional             
+kimono shop, Kameshichi, which survived  the tsunami, and a business       
+owner who  lost his café in  the disaster. To  this day, the  Café and Kimono Shop share the same establishment, a symbiosis, attracting young     
+people to the café and elder customers to the kimono shop. This allowed     
+the café owner to rapidly recover his business, and allowed the kimono        
+shop to sub-let part of its  establishment to attract  new customers.               
+     Similarly,  Home-for-All  (Minna  no Ie),  creates social amenities for        
+communities living in  temporary housing areas in North-Eastern Japan.      
+All  projects center  around small  buildings,  up to  60m2,  that  can be        
+quickly built  with  few  resources and are exempted from building  consents 
+(Dionisio& Pawson, 2016; Domus web, 2012). Most Home-for-All        
+buildings offer  spaces for communities to meet and reconnect, such as       
+shelters, child care spaces or recreation centers. The construction of the           
+small facilities  often  integrates  strong engagement and collaboration         
+                                                                                  
+from  the  community,  while  the  management is based on  
+shared co-operation  schemes with local stakeholders.
+
+5.2. Flexible Spaces in socio-economic shifts
+
+Like  disasters, chronic stressors such as environmental,  socio-cultural,
+and economic changes often pose unprecedented challenges that
+call for  the reutilization,   re-appropriation,  and reinterpretation   of vacant urban space. 
+Under conditions of “creative  destruction”,(Harvey, 2006) many city spaces become underutilized, obsolete, or abandoned,
+offering new opportunities  for  experimental, innovative,  and  creative
+uses. Unlike  disasters, however, conditions  of  economic  distress are
+often characterized  by  the lack  of  and/or  ineffectiveness  of existing
+systems of planning,  which  are typically   contingent  upon capital  investment and tax  based resources. 
+Lacking an effective  conventional planning regime, the  decline of the mining  sector in  Newcastle (NSW, Australia),
+and the deindustrialization  of Detroit  (Michigan, USA)
+have forced local  communities to  explore the  potential of re-purposing
+vacant space to revive  their  neighborhoods,  prioritizing   the  needs of
+communities  while   enhancing  social   empowerment  and  resilience (Dionisio&  Pawson, 2016).
+
+5.2.1. Reinventing urbanity  through  ﬂexible  appropriations:  Newcastle (NSW, Australia)
+
+The  economy of  Newcastle was  heavily  dependent on  steel production
+and  coal mining   until  the  late  1980s, when  both  industries rapidly declined. 
+Jobs  disappeared  and   residents  left   for other Australian cities,
+leaving  Newcastle with a surplus of empty  shops and offices.  Ironically,  the  economic  downturn,  combined  with   Sydney's
+proximity   and greater  attractiveness for   investment, effectively   pre-served Newcastle's
+unique architectural   and natural  features by  pre-cluding  redevelopment,  leaving the  deserted city  center
+an unintentional   monument to  the history  of  Australian city  making  (Westbury, 2015). 
+Throughout  the  2000s, the  city  center's stagnation  continued 
+due  to lack of investment, property  speculation and other  constraints,
+notwithstanding  the  demands  of  communities  and property   owners
+facing devalued assets (Westbury, 2015).
+Against this backdrop, administrator  Renew Newcastle was founded
+in  2008 to  facilitate  the  creation  of short  and medium  term  uses for
+empty properties  in  Newcastle's city   center, ‘to  generate  activity  in
+
+
+                                                                                                                   79
+
+8
+
+                                                                                                                                                                     Fig. 3. Renew Newcastle Map, Newcastle, Australia,
+                                                                                                                                                                     December 2013.
+                                                                                                                                                                   Image: courtesy of Renew Newcastle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildings   until   that    future   long   term   activity    happens’  
+Newcastle, 2016). The  organization  was initiated  by  a local  resident        
+with experience in public  events, and focused on attracting small local        
+entrepreneurial and  creative groups  and individuals   because of their        
+continuous need for space and their willingness  to undertake the  risks       
+of short term occupation. After several years spent identifying legal and       
+planning  barriers,  Renew Newcastle developed a  negotiation  framework to  
+match property owners with  activators,  providing  licences for        
+use (rolling 30 days term), that minimize opportunity  costs to owners in       
+case conventional commercial  tenants appear.  Renew Newcastle has        
+provided  new, temporary  occupants with   the  opportunity  to  experiment, 
+trial,  and establish activities  that possibly would  never occur in         
+space subject to  market  rates, facilitating   the  implementation  of  55              
+temporary uses by community  groups and cultural  enterprises, among       
+others (Fig.  3)  – including  a  flexible space theatre,  which  is widely         
+available for  productions  lasting  between one day  and 8 weeks. And        
+while  much of  Renew Newcastle's focus has been  on arts  and small        
+business development, it  has succeeded in engaging a wide  range of        
+new activators who  would  not  have otherwise become involved  with         
+planning or  development in  Newcastle. Reﬂecting the success of this       
+approach, some temporary licences have been converted to long  term        
+commercial  leases, attracting  new  businesses into  the  area.  Renew       
+Newcastle has helped make the city center  a vibrant  place with  small        
+businesses, events, and street  activities,   while   attracting  designers,       
+photographers, and artists (Westbury,  2015). As Westbury  notes, ‘our        
+cities aren't simply  grand projects and mega visions; they are the  con-       
+stellation of small acts and activities’ (Westbury, 2015, p. 13). At a time        
+when many smaller cities are struggling, projects like Renew Newcastle       
+suggest that Flexible Spaces can provide suitable solutions by enabling            
+such “small acts and activities”–short   and medium  term uses that can       
+help offset  economic decline  while  empowering  local  creative, community and  cultural groups.                                                                            
+                                                                                                                         
+
+5.2.2. Reconnecting  communities  by   repurposing  the   city:    Detroit       
+
+(Michigan, USA)                                                                                              
+
+     Because of the dominance of the ‘Big  Three’ automakers – General       
+Motors, Ford, and Chrysler – over the economy of the Detroit  area and       
+Michigan as a whole, the  deindustrialization  of the 90′s  drastically remade 
+an area that had not needed to diversify since the 1930s (Padnani,    
+2013). Approximately  3 million   jobs were lost  in the  North American         
+(Renew       automotive  industry – mostly in the greater Detroit region – after nearly
+two decades of ﬁnancial struggle and the 2009 bankruptcies of GM and
+Chrysler  (Vlasic, 2011). As a result, about 240,000  people left Detroit,
+and  approximately   100,000  homes and  lots  are  currently   deserted
+(Suburban  Stats, 2015).  This socio-economic shift  has disadvantaged
+those who  were forced to leave as well  as those who have stayed in a
+city  facing  physical and social  destruction, broken  community  bonds,
+and crushing ﬁnancial struggles (Seelye, 2011). Vacant urban lots now
+represent 20% of  all urban  properties in  Detroit.  In response, the city
+council  has been acquiring  some of  these vacant properties  and has
+slated  approximately  10,000 empty  buildings  for  demolition  (Seelye, 2011).
+As in Christchurch,  Newcastle, and North-eastern Japan, an abundance 
+of available  urban space and a need to empower existing urban
+residents have created openings and demands for inventive repurposing
+of vacant land.  Urban farming, art  spaces, and social amenities are the
+most  common re-appropriations,  claimed  and  managed by residents,
+community   groups  and  activists.  In  East Detroit,   the  Planning  and
+Development Department  is offering  to  sell residents adjacent vacant
+lots,  often for  a few  hundred dollars.  Residents of nearby vacant  lots
+often already use such spaces for gardening, play, or beautifying  their
+neighborhoods (AlHajal, 2012). While enabling new uses, these Flexible
+spaces tend to share a focus on social justice, connectedness, and livability  
+among  economically  marginalized  communities.  In  particular,
+urban  farming has become one  of the  best known  types of  re-appropriation
+of vacant land in Detroit,  enabling over 1000 small community gardens and uplifting
+local economy, through  projects  like Farmway, Earthworks, and D-Town Farm (Gallagher, 2015;  Tostes, 2012).
+
+In   Brightmoor,   Northwest  Detroit,   a   group  of  residents  called
+‘Neighbors Building  Brightmoor’  (NBB)  have focused on re-appropriation
+as the  key  to  improved  urban  livability,    crime  reduction,  and
+creation  of  neighborhood-wide   opportunities  to  work   together. The
+group works  to  enhance the  community  capacity  of local  families  –
+many  of whom  are economically  at-risk –  based on a grass roots, democratic
+decision making  model. Among  the projects  the community 
+has prioritized  is  the creation  and maintenance of small  pocket parks
+and  urban  gardens,  while   providing  opportunities   to  involve   local
+children   and  teenagers (Neighbors  Building  Brightmoor,   2016).  By
+engaging  with  landowners,  residents, and  the local  government,  the
+NBB has  enabled a  variety   of  ﬂexible  appropriations  including   an
+                                                                                                                   80
+
+9
+
+
+
+abandoned   house  transformed    into  playhouse,    urban  gardens   managed          
+by  residents,   and   market   gardens   to  assist  residents   in   generating    income  
+through   farming    produce   (Rock,   2012).   Linked   by  a natural    corridor   along  the  Rouge  River, 
+these  spaces  have  engendered   grass-roots           
+growth    of  the   local    economy   and   community      connectedness   within            
+Brightmoor,    helping    offset  the  structural    disadvantage    of  its  residents.           
+      Similarly,    Earthworks     Urban  Farm   was  developed   by   Capuchins,   a         
+local   religious    organization,     which    repurposed    1 ha   of  vacant    urban          
+land  to grow   organic   produce  (Earthworks    Urban   Farm,  2016).   Another           
+urban  agriculture     project,   D-Town   Farm   was  developed   by  the  Detroit
+Black  Community     Food  Security   Network,    an  organization     focused  on          
+food   justice   and   community      development     within    the   city's    African-
+American    communities     (D-Town    Farm,   2016).    Utilizing     3 ha  of   previously   
+vacant    urban   space  for   community     agriculture,      The  D-Town                                                                                                                                                         
+Farm   is  also   one  of   the   biggest   urban   farms    in   Detroit.    Both   these                
+projects   are  exemplars    of  consensus   building     among   communities     to          
+enable  re-appropriations     that  have  ﬂexible   management,   to  support   and                                                                                                                                                          
+empower   particularly     disfranchised    groups  through   the  production    and                                                                                                                                                
+sale  of   farming    produce.    Moreover,    they   both    promote    intergenerational  
+activities,    bringing    children,   teenagers,  adults,   and  elderly   people                
+to meet   and  work   together.                                                                                                                                                                                                                                          
+      Reﬂecting  the  power    of  ﬂexible,   community     driven,    experimental                  
+spaces to  re-establish    a sense  of  community    and  place,   connectedness,           
+and  social  cohesion,   these  projects    have  enabled   informal    self-governance 
+among  the  largely   impoverished    Eastern  neighborhoods    of  Detroit.           
+And  while   driven   by  communities'     need  to  manage  ongoing   social   and                
+economic   crises,   these   ﬂexible    uses  have   also  empowered    people    to                                                                                                                                                        
+experiment    and   intervene    in   their   neighborhoods,      prompting     appropriation   
+as  a deeper   practice   of  belonging.                                                                    
+                                                                                                                                          
+                                                                                                                                                
+6.  Conclusion:      towards    a  world    of  Flexible     Space                                                
+                                                                                                                                                
+      While    communities     will    undoubtedly     continue     to   create   ﬂexible                                                                                                                                                        
+spaces when   confronted    with   disasters,   economic   disruptions,    or  other                                                                                                                                          
+events  rending    the  urban   fabric,   we   believe   it  would    be  a mistake    to                
+only  treat  ﬂexible    space as a “worst    case scenario”   solution.   Rather,   the          
+lessons  from    successful   community     driven    ﬂexible   space   projects   in                                                                                                                                                       
+places  like   Detroit,    Christchurch,    Newcastle,    and  North-eastern     Japan          
+can be  applied   in   a variety    of  different  and  non-disrupted     contexts.   In                
+short,  we  should   begin   to  treat  Flexible   Space  as a  true  “third    way”   to                                                                                                                                                         
+plan  –  or  supplement    existing    approaches   to   planning    –  given  its   capacity   
+to   encourage   innovation,      development,     and/or    the   empowerment  
+of  those  often   excluded   from   meaningful     decision   making   under                                                                                                                                                         
+conventional    planning    approaches.                                                                                  
+      Indeed,   a  growing     number   of   communities     and   governments    are               
+beginning   to  embrace  ﬂexible  space planning    in non-disrupted     contexts.                                                                                                                                                          
+For  example,   several   cities   in  Europe   are  starting   to   capitalize   on   the         
+opportunities    provided    by  incremental    and  temporary,    community    and                 
+individual-led,     projects   for   city  making.    ‘Restaurant   Day’   was  initiated                                                                                                                                                          
+in  2011  in   Helsinki    (Finland)    promoting    pop-up   restaurants,    in  which                                                                                                                                         
+anyone   can  have   their    own   food   business   for  one   day,   in   public   or          
+community    spaces, or  even  in  people's   homes  and  offices  (#Restaurant                   
+Day,  2011).   In   only   ﬁve   years,  the   initiative     has  been  adopted   in   75                                                                                                                                                         
+countries,   with    over   1  million    participants     organising    restaurants.    Similarly,   
+Park(ing)    Day  in San  Francisco  repurposes   metered   car parking                 
+spaces,  ﬁlling    them   with   such   amenities   as  patches   of  grass,  outdoor                                                                                                                                                  
+furniture,    and  small   playgrounds    with   participants     paying   the  parking                  
+meter  (Tostes,   2012).                                                                                                          
+      Implementing     Flexible   Space  as a  third   way   of  planning,    however,                                                                                                                                                        
+raises  a number   of  essential   questions.   More   research  is  needed  to  un-          
+derstand   the   contexts    and   locations    in   which    ﬂexible    spaces   might                
+provide   the  most  bene ﬁts,   how  best  to  structure,    incentivize,    regulate,                                                                                                                                                       
+and  enable  ﬂexible  spaces,  and  what   kinds  of  elements   go  into  making           
+truly   effective    planning    interventions     through    ﬂexible    space  creation.                 
+Indeed,  the  very  nature   of  our  case studies  –  namely  successful   projects                                                                                                                                                         
+in post-disruption     contexts   – suggests  the  need  for  additional    work   that
+interrogates     the   possibilities     for    ﬂexible    space   projects   
+beyond    disrupted   and/or    dense urban   environments.
+Of  course,  one of  the  greatest  barriers   to conducting    such  research  is
+the  need  for   actual   ﬂexible   space  experiments    to  use  as  the  basis  for
+further   examination.     And  if these  experiments   are  to truly   take  hold   and
+produce   beneﬁts  for  communities    outside   areas  of disruption,     planners,
+planning    educators,   activists,   policy   makers,   and  city   managers  among
+others   will   need  to  embrace   the  very   powerful    opportunities
+and  beneﬁts  that  ﬂexible    spaces can  offer.
+
+
+                                                                                                                                   81
+
+10                                                                                                                                                     82
+

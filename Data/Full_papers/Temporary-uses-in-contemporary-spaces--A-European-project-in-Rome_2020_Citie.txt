@@ -1,0 +1,881 @@
+﻿1
+
+
+Temporary uses in contemporary spaces. A European project in Rome    
+
+
+
+
+                                                 ABSTRACT
+
+Temporary uses represent innovative and experimental solutions to give new life to disused facilities and spaces 
+while conserving their historical, identity and environmental value. By offering the opportunity to assign new
+functions and meanings to abandoned places and create economic and social development, these practices can
+play a strategic role in promoting an integrated approach as a starting point for urban regeneration processes.
+Based on these assumptions, this paper aims to investigate how temporary uses of disused urban spaces can
+interact in a practical sense with formal planning systems and urban policies. To do so, it analyses a European
+project implemented in Rome aimed at fostering temporary activities in public space and reactivating several
+disused areas by directly involving the local community. The paper proposes a few observations touching on two
+issues: firstly, whether the temporary use of disused space can be a practical opportunity to not only re-design
+urban space but also establish a new governance model. Secondly, whether such practices can effectively address
+the needs and aspirations of citizens, as a precondition for improving quality of life in the city.
+
+
+Keywords:
+Temporary uses
+Urban regeneration 
+Social innovation
+Temporariness
+In between dimension  
+
+
+1.  Introduction                                                                                                 
+                                                                                                                         
+     The  dynamics at  work  in  the  contemporary  city  spur critical   reflection  
+on urban  transformation   processes and the need to  identify         
+operational  strategies which  can be  used to  formulate  new  ways of        
+interpreting   and formalizing   urban   spaces. Over the   past decades,       
+several studies and research projects  have investigated  the  potential        
+contribution  of  temporary uses to urban  development in  Europe. The        
+temporary character of these transformations allows citizens to use the        
+spaces for creative urban living solutions, involving  them in their  city's        
+future (Lehtovuori  & Ruoppila,  2012).                                                            
+     There are  multiple  reasons why  temporary  uses practices are becoming 
+increasingly common. These include the recent economic crisis       
+and resulting  need for  recycling  and re-use strategies, concerns over        
+preserving architectural   heritage, limited   resources, insurgent  urban        
+activism,  and an  ever-growing  awareness of  the importance  of  sustainable  
+development.  Furthermore,  technological  changes  and  uncertainty 
+in the  labour market give rise to social innovation,  creativity,         
+new cultural trends and a host of flexible and transitory practices. These            
+significant changes call  for a  multidisciplinary   reflection  on planning         
+tools.                                                                                                                
+     In  Europe, the  need to  adapt  the landscape and  its structures  to        
+social, political  and economic changes and a broad sense of historical        
+continuity   have given   rise to   a  conservational  approach to   saving       
+heritage and site-specific identity.   Alongside this  trend, the  spread of        
+urban re-use practices testifies to an emerging innovative  approach in        
+which temporary uses are conceived as a holist, integrated strategy that
+enhances the creativity  and  resilience of  the spatial,  social,  environmental 
+and economic conditions of contemporary cities.  As a matter of
+fact,  temporary  urbanism represents an  alternative  method  of urban
+design  and planning  aimed at  activating  a space in  need of transformation 
+and  impacting  the  surrounding  socio-economic environment.
+Temporary  urbanism is  the temporal  designation  of urban  processes;
+the key concepts for this theoretical approach are time and temporality
+(Madanipour,  2017). Temporality  reflects the contemporary utilitarian
+notion  of time; the fragmentation  of society and, at the  same time, the
+need for  experimentation  and  innovation.  Temporary  urbanism  also
+includes temporary, informal,  and above all bottom-up practices. These
+temporary  uses are performed by the  public, private  and civil society
+actors. Temporary  urbanism emphasizes the role of  new actors in the
+shaping of  places  (Henneberry, 2017).Temporary  users  are also  the
+promoters and, at the same time, beneficiaries of such transformations,
+while  the  transformations  themselves have provided  an  impulse  for
+more synergies with local  government bodies as well.
+Conserving (natural  or  historical)   heritage is  no  longer  the only
+node of urban re-use. Temporary uses in  particular  are not  solely an
+informal activity  driven  from below  by marginal groups or  urban sub-cultures.  
+Overcoming the  idea that  such practices are necessarily occasional or 
+random has increasingly led  these uses to be considered a
+crucial  element  for processes of urban  and territorial transformation.
+The main target of such attention  is disused spaces suited to becoming
+urban laboratories for  strategically reinventing specific parts of the city,
+
+
+2
+
+their role  and the facilities  they host.                                                             
+     Over  the past few  years, the  issue of residual  spaces has aroused            
+considerable interest and promoted in-depth  theoretical  knowledge of
+the subject, leading  to an  abundance of projects  based on temporary         
+actions. Small-scale incremental  projects such as temporary  gardens,             
+playgrounds, and market places with their collective character pave the             
+way  for  social  innovation,   promoting  social  cohesion and  environmental values. 
+They support economic activities and the valorisation of         
+heritage while  compensating  for  or  counteracting  the weakness and             
+rigidity  of formal policies. The act of re-using these spaces is a chance to         
+test out  proposed projects,  verifying  their  effectiveness and,  if  users
+agree, making them permanent.                                                                           
+     Despite  several successful projects,  temporary  use cases in  Italy         
+continue to represent valid yet  rare and largely unknown  experiments.       
+Over the past few years, however, several initiatives addressed to local       
+authorities or active citizens have focused attention on public  property        
+and the  possibility  of  its  re-use while  also  promoting  public-private         
+partnerships. Recently, measures have been adopted to encourage the       
+participation  of local  communities in protecting  and valorisation  local              
+areas, fostering the recovery of existing assets. However, this issue calls     
+for further  analysis.                                                                                         
+     The strategy of temporary  use can be considered an instrument for              
+reactivating collective  spaces, a planning goal, and as such it has come      
+to play  a strategic role  in  the process of urban  regeneration. Current        
+trends reveal  that   urban  regeneration  interventions  have  gradually        
+shifted  from  being  place-oriented  to  being  people-oriented  (Marra,              
+Barosio, Eynard,  &  Marietta,   2016).  Whereas in  the  first   stage regeneration 
+favored the improvement of  spaces, facilities and economic       
+aspects, planners now focus on social support and people-oriented policies 
+which also include environmental  protection and care initiatives.         
+This is achieved  through  more integrated  actions adopting  a  participatory 
+framework. Temporary use practices seem to combine these two      
+aspects within  an  integrated  and contemporary  approach  (De Smet,             
+2013).                                                                                                              
+     Based on such reflections, this paper focuses on the theme of temporary use 
+and valorisation of disused areas, in particular public spaces,     
+in order to investigate the potential and challenges of temporary spaces.           
+This study  seeks to develop  a theoretical  interpretation   of  this  phenomenon 
+through a critical evaluation of its effects and potential future              
+implications.  To  do  so, it  analyses the  EU-funded  project  TUTUR -        
+Temporary Uses as a Tool for Urban Regeneration, which aims to develop  
+a legal instrument for promoting the temporary use of disused buildings       
+and spaces, streamlining associated bureaucratic processes and paving      
+the way for new experimental  models. What relationship is established       
+between temporary uses and urban regeneration processes?                       
+     This is the main question this paper attempts to answer by analysing      
+the chosen case study and referencing  other  European examples, the       
+potentialities  and   limitations   of  these  practices  and  their possible       
+transfer to other contexts.                                                                                
+     The findings of the TUTUR project stress the potential of temporary         
+uses as a specific type of spatial planning which  can offer  a chance to       
+establish a  dialogue  between the  various  public   and  private  stakeholders, 
+potentially   offering  effective  economic,  social and  environmental advantages 
+to the areas involved.                                                       
+                                                                                                                        
+2.  Research approach  and  methodology                                                    
+                                                                                                                              
+     The general aim of this  paper is to explore and interpret  the extent        
+to which many current practices of temporary use in Europe might play        
+a strategic role in promoting  an integrated approach as a starting point        
+for  urban  regeneration. The  specific goals  are to  verify   1.  Whether        
+temporary uses of unused city spaces can also have permanent effects       
+on the contexts  in which  they  are situated, and  2. Whether  temporal        
+and informal  uses succeed in meeting the neglected needs of the community.                                                                                                             
+     The paper is  therefore concerned with  the process rather than  the        
+results of the  analysis of the case study in Rome.
+The main questions address these issues:
+1. Whether  experimenting  with   and supporting  temporary  uses can
+make planning  more flexible  and  capable of adapting  to the  challenges 
+posed by changes currently underway while also contributing
+to the  creation of a new governance model.
+
+2. Whether  temporary  uses in public  spaces can succeed in creating
+contemporary  places, taking  full  advantage of the  potential  of in-between spaces.
+Two  main problems needed to  be addressed to test the  above hypotheses: 
+firstly, whether temporary uses of disused spaces represent an
+opportunity   to not  only re-design urban  space, but also innovate governance 
+more  generally.  Secondly, whether  such  practices can  successfully meet 
+the needs and aspirations of citizens, as a prerequisite for
+developing policies with  the  efficacy to improve  the quality  of the  environment 
+and urban life.
+How  can temporary  uses be  integrated  into  long-term  urban  regeneration 
+processes? How might we facilitate  the  reactivation  of the
+marginal, in-between  spaces that characterise contemporary cities?
+These are the main questions this  paper seeks to answer. It  is not
+clear whether authorities will  be able to further develop the potential of
+such practices in  the future. The TUTUR project in  Rome did not have
+an  influence in terms of  long-term change.
+To  these ends, a qualitative  research project  was carried  out: the  
+analysis of  existing  literature  and  data was  complemented by  direct
+observation of the locations and participation in  the meetings organised
+as part of the  project in  Rome. During  the research it was possible to
+exchange opinions,  information  and knowledge  with  people who  are
+involved  in the project. These also provided some useful elements to in-depth 
+analyse the ongoing process.
+The paper offers some theoretical insights on the issue of temporary
+uses and intermediate  spaces while  also attempting  to verify   the hypotheses 
+suggested by the theory on the  basis of the outcomes of the
+case study.
+The findings  were subjected to factual  and interpretative  practices
+through which  reality  acquired visibility   (Denzin & Lincoln,  2000: 3).
+Secondary data was collected  from a  variety  of sources: literature
+reviews,  documents, materials taken  from  dialogues with  social, economic and 
+institutional actors involved in  the project, websites, books,
+internal   records,  interviews,   institutional   and  administrative   documents, 
+EU project  reports, previous  studies in  the field  of  temporary
+uses, reviews of relevant literature,  and websites, as well as documents
+on  European  examples, decrees and  norms  (Urban   Catalyst, 2003;
+Urban   Pioneers,  2007;  Temporiuso,   2009;  Oswalt,   Overmeyer,  &
+Misselwitz,  2013;  Tutur Final  Report 2015, Refill  Urbact-Reuse of vacant 
+spaces as  driving force  for   innovation   on  local   level,  2016;
+Raumlabor, 2018; Decreto ‘Sblocca Italia’ (‘Unlock Italy’ Decree), 2014)
+to name just  a few,  with  elements being  added to  compare different
+practices on urban re-use. In the first phase, analysis focused on several
+interpretations  proposed by the literature on the issue of temporary use.
+Subsequently, further   attention  was paid  to  the  concepts of temporariness, 
+informality   and social innovation,  understood  respectively as
+opportunities, triggers  for  action, and outcomes of  the spread of such
+practices.
+The study  of  different  cases in Europe seems to confirm   that the
+“time”   factor influences the  methods, process and outcomes of the interventions 
+under way. Indeed,  the “temporariness”  of such actions is
+an important  strategic  variable (Galdini,  2015;  Inti,  2010). This  variable 
+is in turn situated  in the so-called in-between dimension, a transitory 
+phase between the old  and new intended  use or between a  temporary
+and permanent solution.  This  temporal and  spatial dimension
+seems to better adapt  to the  fragmented nature  of  the contemporary
+city.  In light  of this insight,  the research analysed intermediate spaces,
+potential  venues for multiple activities. The second part of the paper
+
+                                                                                                                  2
+
+3
+                                                                                                                                                                                        
+
+was concerned with the analysis of the case study, an observation of the     
+ways the EU TUTUR project was implemented  in  Rome and a critical         
+evaluation  of its  outcomes. The  discussion was based on  social  and       
+spatial elements, the legal aspects affecting this case of re-use, relations     
+between citizens  and institutions,   social and  economic impact,  difficulties 
+and future prospects. The goal was to focus on methods that may     
+facilitate the  implementation  of temporary uses, encouraging dialogue        
+between the various social stakeholders and institutions  and  fostering        
+public  debate  on  the  issue of  planning  and  design.  The  final  part        
+highlighted  the critical  aspects brought to the  fore by  this case study.       
+The summary of the  results and related  discussion outlined pathways        
+for future  inquiry.                                                                                             
+                                                                                                                         
+3.  Perspectives on  temporary   uses                                                             
+                                                                                                                         
+     Over  the  past  decade,  temporary  uses have  been  spreading in         
+Europe  to   an  unprecedented  degree.  Active   citizenship   practices        
+claiming the right to  use and manage communal assets (Arena & Iaione,    
+2015; Harvey, 2012)  have been emerging, driven by economic factors        
+as well  as the  growing   attention  paid  to  urban  spaces and the  environment 
+in  general. Scholars in  various fields  have focused on  the        
+issue of temporary use, analysing  the spatial  opportunities  and social        
+implications  of  temporary  uses in  urban  areas. The results  of  these       
+studies encompass different  political   perspectives and  backgrounds,        
+connected to the contexts in which  temporary practices develop or the              
+opinions of  those observing them.  However, it  is  possible to  identify        
+two  main trends:  (1)  a growing   awareness of the  complexity  of  the        
+problem and  its multiple   implications  and (2)  a political   spin on  the        
+debate given the  current  historical  moment  characterized by  the acceleration 
+of gentrification  processes and austerity policies.                         
+     The first suggestion of the complexity of temporary uses can be seen      
+in the  fact that  such practices are defined  in multiple   different  ways.       
+Lehtovuori and  Ruoppila (2012)  define  temporary uses as “those uses      
+that carry  a development-orientation, i.e. carry the capacity and aim to        
+explore further potentials of the places they are located in. Hence, they form 
+a category between momentary events and permanent (re)development.”    
+     This definition  supports the goal of  this research project, that is, to         
+acknowledge that  temporary  uses have the  potential  to  give  rise  to        
+permanent actions as well. The uncertainty but also possibility of  these       
+practices is highlighted in the definition  by Honeck (2015) “which labels       
+a spatial use carried out for a limited time on a vacant land with no foreseeable 
+development demands” […] “Temporary use may develop to a        
+‘longer-term use of a higher urban quality’” (BMVBS, BBR, 2008: 107).        
+     Whether or not a space manages to change from a waiting space into     
+a potentiality  place is closely related  to the  action of  the various subjects 
+involved  in organizing  and managing the  project, as well  as the        
+various operational levels. It is also connected to the type of space, their      
+morphology  and  potential  use  value.  These aspects complicate  the        
+launch of structured  and well-accepted processes.                                        
+     Some scholars have granted special relevance to temporariness as a     
+value or,  vice versa, a limitation   of  these practices. The definition  of        
+temporary uses as secondary uses clarifies  these two  different  interpretations.                                                                                                        
+     Supporters of the former  theory, such as Haydn and Temel (2006),        
+claim that “temporary uses are those that are planned to be non-permanent 
+from the outset. We understand the idea of temporariness to be determined 
+not by the duration  of use: temporary uses are those that seek to derive      
+unique qualities from the idea  of temporariness”. Bishop and Williams               
+(2012) share this idea, emphasising that the characteristics and value of      
+temporary use are generated precisely by the  fact that  the actors promoting such use, 
+users, developers, and planners, intentionally   frame        
+the use as transient.                                                                                        
+     Another  relevant aspect which  is not  easy to implement  is the  relationship between 
+temporary  uses and master plans: these small-scale changes are conceived as the 
+first step in carrying out lasting changes.       
+Thus, these practices are most effective when used in conjunction with        
+long term  planning efforts (Lydon &  Garcia, 2015: 2). Some benefits of
+temporary   uses  include   highlighting     creativity,    encouraging  entrepreneurship, 
+providing   incentives to  property  owners  to  maintain
+their  properties, and supporting  environmentally  sustainable development (Blumner, 2006:8). 
+Regarding the latter hypothesis, a few authors
+argue that these practices are temporary, marginal and alternative  (De
+Silvey & Edensor, 2012; Hou, 2010),  without  any chance of becoming
+primary  (Nemeth  &  Lanhorst,  2014).  The  concept of  temporariness
+requires  critical  evaluation: on one hand,  it favours  informal,  flexible,
+transitory   and sometimes even illegal  practices involving   the various
+stakeholders  and promoting   local  participation,   providing   rapid  responses to residents' demands. 
+On  the  other  hand, it   highlights  the
+difficulties  in  implementing   such practices if  there  is  a lack  of  continuity in funding, 
+cooperation,  interaction  with  stakeholders and  institutions. 
+The case study analysed here falls  under this  critical  category.  
+What seems to be  the driving   force of  temporary  uses is often
+informality  as a response to the unmet needs of the community. Actions
+based on  informality   and temporariness are a  way of  testing out  the
+functionality,   relative  innovativeness of and consensus enjoyed by the
+practices in question before the supply  of innovative  services becomes
+established. Such projects offer a way of evaluating  the effects of such
+services and their repercussions on structural aspects as well as cultural
+and social capital, thus promoting personal re-use if the project is found
+to work  well  (Berruti &  Palestino, 2014).
+The second main trend in the critical  evaluation of  temporary uses,
+which  is inevitably connected to the first, is the gradual politicisation  of
+discourse. As the case study below highlights, procedural complexities
+and lack of flexibility   in  regularity  norms often prevent practices from
+continuing   over  time.  The  perceived  value  of   temporary  uses lies
+mainly   in their  ability   to  promote urban  regeneration processes. The
+results  are  not   guaranteed,  due  to   the  risks   associated with   institutionalisation  itself. 
+Concerning the politicisation  of  the debate, the
+analysis by Honeck (2015)  dwells  on changing conditions and  administrative structures in spatial, 
+economic and legal terms in  reference to
+temporary uses. These trends can be summarised as “from  informally
+tolerated to a formally  sanctioned activity.” Temporary uses are often regarded as “motors  of  gentrification”
+and  “fields  of   self-exploitation.”
+Whereas in the  1990s the innovative  use of empty  areas in cities  undergoing crisis 
+such as Berlin and Leipzig was unanimously celebrated,
+today such initiatives  meet with  scepticism. This attitude is  partly due
+to  the increase in   public  protests against  the recapitalisation   of the
+areas used in  an informal  way  or  the  socially exclusive  character of
+many  temporary uses that address the middle  class or, more recently,
+the creative class, thus excluding the poorest members of society. Many
+authors initially   took  a positive stance towards urban  development in
+investigating  their  object  of study  (Ferguson, 2014;  Lydon &  Garcia,
+2015;  Oswalt  et  al.,  2013),  and  this  celebratory  position  has been
+analysed by  several critical   papers over  the past  few years  (Ferreri,
+2015;  LaFrombois, 2015;  Spataro,  2016).  Today,  the  gentrification
+processes associated with re-use practices are  one of  the most  widespread  side effects  
+linked  to  urban  regeneration initiatives.   Authors
+such as Colomb  (2012),  Tonkiss (2013)  or Spataro  (2016)  have emphasised the 
+problematic role temporary  re-use plays in the context of
+neoliberal  urban  policies,  with  intermediate   uses being exploited  as
+drivers  for growth   or as pioneering  gentrification   instruments.  Local
+politicians  and real estate investors have often  used this aspect to increase 
+economic profitability  (Colomb, 2012; Overmeyer, 2007).
+Some other critical   insights  focus on  political  instability   and  administrative 
+discontinuity,  together  with   the conflict   that  may  arise
+between owners and tenants, or  between the institutions  and community,  
+thus  preventing  the  practices from   continuing  and  being  fully
+implemented  and, in  so doing, unravelling  the  benefits they had  produced  thus far.  
+On  the contrary,   several examples of temporary  use
+manage to achieve consensus by permanently integrating into the areas
+in   which  they  are situated  (Oswalt  et  al.,  2013),  highlighting   their
+potential  ability  to  meet the  new demand for  a social city.  An  aspect
+                                                                                                                    3
+
+4
+
+
+which is problematic  but rarely  studied in  the literature  on temporary              
+uses concerns the location of temporary spaces. As they are place-based,  
+what areas are potentially more suitable for temporary uses? According       
+to Lehtovuori and Ruoppila (2012), almost any urban location can have       
+the potential for  some kind of temporary  use. Adopting the distinction         
+made by  Urban Pioneers (2007),  they  refer  to  central  and marginal
+spaces leading to two  different  kinds of  temporary use. In  central lo-         
+cations, the  question is  how  to  intensify  use even  further  while   re-
+specting practical  and legal  limitations.   These aspects make new in-              
+vestment difficult.   In  marginal  areas, the question  is instead how  to        
+invite  the first  users to an unknown  or vacant  area. To create a com-        
+prehensive analytic framework of  temporary uses, the authors propose       
+to take  into  account  a third   spatial  condition,  namely  “areas losing        
+significance”. A great amount  of recent literature  face the issue of un-              
+used or under-used areas object of the next paragraph.                                
+                                                                                                                         
+4.  The in-between  dimension   of  temporary   spaces                                  
+                                                                                                                         
+     The challenging  role assigned to temporary  uses re-focuses our at-       
+tention on  the issue of temporary  space. Temporary uses can be con-        
+sidered a valuable tool in developing challenging locations, giving  new        
+function and meaning to obsolete spaces/buildings. Considered inactive      
+spaces without any identity or functional ties to the city, in  reality these        
+are also spaces offering opportunities  and  resources for urban  devel-        
+opment. Starting  from the  late 1980s, in-between  areas have become       
+the subject of  several studies and subsequent categorisations. Trancik       
+(1986)  defined urban  voids  as lost spaces, critical  spaces, unable to        
+contribute positively  to  their surroundings;  Cameron (2003) re-valued              
+them by using the term vacant land, and identifying  them as a “natural        
+dynamic component of every city that is constantly evolving.”  Residual        
+spaces often appear as terrain vagues, islands within the city deprived of     
+any effective  integration  and lying   outside urban  dynamics (De  Solà       
+Morales, 1996).                                                                                                
+     Richardson (2015)   reversed this  interpretation   to  frame residual        
+spaces as one of  the  outcomes  of  globalisation  processes and con-        
+sequences of post-Fordism. Voids have the potential to become full  of
+meaning, functions, opportunities,  and  identity.  Over the  past twenty              
+years, several analyses have been carried out and a series of definitions           
+have been created  to  define the  abandonment,  decay and often  de-             
+gradation and neglect that characterise certain spaces of contemporary            
+cities, including  but  not  limited  to  liminal space, in-between space, ne-          
+glected space and intermediate spaces (Banerjee (2001), Clement (2005),        
+De Girolamo, 2013).                                                                                             
+     They appear to be waiting spaces in a transitional phase between old           
+and new intended uses. They can be public or private  spaces and they            
+are areas that present both risks and potential,  sites of degradation or              
+fertile  grounds for innovation.  In  the contemporary  city,  these spaces            
+often become places through  practices  of  use, and develop  informal              
+economies and self-organised services, thereby catalysing new forms of
+cities (Oswalt,  2006).  As fragments of  the  city,  they act  as nodes of              
+change and can offer  solutions  where  traditional  planning  strategies        
+have failed (De Smet, 2013).                                                                           
+     Through  re-use practices, intermediate spaces play a strategic role        
+in the architectural,  social, and  environmental field.  They promote  an             
+integrated approach as a starting point for urban regeneration processes     
+(Galdini, 2017).  From an  architectural  perspective, abandoned spaces            
+that undergo  some sort of  ‘reinterpretation’  and reassessment change      
+their use and function, maintaining  their  original  image or changing it         
+to better connect  to the contemporary  world.  In this  case, the project        
+also involves an effort  of mediation  and connection between past and        
+future.                                                                                                              
+     In relation  to temporary use in general and the specific case study in      
+particular, this  paper aims to show that  disused spaces provide an op-             
+portunity  in  terms of  environmental  sustainability  (Lombardi,  2008),        
+making it  possible to regain possession of the “territory   as a common        
+good” (Magnaghi, 2012)  and build or  change a living environment.             
+In  the  (open)  public  spaces of  the contemporary  city,   collective
+subjects are engaging in informal  and temporary practices with  special
+attention  to social  aspects, sharing and cooperation. This  new ‘active
+citizenship’   pursues the goal  of  reinventing  a city,  re-building   it  ac-
+cording  to the citizenry's needs and aspirations (Harvey, 2012).
+
+5.  The European  TUTUR pilot   project
+
+Some of the above-mentioned  theoretical insights  on the  issues of
+temporary  uses and  intermediate  spaces can help to  analyse and in-
+terpret the European pilot project TUTUR(Temporary Uses as a Tool for
+Urban  Regeneration),  which   is  part  of  a  wider   programme  called
+URBACT.
+The TUTUR project  also involved  the Municipalities   of Bremen in
+Germany,  Alba  Iulia  in  Romania and  Rome in  Italy,   and its  overall
+purpose was to  introduce  the method  of  temporary use in  urban  re-
+generation to the  cities participating   in the  network. The  main objec-
+tives were sustainability  and  inclusiveness: the project  promotes eco-
+nomic and  environmental development  by reusing urban  voids in  the
+city  with  the involvement  of  public administrations,  local  inhabitants
+and stakeholders. As the Tutur  report highlights,  one of the  program's
+main objectives was to transfer the practice and methodology coined by
+the temporary  use agency of Bremen, Zwischen Zeit Zentrale (ZZZ), to
+other European cities. In this  program, the municipality   of Bremen es-
+tablished a  collaboration with  an  NGO to work  at different  scales and
+with   different users on 50  properties in  its territory.   The German city
+played  the role of  an “experience provider”  (Elisei, 2014).
+This policy   cross-cuts other  planning  instruments  and  has three
+main  objectives: 1. networking  people;  2. Focusing on unused/under-
+used places to foster socio-economic, cultural initiatives;  3. connecting
+input coming from the bottom  up with top-down  requirements. The key
+words of  Bremen's ZZZ methods are the same ones considered central
+for the analysis of the case study in Rome, key principles that could  be
+transferred  to other  projects. This  agency's objectives can be listed as
+follows:
+Cultural:  support of  cultural  and creative projects.
+Economical:  reducing operating  costs for vacant properties.
+Spatial:  activation  of vacancies, especially in urban redevelopment areas
+Social: fostering  citizen participation.
+Organisational:     supporting   coordination    and   decision-making
+processes between  the  various  departments of  the  German  City
+Federal Institute for Research on Building, Urban Affairs and Spatial
+Development  (BBSR) implementing these new approaches in man-
+agement routines.
+Cooperative:   Testing new  forms  of  coordinated  cooperation  be-
+tween the private  sector and public actors.
+The ZZZ was a local  project,  but as a  pilot  project  of the  Federal
+Institute  for  Research on Building,  (2009–2012)  it  also tested a  new
+approach for  urban  and  social development  for  other  cities  as well
+(Elisei, 2014).
+The ZZZ  agency played multiple   innovative  roles in  terms  of ap-
+proach and content.
+The approach of ZZZ was project-orientated and experimental, and
+it  did  not receive any  EU-funding. Its aim  was “to  ‘wake up’ sleeping,
+vacant buildings  and areas, both public  and private  owned, by  estab-
+lishing  temporary uses there and thus upgrading the real estate and its
+surrounding  districts.”   ZZZ has  activated many  buildings  on  a  tem-
+porary   basis and  supports the  City   Administration   in  its  long-term
+urban planning  plans.
+The Bremen examples testify to the extent to which temporary  uses
+can contribute  to  both  economic development and  social cohesion in
+the neighbourhoods  involved  in  the project.  (Mages, 2017).  The pri-
+mary  investment of TUTUR was thus made in the periphery of Bremen,
+
+
+
+
+                                                                                                                    4
+
+
+5
+
+
+an approach that  suggested a concrete medium and long-term  vision.             
+The project provides,  for example, affordable  spaces for start-ups and             
+job opportunities  for young  people and migrants. Regarding methods,             
+the Local Support  Group composed of  representatives of social,  political, 
+cultural  and  economic institutions  played a leading  role and  information 
+was used to promote the project and develop public relations.            
+Bremen practices and methodology have represented the starting point        
+for implementing  temporary use policies and projects in Alba Iulia  and             
+Rome, above all following a good governance and partnership-oriented             
+approach.                                                                                                              
+
+6.  The TUTUR project  in  Rome                                                                          
+                                                                                                                         
+     The choice of this  case study reflects the research aim of exploring        
+the potential and limitations of temporary uses through a project which,        
+although guided and promoted by local administrations, is based on the       
+active involvement   of  local  residents. Implemented  in  collaboration         
+with   the  Urban   Transformation  Department,   Urban  Planning   and             
+Implementation  Office  and Municipio   III  of  Rome, TUTUR aimed to         
+develop a  regulatory  instrument  to  allow  for  and  promote  the temporary 
+use of disused buildings, paving  the way for  new experimentational models.
+                                                                                                   
+     The selected area, located north-east of Rome, is highly  populated              
+(approximately   250,000   inhabitants)   and   characterized  by   social        
+housing facilities and  an uneven infrastructure system. The project  involved citizens,  
+institutions   and  associations already present  in  this area.
+     The administration's  main objective  was to formulate  new policies              
+and planning tools aiming at enabling the temporary use of urban voids,      
+integrating these uses within a more comprehensive urban regeneration      
+process. After a massive growth  trend leading  to  sprawl, the  city  administration's goal  
+was to avoid expansion and safeguard green-fields.        
+To this end, temporality   was considered the key strategy for  reaching        
+this goal.                                                                                                                
+     Rome's city  plan  does not  include  any  specific strategy  for  temporary use; 
+temporary  uses are part of the  informal  realm and  policy        
+does not support the short timeframes of these kinds of activities. Often,      
+the city  administration  has tolerated  and eventually  formalized  these       
+uses through specific agreements. Since the 1990s, new initiatives have      
+been launched in peripheral areas of Bremen involving local projects for      
+economic and social  development. However, temporary  uses are still         
+regarded as an exception rather  than an integral  part  of planning,  an        
+issue that the TUTUR project sought to address directly. It  also looked        
+for ways  and instruments to  deal with   both public  and  private  properties. 
+Rome's participation in  TUTUR was aimed at activating unused              
+and under-used physical  capital  as leverage  for  the  creation of  employment, 
+economic  and social  development opportunities.  The  final        
+goal of the project  was to foster urban regeneration processes in these       
+peripheral areas of the city. TUTUR was launched in 2014 and, over its       
+16months  of  activity,  it  dealt  with  three  issues in different  areas of        
+Municipio  III:                                                                                                   
+                                                                                                                         
+1.  Temporary uses or  in-between uses, while waiting for  major transformation  
+     projects and as a way  to take action  before degradation        
+     worsens. The project also aimed to turn the Viadotto dei  Presidenti,       
+     one of  the  areas involved in  the  project  into  a bicycle  path.  The        
+     Viadotto  dei Presidenti, extends along a  path defined by  the 1962        
+     urban development plan that was intended to have served as the hub     
+     for  a high-capacity  road  system. This  viaduct  (today  a  forgotten              
+     space) is an infrastructure located in the North- Eastern periphery of       
+     Rome. Construction work on it  was abandoned more than ten years       
+     ago and has never been completed. The idea was to  revitalize  and       
+     transform  these unused spaces into a cycling  and pedestrian  path        
+     and reimagining the neglected spaces under the viaduct, revitalizing       
+     them with  leisure and cultural  activities. 
+                                                        
+2.  Temporary uses to create a micro-fabric of neighbourhoods services:      
+in the  case of Montesacro, there are many abandoned or under-used
+areas which could provide  social and cultural as well  as productive
+services to  the neighbourhood.  The theatre in  the school is  an example of 
+functionality  reassignment of a cultural container. The idea
+was to build a network of local services in the abandoned facilities of
+the Montesacro area with  the involvement  of the local  community.
+
+3.  Temporary uses for  green area  maintenance. The Viale  Adriatico
+market  had the goal  of stimulating  social interaction   in the  urban
+network, focusing on the quality of the environment  and services for citizens.
+The Agency in  Rome is composed of  the city  administration   (the
+Planning Department)  and  a local  support  group (local  stakeholders
+from the  public and private sectors as well as civil society and informal
+associations) that  will  match  the available  sites with  potential  users,
+several associations working in the  area, and the G124, a group of  six
+architects under the leadership of  the famous architect Renzo Piano.
+The activities  planned for  improving  stakeholders' participation on
+the issue of temporary use included:
+
+1. Creating a local  support group;
+2.  Organizing workshops and  visits with   private  associations to map the unused spaces;
+3.  Grouping participants  (100 people) according to  their  interests;
+4. Organizing meeting,  debates, urban walks, and talks with  experts
+5. Selecting the areas on the basis of local needs (Elisei, 2014).
+
+The selected areas are located in the middle-class neighbourhood of
+Montesacro and  they are  all unused spaces, but their  local  socio-economic 
+context  is very different.
+In  the  area  of  the  Viadotto  dei  Presidenti  the  aim  was  the  re-activation 
+of the forgotten spaces to test the potential of temporary uses
+in the regeneration  of the neighbourhood.
+
+The project's value lies in its symbolic  power to transform this  area
+through a participatory  process. The idea of temporary use attracted the
+interest  of not  only residents but  also institutions  and various interest
+groups. Over the span of the  project, the space hosted several cultural
+activities   such as  concerts,  theatre  performances, children's  games,
+debates and a photography exhibition.  Through  temporary use of this
+area, the  space underneath the viaduct  was reactivated by  creating a
+connection   between  the   neighbourhoods  separated  by   the   infrastructure,  
+i.e. putting  in  a children's  playground  and positioning  two
+cargo containers, one hosting a bicycle workshop and the other a small
+meeting room for  local associations.
+Another  planned   action   involves  re-using   the   Viale  Adriatico
+Market,  a plan developed in collaboration  with  a few associations and
+universities  from  the  territory.  The  Market,  which  dates back to  the
+mid-20th  century,  had been showing  signs of  obsolescence. The programme 
+of  activities intended  to revitalize  it included  maintaining  the
+booths  and green areas, painting the surfaces and restoring street furniture,  
+all  of  which  were carried  out  together with   the various  local
+associations.
+The third  and final intervention  developed by TUTUR took place at
+the  Don Bosco school. In the  basement, a disused theatre and dining
+hall  were regenerated for use in cultural activities addressed not only to
+students but to  all the  citizens of Municipio   III.  This project provided
+local  associations with  an  opportunity  to  take part  by  managing the
+activities  addressed to residents outside of school hours.
+One of  the first  outcomes of  this  project was  a map of  the  voids
+existing  in the  selected territory,  created by means of the  City-Hound
+social network. City_Hound on line platform  created by T-Spoon Studio
+(Environment  Architecture)  helped to identify  70 abandoned spaces in
+Rome's third district  and, at the same time, to map the answer of these
+forgotten  spaces (Henneberry, 2017: 239).
+A census of unused spaces was then carried out along with a survey
+of local needs. Problematic areas were identified  as well as the spaces
+
+                                                                                                                    5
+
+6
+
+
+most suitable for temporary use experimentation. A brief  handbook for        
+citizens and local  administration  bodies was drawn  up  to outline  the        
+procedural rules  for re-use proposals. These different  temporary  uses       
+actions revitalised the  areas in question, creating a common  language       
+with  the public  space around them.  The project triggered  civic  collaboration 
+around  temporary   use  with    foreign   scientists  from   the        
+University of Arkansas and the Eutropian association cooperating in an        
+attempt to  define shared objectives  for  a diverse model  of urban  development.                                                                                                       
+                                                                                                                         
+7.  Results and  discussion                                                                              
+                                                                                                                         
+     The  TUTUR project   in  Rome provides  a  great  deal  of  food  for        
+thought in terms of  critically  evaluating temporary  uses, specifically in        
+relation to the local dimension of  the project as well as the Italian legal              
+framework and international  dimension. The analysis of this case study       
+does seem to confirm the hypotheses outlined above, at least in part.           
+     The Rome-based project demonstrates that  public  administrations        
+can support and incentivise local bottom-up initiatives in the attempt to         
+integrate them into the planning  process. It also highlights that, here as       
+in Bremen, the  local support  group plays a  central role  in  organizing              
+participatory  activities.  Indeed, the TUTUR report defines this  process       
+as a win-win  procedure that promotes  inclusiveness among the actors       
+involved and fosters trust  in the institutions.                                                   
+     The TUTUR methodology  puts the community  at the  centre of the        
+planning phase and decision-making  process. However, this aspect of        
+city  governance  is   still   quite   new  in   relation   to   such  practices.       
+Municipalities  have yet  to  develop structures and  frameworks  which        
+can enable them to most effectively  take advantage of the potential  of        
+temporary use. In several cases, such initiatives are still led by citizens              
+and creative  entrepreneurs. This aspect calls  for  a renovation  of  the        
+culture governing urban changes, a culture which currently still justifies        
+the imposition  of permanent and formal  uses.                                               
+     Regarding practical  outcomes,  the TUTUR project  provided  solutions 
+to  the  residents' needs for rapid  measures. It  also raised a  few        
+questions.                                                                                                        
+     Can a viaduct, an abandoned market, and a school turn into devices       
+with the  capacity to regenerate an entire neighbourhood?                            
+     The  obvious answer  is that  these temporary  actions  can be  considered 
+catalysts for a  broader project,  a chance to offer  and test out         
+possible options.  Although  the  area under  the viaduct  had  been inaccessible for years, 
+at the end of the project it was an open space where   
+people of every  age and kind  can meet to  take part  in  numerous activities,  
+ranging  from  children's  games, recycling  and  re-use laboratories, 
+exhibitions and  concerts.                                                                     
+     As Mages (2017) has pointed out, “experimenting with temporary uses         
+within the framework of TUTUR allowed the city to open up its properties to 
+new uses while involving inhabitants.”                                                             
+     The interest of this  project would  appear to lie more in  its methods       
+than in its actual results. The main outcomes were 1. The activation of a      
+shared trajectory  towards  the re-arrangement  of  these areas; 2. The        
+organisation of participatory  activities: the different  stakeholders in the       
+project engaged in  workshops, focus groups, and  “urban  walks”. The        
+project entailed  the  broad involvement  of  local  groups, suggesting a        
+reflection on the role played by an active citizenry as well as the various      
+organisations and groups in the area and their ability  to  take an active             
+role and use such spaces as a field of experimentation for different types     
+of spatiality.                                                                                                      
+     Antonio  T., one of the social actors involved in the project,  stressed       
+that the TUTUR activities  have revealed “the existence, to his great surprise, 
+of a wide group of people living in the neighborhood who are interested 
+in cooperating and are willing to put their energies into the construction of 
+space for the community.”                                                                                 
+     Over the past few years, the number  of stakeholders has increased.      
+We can observe that residents are asking for greater involvement in city      
+governance to take part in the development of their city. This point calls       
+into  question  the way  cities  are currently   being governed. The  temporary 
+use of vacant  places can represent the first  step to facilitate   a
+shift   in    governance,   granting   increasing   room    to   city-making.
+Regarding the results of the TUTUR project, the point worth stressing is
+the potential  of  temporary uses, that is,  the fact that  they  represent a
+specific type of spatial planning. This type of planning  effectively offers
+a chance to establish a dialogue between the various public and private
+stakeholders, potentially   offering  decisive  economic,  social  and environmental 
+advantages to the areas involved.  Roman City Councillor
+Caudo, the Planning Commissioner of Rome, stated in an interview that
+TUTUR was an attempt to “give remaining fragments back to the city, with
+the active involvement of  the residents. In Europe, re-use practices are
+changing urban contexts and their spaces creating relations, social practices
+and employment.”
+The analysis of the case study reveals strong as well as weak points.
+The outcomes of the  TUTUR project support the  potential  connection
+with  the temporariness of practices and their ability  to provide prompt
+solutions to the specific needs expressed by the community, although in
+this specific case these solutions have been limited  to  the duration  of
+the project. Patti  (Patti and Polyak,  2015)
+one of  the project  coordinators,  explained  that  in  her  vision  the
+concept of temporary does not necessarily imply  short term. Rather, it
+refers “to the transitional and experimental character of such practices. The
+particular value of these practices lies in the fact that they represent a chance
+to activate uses in the in-between period, seizing the opportunities created by
+non-use”. An evaluation of  the project, however,  reveals that although
+temporariness has  favored  these transitory   practices,  involving   the
+various  stakeholders  and promoting   local  participation,   it   has also
+highlighted  the difficulties  entailed  in implementing  such practices.
+These users seldom have the  financial  means and opportunity   to
+realize their  projects in conventional  ways. The uncertain condition  of
+the  waiting   space often compels  these users to  become “temporary
+users”, frequently forced to  “move”  when the site they  are using is re-integrated in 
+the prevailing spatial cycle. TUTUR in Rome highlighted a
+series of weaknesses tied to the specific context as well as more general
+information  that  speaks to temporary re-use and its implementation in
+other  European countries as well.  If,  as several such examples show,
+temporary  uses can trigger  medium- and long-term  processes and become urban 
+catalysts (Oswalt et al.,  2013), in  this respect the TUTUR
+case has fallen short of expectations.
+In  this case, the temporary project has not given rise to a long-term
+path. Once the initiative   was over, the area was abandoned once again
+and came  to  serve as  a shelter  for  the  homeless. The  bureaucratic
+processes also remained unchanged because new political leaders took over.
+This conclusion leads us to some considerations, which refer also to
+the document  summarising the TUTUR project. On one hand, it  is imperative 
+that  continuity  be ensured in  the dialogue between local  administrations 
+and local  actors regardless of political   membership. On
+the other  hand, there  is an urgent  need to provide  a uniform  and coherent 
+set of regulations for temporary  uses. It is clear that  these temporary 
+projects in Rome must be inserted within  a wider,  general plan
+that   can  guarantee  continuity   in   supporting   initiatives, allocating
+funding and implementing  actions or, conversely, in changing direction
+when  temporary outcomes do not meet the  recipients' expectations.
+This paper shows how knowledge and interaction  contribute  to the
+transfer of  knowledge in  international  cooperation projects. However,
+the goal of transferring  the Bremen model to Rome faced a number of
+obstacles. Namely, the rigidity of processes, unsustainable rent levels in
+these unused areas (indeed, they remain  empty to  this  day), and  the
+absence of a legal framework thanks to which it would be possible to
+a cooperate with  external partners. In  the case of Bremen, for  example,
+the  positive  outcomes of  the  Urbact  programme  are mainly due to
+flexible   rules  in  dealing  with   temporary  initiatives.   Such flexibility
+implies  less transparency, however, and Italian bureaucracy in contrast
+is not  tolerant of  lower levels of transparency.
+
+
+
+                                                                                                                    6
+
+7
+
+
+     As Patti  highlighted,  “Although  spontaneous civic uses took place in     
+public-owned spaces in Rome, we did not have any regulatory frameworks  
+for such actions. Rome is more rigidly regulated than Bremen in terms of     
+public procurement, security and zoning. Rome and Bremen are very dif-     
+ferent in term  of political  framework what is  possible to learn from the        
+German experience is the central role that collaboration with regional and    
+national stakeholder have played”.                                                                       
+     Despite multiple success stories, this specific case study confirms the     
+limitations of practices when they come face to face with administrative        
+and financial  discontinuity,  lack of  regulations or  norms that lack  the              
+flexibility  to  adapt to ongoing changes.                                                         
+     Furthermore,  the analysis of  several cases in Europe reveals other       
+points of weaknesses, mainly connected with the contextual conditions
+in which re-use agencies and institutional stakeholders find themselves        
+working.  In general, a lack  of economic  resources often leads partici-             
+pants to create instruments to ensure the financial sustainability  of the         
+projects. Italy  displays  a certain  delay  in  adopting new  policies  and             
+cultural trends  on any level, and  this is particularly   true of regulatory              
+frameworks. The issues of public assets and the re-use of disused assets    
+have only  recently  been included  on  the  agenda of  the  various ad-              
+ministrations.  In many  cases, temporary uses in Italy  are still  seen as            
+experimental forms  not  yet  officially  included  in  urban  planning.  In              
+particular, the case of Rome also shows that the city plan lacks specific
+regulations governing  the  occupation of  temporary  sites in  which  to              
+launch re-use  initiatives  at  zero  cost, for   example. With  regards  to        
+Rome, some measures have been adopted to improve this situation. One    
+such measure is Resolution 219 of  2014, which  approved the  criteria        
+and methods  for  freely  loaning  or  leasing properties  owned  by  the              
+municipality  to  be  used for projects  offering  cultural,  social  and en-        
+trepreneurial activities. This resolution provides for the implementation         
+of re-use practices to being about a dynamic transformation of existing
+assets through the direct involvement  of citizens and  the practical ap-        
+plication of subsidiarity  principles. This resolution  represented the first
+important  phase for  the concession of municipally-owned   properties.              
+Through public  tenders, they  can be entrusted  to  associations, social       
+cooperatives, and foundations with social missions, but also public and/       
+or private  enterprises. In line  with  the provisions of  article  24 of Law
+164/2014,  the so-called “Unlock Italy”  (Sblocca Italia)  decree, citizens       
+are given a broader role in shared management, including the re-use or
+regeneration of real estate and unused areas. Through this  resolution,        
+the Municipality   of Rome adopted an  integrated approach capable of              
+fostering cultural growth, economic development and social cohesion in       
+                                                                                                                              
+the city and  in the suburbs in  particular.  The question at this point  is,        
+will  temporary uses become an ordinary practice in the next few years?            
+Will  there be a series of measures capable of affecting urban planning             
+instruments, effects of climate change, public-private partnerships, and        
+                                                                                                                         
+the integration  of initiatives  aimed at  both physical rehabilitation   and             
+satisfying social needs?                                                                                        
+     The  hope is  that  we  can  move from  good  Italian   practices, un-        
+                                                                                                                              
+doubtedly valid  but still  not widespread, to  real policy  in this  area.                
+                                                                                                                       
+8.  Conclusions                                                                                                     
+                                                                                                                              
+                                                                                                                        
+     The analysis  of numerous projects  carried  out in  Europe and  our             
+case study leads us to reflect on  the role  of the  spatial, temporal  and        
+                                                                                                                         
+planning dimension of the various practices being enacted in the spaces           
+of the contemporary city. Temporary uses, in particular, bring  the issue       
+of in-between spaces to the foreground (Hertzberger, 2009; Van Heick,             
+                                                                                                                              
+2008). In  relation   to such  practices, in-between  spaces represent an       
+intermediate  zone that  favours  encounters and interactions  between              
+“different  worlds  and distinct  spaces” like  a  “residue which  tends to              
+approach something ‘beyond itself’”  (Cerrocchi, 2008).                                 
+                                                                                                                              
+     Thanks to  the transformable and  temporary character of  their  ele-             
+ments, spaces become flexible and capable of adapting  to spatial  and       
+functional changes over time.                                                                               
+                                                                                                                              
+     From  a multidisciplinary    point  of  view,  in-between spaces offer a       
+spatial and social perspective to  connect time and space with  people's
+experiences. As the same time, they can be seen as fields of mediation
+between needs and aspirations. Moreover, these dimensions express the
+potential  overlapping   of  different   human  activities   and  the  multi-
+functionality   of  individual   spaces containing different   functions  and
+meanings.
+
+In  contemporary  architecture,   the “in-between”   conceptual  prin-
+ciple introduced by Van Eyck has been extensively used as a theoretical
+basis for planning and to  produce new theories, practices and policies.
+Observing and analysing  the temporary  operational  practices and
+methods  originating  from  such ideas  and discourse, we  can uncover
+interesting  results that often  cut across the projects' initial  intentions:
+
+1.  They promote new governance models with  variable, flexible,  stra-
+tegic  and cooperative institutional  and territorial   features;
+2.  They make citizens not only passive recipients of services but rather
+active subjects and promoters of  collective action  (Cognetti, 2014)
+who  invoke the right  to own  the city  (Lefebvre, 1968);
+3.  They  reinforce the  idea  that  urban planning   is a  tool  capable of
+triggering  virtuous  processes of transformation   that  may  also be
+sustainable if they are based not only on material resources but also
+foster greater equality, more social justice and better quality  of life.
+Although they maybe viewed as transitory and isolated projects, the
+incremental  changes involved in  these practices have the potential  to
+form  part  of  a  broader, integrated  urban  regeneration  strategy that
+negotiates between past, present and future development.
+
+The in-between city  with  its  complex and indeterminate  character
+may  come to  represent an  exciting  field  into   which  future  research might  delve.
+
+
+
+                                                                                                                                                                                                                                                                       8
+

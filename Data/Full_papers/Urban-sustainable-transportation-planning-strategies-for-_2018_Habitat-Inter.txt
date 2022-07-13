@@ -1,0 +1,1596 @@
+﻿1
+
+
+
+Urban sustainable transportation planning strategies for livable City's quality of life
+
+
+                                                 ABSTRACT
+
+Urban planning and its relevant transportation deploying have a particularly profound influence on the sustainability 
+and livability of a city, and which also be crucial to the quality of life to urban residents at the same
+time. It was also suggested that the conception of livability should be extended to embrace the concerns associated 
+with the sustainability. However, planning frameworks or assessment patterns that address the dynamics
+of urban planning and demand for transportation deploying are relatively rare; there also few public policies in
+related research ﬁelds have discussed the effects of the changes in various assessment indicators over time.
+Furthermore, following the rising advancements in social communication and computer technologies in modern
+society, the data collection, storage, and processing capabilities of people have improved substantially. And, the
+emergence of big data or extendible open data facilitates analysis and prediction availability, and enabled people
+to ﬁnd immediate solutions to numerous dilemmas encountered. Therefore, based on the aforementioned intention, 
+treating the city as a dynamic process with the trying of introducing the big data or extendible open data
+for facilitating urban sustainability and livability is undoubtedly worth to explore in further.
+The present study intends to initially examine the application of big data in sustainable and livable transportation 
+strategies in Taipei City, Taiwan. Firstly, we investigate previous research on transportation sustainability 
+in various countries to generalize our preliminary list of transportation sustainability indices that satisfy
+the principles of livable cities. And, key indices were then selected through the Fuzzy Delphi Method by ad-
+ministering a questionnaire to six experts from industrial, governmental, and academic sectors respectively. The
+research results were applied to develop decision-making strategies for responding to the environmental dynamics of 
+Taipei City's transportation infrastructure system by using the analytic network process combined with
+a data-mining technique. Thus, big data pertaining to urban transportation were analyzed to predict the future
+dynamic trends of the key indices and prioritize the sustainable transportation strategies for a livable city under
+dynamic temporal and spatial changes. Ultimately, the policy implications of this study can not only offer a
+solution for current needs related to urban planning but also serve as a more transparent decision-making or well
+selection basis for developing sustainable and livable urban life in near future.
+
+
+
+
+
+
+Keywords:
+Sustainability   
+Livability 
+Fuzzy Delphi method 
+Big data
+Extendible open data
+Dynamic network process
+
+1.  Introduction                                                                                                 
+
+                                                                                                                        
+     Although  rapid  socioeconomic development has accelerated world        
+urbanization and advanced technological progress to shape the today or     
+even tomorrow  cities  (Newman, Beatley, &  Boyer, 2009;  Newman  &        
+Kenworthy, 2015), it  has also placed a sizeable burden and destruction      
+on the urban sustainability and livability.   Previously, in order to  create             
+an urban ideal environment, Jane Jacobs, a great and extremely famous     
+urban scholar advocated the avant-garde  concept of human-scale and        
+the beauty of  urban smallness to facilitate  the cities  more livable  and        
+habitable (Gans, 2006; Laurence, 2006).  Recently, Professor Geoffrey        
+West who was included in  Time Magazine's 2006 list  of the  100 most        
+inﬂuential  people in  the world  also strongly promoted a grand uniﬁed
+theory which  treat  the  cities  as living  organisms (Bettencourt,  Lobo,
+Helbing,  Kühnert,  & West,  2007; West,  2010) for  understanding  the
+relationship  between human engineered systems as well as the natural
+environment, and attempt to  guide us toward the more sustainable and
+livable  urban life  (Bettencourt &  West, 2010).
+Sustainability  and livability   are both  the most important   and ultimate 
+goals that  urban life  pursues as just mentioned. It  was also sug-
+gested that the conception of livability should be broadened to embrace
+the concerns associated with the sustainability (Fidler, Olson, & Bezold,
+2011). To the livability   and sustainability of  cities, urban planning and
+its relevant  transportation deploying  have a particularly  profound  and
+
+
+
+2
+
+
+positive effect (Taki, Maatouk, Qurnfulah, & Aljou ﬁ e, 2017; Wey, 2015;       
+Wey & Chiu,  2013; Wey,  Zhang, & Chang, 2016),  and which  also be
+crucial  to  the  quality   of  life  to  urban   residents at  the  same time.         
+However, planning frameworks or assessment patterns that address the
+dynamics of urban planning  and demand for  transportation  deploying        
+are relatively  rare.  And,  most urban  planning  frameworks  or assessments 
+in related  ﬁ elds focus speciﬁcally on evaluating environmental              
+impacts  and  constructing   speciﬁc  analytical   frameworks   (Deakin,        
+Curwell, & Lombardi, 2002;  Shepherd & Ortolano, 1996; Xing, Horner,        
+El-Haram, & Bebbington, 2009)  rather than  considered the essence of       
+urban development as a dynamic or evolutional  process.                            
+     Furthermore,  following  the  rising advancements in  social communication  
+and computer  technologies in  modern society,  the data  collection, storage, 
+and  processing capabilities of  people have improved        
+substantially.  Additionally,   the emergence of  big  data  or  extendible        
+open data also facilitates analysis validity,  and  enabled people to ﬁnd        
+immediate solutions  to  numerous dilemmas  encountered. This  background is 
+extremely  vital  in  utilizing  the  big data  or extendible  open       
+data to   formulate  sustainable  and  livable  transportation   strategies,       
+which invariably   change over time.  Considering the time-dependency        
+of decision-making  indices  (Saaty, 2007)  and  the  immediacy  or extensibility 
+of big  data (i.e. extendible  open data), we thus  applied dynamic network 
+process in conjunction with  data-mining  techniques to              
+treat urban  development as a dynamic  or  evolutional  process (Batty,        
+2017; Batty  & Marshall,  2017), and  the consequent changes with dynamic or 
+evolutional   process invariably   cause shifts  in  demand for         
+urban planning and relevant  transportation deploying.  In other  words,        
+the effects of such shifts over time should be considered and highlighted      
+in order  to formulate  and  reform more  appropriate urban  transportation 
+development  strategies to our  cities  or even whole  metropolitan area.                                                                                                                
+     Based on the  aforementioned intention,   treating the  city  as a dynamic 
+process with the trying of  introducing the  big data or extendible        
+open data  for   facilitating   urban  sustainability   and  livability   is  undoubtedly 
+worth to explore in further. In this study, we primarily  intend         
+to initially   examine the  application  of  big data  in sustainable and  livable 
+transportation  strategies in Taipei City,  Taiwan. This paper proceeds as follows.  
+Firstly,  we  investigate previous  research on  transportation   sustainability
+in    various   countries   to    generalize   our              
+preliminary  list of  transportation  sustainability  indices that satisfy the         
+principles of livability.   Secondly, to systematically present the opinions       
+of all  experts and integrate  the consensus of all experts scientiﬁcally,        
+the  key  indices  were  selected  through   the  Fuzzy  Delphi  method.        
+Considering the  professional  ﬁelds  of  the  experts  and  their  understanding 
+of the  transportation  status of Taipei  City, two  experts from         
+the industrial, governmental, and academic sectors were selected (six in      
+total)  to  answer  the  questionnaires.  Thirdly,   the  existing  temporal        
+quantitative  data of the  seven key sustainability and  livability   indices       
+which constructed  by Fuzzy Delphi  method were collected.  Then, the        
+time-series analysis was performed  to establish  an autoregressive integrated moving 
+average model  (ARIMA)  for each  index in  order  to        
+calculate the  rate of  change in  each index from  the  2009/Q2  to  the        
+2016/Q4 (31 quarters in total).  The rate of change in each index would        
+be applied to reveal  the dynamic  weight changes in data-oriented  dynamic network 
+process to express the dynamic  concept of  indices or         
+alternatives that change over time.  Thus, big data pertaining  to  urban             
+transportation  were analyzed to  predict the  future  dynamic trends  of        
+the key indices and prioritize  the sustainable and livable  strategies for        
+our empirical area under dynamic temporal and spatial changes. On the      
+other  hand,  the  research results were  applied  to   develop decision-        
+making  strategies for  responding to  the  environmental   dynamics of        
+Taipei City's transportation  infrastructure   system by using a  dynamic        
+network process combined with   a data-mining  technique. Ultimately,         
+the policy  implications  of this  study  can not only  offer  a solution  for        
+current  needs related  to  urban  planning   but  also  serve as a  more        
+transparent  decision-making  or  well   selection  basis for   developing        
+sustainable and livable urban life  in near future.
+
+2.  Literature   review  and  research background
+
+2.1.  Sustainable and livable cities
+
+Sustainable transportation   involves  applying  the  concept  of  sustainable development
+ to  the planning  and development of  transportation   infrastructure.   
+For  example,  Black  (1996)  deﬁned  sustainable
+transportation  as  “satisfying  the  current  transportation  and mobility
+ needs without  sacriﬁcing the ability  of future generations to meet these
+needs”. The  OECD, Institute  of  Transportation  in  Taiwan,  and Reisi
+et  al. (2014)  have  indicated  that  sustainable transportation  must  be
+able to  respond to the concurrent and long-term environmental,  social,
+and economic  needs and impacts.  This has  been supported by  most
+related  studies. In  2009,  Taiwan's Institute  of  Transportation  further
+explained  these three  dimensions of  sustainable transportation.   The
+environmental   dimension requires  considering the  external effects  of
+transportation;  the  social dimension requires equally  satisfying the interests 
+of  residents at  various socioeconomic levels  when  improving
+transportation;  the  economic dimension requires efficiently   using and
+conserving resources.
+Because the abstract nature of the aforementioned  principles, speciﬁc 
+development strategies and assessment indices must be formulated
+to  further  assess the importance and beneﬁts of  sustainable transportation. 
+Santos and  Ribeiro  (2013)   indicated  that  indices  should  be
+created to reduce the complexity of sustainable development, maintain
+scientiﬁc objectivity, and  improve  communication  processes. Studies
+from  various disciplines  have been conducted to  establish indices for
+sustainable transportation   over  the  years. In   2002,  the  Institute  of
+Transportation  in  Taiwan  formulated  9  goals and 47  indices encompassing 
+the  dimensions of economic efficiency,  environmental  protection,  
+and social equity according to the index categorization by the UN.
+Because that study did not cover all topics related to transportation, the
+dimension of energy use was later included as an additional dimension
+in  2005.  Subsequently, a composite sustainable transportation  assessment 
+index system comprising 24 quantitative and 3 qualitative indices
+encompassing nine goals was formulated.
+Acknowledging that  the  selection of  indices has a profound  inﬂuence 
+on research results, Litman and  Burwell  (2006) aggregated conventional 
+transportation  quality   indices and  simple sustainability indices  
+according   to  their   convenience  and  comprehensiveness and
+constructed  a composite  sustainable transportation  index  that covers
+the  economic,  social,  and  environmental  dimensions  of  sustainable
+transportation. To identify  a framework that  integrates the information
+from multiple  sources to evaluate transportation sustainability, Awasthi
+and  Chauhan (2011)   incorporated  the analytic   hierarchy  process to
+deﬁne nine indices that  involved   the social,  transportation,  environmental, 
+energy, and  economical dimensions of sustainable transportation;  
+subsequently, numerous data sources (e.g., expert questionnaires,
+sensors, and models) were applied  to evaluate sustainable transportation strategies.  
+To  assess sustainable transportation   strategies  implemented in Taipei City, 
+Shiau (2012) proposed a composite index that
+incorporated the social, economic, environmental, energy, and ﬁnancial
+dimensions of sustainable transportation.
+After  integrating  the  transportation  indices from  previous studies,
+Santos and Ribeiro (2013) selected 20 indices for the social, economic,
+and environmental  dimensions of  sustainable transportation  and preliminarily 
+determined their importance on  the basis of how frequently
+they  appeared in previous studies. For example, CO2 emissions, energy
+consumption,  traffic   accidents, safety, and  accessibility were  key  indices that 
+had appeared  in  approximately   70% of   the  investigated
+studies. Finally, cases of urban development were used to examine the
+applicability   of sustainable development indices in  Rio de Janeiro. To
+eliminate  unnecessary indices, Reisi, Aye, Rajabifard, and Ngo (2014)
+reviewed   previous   studies   and   estimated   the   existing   data   of
+                                                                                                                   10
+
+3
+
+
+
+Melbourne, Australia,  to  create nine  transportation  sustainability indices 
+encompassing environmental, social, and  economic dimensions;       
+these indices were then integrated into  a single composite index.                
+     In  addition,  regarding  the  urban livability,    Jane Jacobs probably        
+was the most famous proponent and in ﬂuential activist in the history of        
+American city planning.  In The Death and Life of Great American Cities,     
+published in 1961,  Jacobs advocated the construction of  livable cities        
+with  abundant street  life  and commercial  and cultural  diversity.   She       
+stated that  only  a  diverse  human-scale community  can  lead  to  the        
+foundation of a simple  yet great city.  Subsequently, many government       
+agencies or research institutions in  recent also put  forward  their  own        
+understanding and views. For example, in Cities in a Globalizing World:       
+Global Report on Human Settlements, the ﬁrst global report of the United   
+Nations (UN) Human Settlements Program stated that the provision  of        
+public  infrastructure,  equal  opportunities  for  medical  and education        
+services, and safe and comfortable  community  environments  are the         
+prerequisites for building a livable city.  The U.S. Metropolitan Planning        
+Commission (MPC) reported that a city must develop safe, reliable, and       
+economically  feasible  transportation   options  to  lower   the  costs of         
+household transportation,  reduce  national  reliance  on imported   raw        
+petroleum,  and  improve  air  quality.   In  Singapore, the  Urban  Land        
+Institute  and   Center  for  Liveable   Cities  also  maintained   that  environmentally 
+friendly   transportation  systems must be established to         
+eliminate traffic  pollution  and congestion, which undermine the quality        
+of a city's livability.                                                                                           
+     Moreover,  Evans (2002)  addressed livelihood  and ecological  sustainability 
+as two  aspects of  city  livability.    Livelihood  indicates  satisfactory 
+living  conditions.  When the lifestyles  of city  residents cause       
+environmental decline, the  quality  of life  of residents is diminished.  A             
+livable city  satisﬁes the livelihood  needs of all its  residents under the        
+prerequisites  of  ecological   environmental   protection.  Fidler   et   al.        
+(2011) also emphasized that  many urban  illness or  social threats, including 
+urban  sprawl,  rising  energy costs, climate  change, and ﬁscal       
+challenges are likely to work against efforts to make communities more        
+livable. On the basis of these ﬁndings, we should develop strategies that    
+counter these negative illness or threats while also improving our urban       
+life. In  the most  recent period,  Zhan et al.  (2018)  conducted a large-scale 
+questionnaire survey on 40 major cities in China in order to ﬁll the      
+gaps of past studies for urban  livability.   The results show that  the six        
+dimensions of urban  livability   (including  public  facilities,  natural  environment, 
+socio-cultural  environment,  urban security,  environmental         
+health, and  convenient  transportation)  have  signiﬁcant and  positive        
+impacts upon  overall  satisfaction with  urban  livability,   of  which  the        
+natural environment,  convenient transportation,  environmental  health        
+are the greatest contributing  factors.                                                              
+     In  summary, most studies have maintained that a livable  city  must        
+encompass numerous aspects such as economic  development, social it  
+security, environmental  conservation,  history  and culture,  and  transportation.  
+And,   transportation   planning  is  crucial   for   constructing        
+public  infrastructure;  the  diversity,  safety, convenience, and  sustainability  
+of transportation  activities  are vital  for  a strong, fair,  and efficient 
+living  environment as well as the livability  of a city.  On the other        
+hand, sustainable transportation   is any  transportation  mode that  satisﬁes 
+current  transportation  needs without   sacriﬁcing the  needs of        
+future  generations, the  evaluation  of  which  involves  environmental,        
+social, and economic  dimensions. The  environmental  dimension emphasizes 
+ecological conservation and alternative  energy development;        
+the social dimension emphasizes equality and safety; the economic dimension 
+emphasizes the balance between cost and effciency  and the        
+improvement of economic competitiveness.                                                    
+                                                                                                                         
+2.2. Big data and its applications                                                                     
+                                                                                                                         
+     The popularity   and tide  of big  data have resulted  in  the development 
+and applications of technologies and methods aimed at effectively           
+using  massive  amounts  of   data   to   support  decision-making   and        
+knowledge discovery activities  (Storey & Song, 2017). For example, in
+the  context  of  smart  sustainable cities,  big data  analytics  denotes a
+collection   of  sophisticated  and  dedicated software  applications  and
+database systems run by machines with   very high  processing power,
+which can turn a large amount of  urban data into useful knowledge for
+well-informed   decision-making  and  enhanced  insights  pertaining  to
+various  urban  domains, such  as transport,  mobility,   traffic,  environment, 
+energy, land use, planning,  and design (Bibri &  Krogstie, 2017).
+
+Despite attention   and  embrace from  many  scientiﬁc  researchers or
+ﬁelds, the deﬁnition of big data is still highly controversial and remains
+ambiguous. One of the major widely  debate is that  the meaning of big
+data is  not accurate enough.  Due to big  data which  may  means data
+itself  are too big or large that  could not be processed easily in the past,
+but  which  maybe could calculate smoothly  through  the amateur software 
+and hardware now  (Manovich, 2011).  Thus, big data itself  is, in
+many ways, a poor term  with  no precisely deﬁned (Boyd  & Crawford,
+2012; Manovich, 2011).  On the other  hand, the meaning or  deﬁnition
+of big data suggests that data are too big or large only in relation to our
+current computational  power  rather than  exact deﬁning characteristic
+of this new data ecosystem (Floridi, 2012). In fact, some of the big data
+that  we praise  highly  now (e.g.,  Twitter  messages about a particular
+topic)  are not even larger than the census data (e.g., government open
+data about the socio-economic survey) that were not recognized as big
+data in  the early days (Boyd  & Crawford, 2012).  As described by Professor 
+Michael Batty, a renowned British urban planner  and scientist of
+complex  urban  systems, big  data  are data  bodies  that  expand continually 
+and thus continue to  challenge the capacities of data  analysis tools (Batty,  2013).
+
+According  to the  discussion aforementioned, we thus ﬁnd  another
+major widely  debate is that big data should not only  refer to very large
+data sets, but also to the tools and procedures used to manipulate  and
+analyze them (Boyd &  Crawford, 2012).  In other  words, the  most important 
+value of big  data does not rely on  the amount or  quantities of
+data itself. As described by Professor Geoffrey West, a renowned British
+theoretical  physicist  and  scientist of  grand uniﬁed theory  of  sustainability 
+(West, 2010),  science is meritocratic and not  all data are equal
+(West, 2017). In some extreme situations, we even must try to eliminate
+large part  of  data sets that  is  useless and may confuse experimental
+results (e.g., the  discovery of  the  Higgs boson and top  quark).  Thus,
+maybe for  most scienti ﬁc ﬁelds,  we have to  put  our main  effort  and
+focus on exploring or mining  critical  parts that  hidden in  data sets via
+design  techniques,  analytical   tools,  execution  procedures,  decision
+support systems, or even creative solution  algorithms  (Chang, Wey, &
+Tseng, 2009; Janssen & Kuk,  2016;  Lai &  Huang, 2017;  Wey &  Wu,
+2007) rather than the dominate  characteristic of 5Vs (volume, velocity,
+variety, veracity,  and value) or precise de ﬁnition of the big data. Then,
+thus would  inform  or even enhanced decision making as well  as future 
+strategies we needed, especially in the situation of new urban data
+streams generating rapidly (Batty,  2012).
+
+Another major widely debate about big data or  large dataset is that
+may lead to  decision paralysis,  or at  least decision delay, that  is, the
+allure  of  data encourages decision makers  to wait   more possible information 
+(Håkonsson &  Carroll, 2016). And, the delayed decisions may
+ultimately  not  be applicable to rapidly  changing urban systems (Batty,
+2012). Although  it seems that big data makes it possible for us to collect
+more data to  ﬁnd  more useful information,  the truth  is that  more data
+do not necessarily mean more useful information.  It may contain more
+ambiguous or abnormal data (Tsai, Lai, Chao, & Vasilakos, 2015; West,
+2017). Therefore, bigger data (more data) that we wait for or search for
+are not  always better  data (Boyd  &  Crawford,  2012).  Moreover, the
+above decision scenarios also speciﬁcally alert that there is a tendency
+pursuing  more data  that  just  due  to  decision makers  could  (easily)
+obtain, not because the data would facilitate or enable decision makers
+to make the right  or  better decisions (Håkonsson & Carroll, 2016).
+As  discussed above, although  there are  still  many  questions and
+controversies that still need to be resolved, the cooperation between big
+
+
+
+                                                                                                                   11
+
+4
+
+
+
+                                                                                
+
+data and urban development is still booming and continues to advance.       
+Numerous types  of  datasets are  applied  to  research  on  urban  and        
+transportation  planning.  Considering  the importance  of  dynamic  information  
+in   understanding  urban  spaces, Soto  and  Frias-Martinez        
+(2011)  used mobile  phone data  from  urban spaces and defined ﬁve       
+clusters of land use. Examples of big data being applied to research on       
+travel routes include  time-series global  positioning  system data being        
+used to analyze the travel routes of  taxicabs (Zheng, Liu, Yuan, & Xie,        
+2011), smart card systems—the usage of which has increased as a fee-payment 
+mechanism in  urban  public  transportation— have  been employed 
+in several studies to investigate the temporospatial dynamics of        
+urban  public  transportation   trips  (Bagchi  &  White,  2005;  Pelletier,        
+Trépanier,  &  Morency,  2011).  Social  media  data,  although  having         
+emerged only  recently,  have  expanded  rapidly  and  now  provide   a       
+massive source of big data for real-time information on  travel patterns,        
+such as transportation information  from  the keywords in  social media        
+(Gal-Tzur et al., 2014).                                                                                   
+     Recently, it  is  worth  to note  that various  scientiﬁc innovations  in              
+urban development  ﬁeld  are  ﬂourishing   especially between  cutting-edge 
+technologies  and  its   emerging  requirements  (Alazawi,   Alani,        
+Abdljabar, Altowaijri,   & Mehmood, 2014;  Mehmood & Graham, 2015;        
+
+Suma, Mehmood, Albugami,  Katib, &  Albeshri, 2017).  Often  of these        
+cutting-edge technologies  and  its emerging  requirements  claim  that        
+they could promote the  sustainability and livability   of the  city or even       
+make the city,  society  or environment  smarter.  For example, Ahmad         
+and Mehmood  (2016)  suggested that future  cities  are driven  by  the        
+developments in  Information  and  Communication Technology  in  further, 
+and  logistics will   play  a critical  role  in  future  cities  due to  the
+increasingly  micro-dynamic   nature of  socio-economic and  globalised
+production and consumption patterns. Schlingensiepen, Mehmood, and
+Nemtanu   (2015)   and   Schlingensiepen,  Nemtanu,   Mehmood,   and
+McCluskey  (2016)  also  emphasized the  application   and  beneﬁts of
+cutting-edge technology. Coincidentally, they  both believed that future
+cities  will  be driven  through  advanced complex ICT systems (i.e., autonomic 
+transport management system) that harness the power of data
+collected  from distributed  network  of sensors in order  to provide  personalized 
+information and services to its consumers under sustainability
+and other constraints. In similar  way, Naim and Rashid (2015) declared
+enterprise systems and supply chain management systems as a critical
+part  of smart  city setting could  facilitate  sustainability  and have a positive 
+impact  on corporate  ﬁnancial  returns.   Therefore,  enterprises
+should pay  more attention  to the three  dimensions 
+(i.e., economy, society and environment) of sustainability.
+
+Fig. 1. The goal and research design of this study.
+
+Due to   the  industry-driven,   top-down,   design approaches  completely 
+ignore the  self-organization, the  self-sustaining structures, and
+the complexity  of urban systems (Batty, 2008; Batty &  Marshall, 2017;
+Bettencourt et al., 2007), Naim and Rashid (2015) also deeply reﬂected
+that the  ICT-based and industry-driven approaches maybe are not the
+only  solution  for  urbanization   and future  city  designs. Based on the
+above  insightful   rethinking  and  re ﬂ ecting, we thus  realize  that  the
+common ground and means of ICT-based or industry-driven approaches
+often   tend  to  directly   achieved  sustainability or livability through
+
+
+
+
+                                                                                                                   12
+
+5
+                                                                                                                                     
+
+innovative technologies, mechanisms or intelligent   systems. When enjoying  
+great  technological  convenience and  business beneﬁts  aforementioned, 
+however,  we  have to  notice  that  the  implementation   of              
+these innovative technologies, mechanisms or even intelligent  systems             
+requires a  lot  of data  resources, hardware architecture,  construction               
+cost as well  as probably  facing more  unknown  risks or  complexities.              
+Comparing to traditional   planning, these innovative  technologies, mechanisms 
+or intelligent  systems may be necessary to assessment carefully 
+via relevant experts or  research institutions in  further.                          
+                                                                                                                               
+                                                                                                                               
+3.  Research design
+                                                                                                                               
+                                                                                                                               
+     The goal of this  study was to establish transportation sustainability                                                                                      
+indices for a  livable city,  to  predict their  future  dynamics, and to  formulate 
+sustainable urban transportation strategies that  fulﬁll  the time-dependency of the indices. 
+The research design (Fig. 1) is described in the following  four  steps:                                                                                                                                                                                                                                                       
+     Step 1 Collect and review literature on livable  cities and sustainable                                                                                                                         
+transportation  worldwide.  Examine and analyze the  literature  to generalize a 
+list of  transportation  sustainability  assessment indices for a livable city.
+Step 2 Select the applicable indices for the proposed research model                                                                                                                              
+and the  conditions of  the  area of  empirical  study through  the  Fuzzy                                                                                                                              
+Delphi Method (FDM). Generalize the dependency relations among the                                                                                                                              
+indices for the subsequent modeling process.                                                                                                                         
+     Step 3 Use data mining to analyze the transportation data to predict                                                                                                                          
+dynamic changes in the indices over time. Operationalize these changes                                                                                                                            
+in  the  DNP by  examining  the priorities   of  the  urban  transportation                                                                                                                               
+sustainability  indices to develop a questionnaire  survey for a  panel of
+experts. Analyze the  results of  the  data-oriented and  expert-oriented                                                                                                                             
+DNPs and compare the ﬁ ndings. For further application of  the rates of                                                                                                                       
+changes in the  index data and to identify  current index weights and                                                                                                              
+predict future weight changes, this study investigated  the raw data                                                                                                                    
+through  a time-series  analysis, a data-mining  tool that is frequently                                                                                                   
+used to predict  continuous  variable  processes. This was employed to                                                                                                                         
+establish a prediction model for each index. The DNPproposed by Saaty                                                                                                                         
+(2007) can be applied  in  sturctural or  functional  form.  The structural                                                                                                                              
+form  incorporates different time  points  as alternative  programs  and                                                                                                                         
+compares the criteria  with  the programs in  pairs. The functional  DNP                                                                                                                        
+involves using the  standard dynamic judgment  matrix  A(t), which  explicitly 
+includes the functions of time. The typical  form of  a judgment
+                                                                                                                         
+matrix in  dynamic form  is:
+                                                                                                                         
+                                                                                                                         
+
+
+
+     As   in   the   discrete  case,  when       is   consistent,  we   have
+                                                                                                                         
+The  functional  DNP, which  explicitly  incorporates
+time variables,  clariﬁes the dynamic  weight  curve  of each factor  according 
+to the  relative  rate  of  change in  each factor  over  time,  the                                                                                                                        
+ﬁndings of which are then assessed by experts.                                             
+     Step 4 Generalize and discuss the processes and results of the empirical 
+analysis  and  propose suggestions on  formulating  sustainable
+transportation strategies for  the livable city  examined in  this study.
+                                                                                                                         
+                                                                                                                         
+4.  Empirical   study and  analysis                                                                   
+                                                                                                                         
+4.1. Area and range of the empirical study                                                      
+                                                                                                                         
+     An area that fulﬁlls  the goal and model of this study was selected for      
+the empirical  study.  Considering the  environmental,  social,  and economic 
+dimensions under investigation, Taipei City (Fig. 2) was selected
+as the area of the empirical  study for the  following  reasons:
+(a)  Taipei City is the political, economic, and cultural center of Taiwan.
+The total population  of Taipei City in October 2014 was 2,697,644.
+Data from  that  year show that  residents owned 286 cars and 385
+motorcycles  per 1000  population   in  2013. Thus,  the  number  of
+private vehicle trips in  Taipei City is high. Moreover, the population
+concentration   is  also  high,   and  residents  experience  difficulty
+commuting  between   New  Taipei   City  and   Taipei  City. These
+transportation  needs require immediate attention.
+
+(b) Urban  development  strategies for  Taipei City  must  promote harmony 
+between humans and nature, a balance between the cityscape
+and nature,  and  macroeconomic objectives, social  harmony,  and
+ecologically virtuous cycle. Therefore, the Taipei City Government's
+vision for  future  development is focused on foresight, pleasure, livability, 
+culture, ecology, information, and safety. White Paper on
+Transportation Policies from  the  2020 Program for  the  Long-Term
+Development in Taipei lists sustainable transportation, affinity   and
+humanism, and livability and safety as the visions of development
+of the city government for  formulating  the development goals and
+executing the policy  strategies.
+
+(c)  On the actual transportation construction, major development plans
+for the city's public transportation network have neared completion. 
+In 2013 and 2014, the Xinzhuang, Xinyi, and Songshan lines of
+Taipei's mass rapid transit (MRT) network were opened, increasing
+the total length  of the MRT to 129.2km.  In 2014, daily  peak traffic
+was reached 1.63  million   trips. The Taipei  City Government  has
+promoted a dynamic bus information system to improve the quality
+of  bus services by  ﬁtting   buses with   GPS tracking  systems and
+communication  devices to  provide  real-time   information  on  bus
+travel times  for seamless information services.
+
+The  Taipei  City  Government  has  also promoted  the  Taipei  Bike
+Sharing System Establishment and Management Program to encourage
+people to use bicycles for short trips. A  network of urban  bicycle lanes
+has also been  integrated  into  the  bike  sharing system to  encourage
+people to use low-pollution,  low-energy  public bicycles instead  of private motor 
+vehicles for  short trips,  thereby  mitigating  traffic   congestion, 
+environmental  pollution, and energy exhaustion.
+In summary, the current transportation  policies implemented by the
+Taipei City Government are oriented toward sustainable transportation,
+and the orientation  of the urban  development also satis ﬁes the visions
+of a  livable  city.  Thus, Taipei  City is  within   the scope of  this study.
+
+Additionally,   the  city's transportation   demand is  high,  and  its  fully
+developed transportation  infrastructure  provides  a massive source of
+transportation   data  for   follow-up    research  procedures.  Therefore,
+Taipei City was selected as the area of the empirical study to investigate
+the  key indices  and  strategies satisfying  Taipei  City's  livability and
+transportation sustainability.
+
+4.2. Establishing the target system and preliminarily selecting the indices
+
+The  following  ﬁgure shows the  sustainability  indices drawn  from
+the discussed studies and applied to the livable city concept (Fig. 3) for
+the follow-up  FDM and  empirical  analysis. The preliminarily   selected
+indices were  based on  the  environmental,  economic,  and  social dimensions. 
+The leading indices were CO2 (greenhouse gas) emissions per
+unit,  nonrenewable energy  and fuel  consumption,  and air  and  noise
+pollution  for  the environmental  dimension;  infrastructure,  congestion
+severity,  and  household expenses on transportation  for  the  environmental dimension; 
+and accessibility to public  transportation  and safety
+for  social  dimension.  Other  indices  representative of  transportation
+sustainability  were  the density  of  land  use, transportation  diversity,
+land  consumption  in  transportation,  and  the use of  public  and  non-
+motor vehicles. Table 1 lists a  description of the indices.
+
+
+
+                                                                                                                   13
+
+6
+
+
+
+
+
+
+
+                                                                                               Fig.  2.  Administrative   districts  of Taipei  City.
+
+
+                                                                                         Fig.  3.  Research framework of  a livable  city  concept.
+
+
+                                                                                                                                   14
+
+7
+
+Table 1
+Descriptions of the  transportation  sustainability   indices for  a livable  city.
+
+   Dimension           Index                                                               Description
+
+   A.Environment    A1. Greenhouse Gas Emissions                     Effective control and monitoring of greenhouse gas emission in urban transportation to reduce damage to the
+                                                                                                       ecological environment and human health, thereby achieving the sustainable development of urban living and
+                                                                                                       the natural environment.
+                               A2. Land Consumption in Transportation       Effectively plan and manage land use in transportation to improve land resource use efficiency and mitigate the
+                                                                                                       environmental impact of transportation, thereby safeguarding the quality of daily living and the natural
+                                                                                                       environment.
+                               A3. Energy Use                                               Develop renewable energy to reduce people's reliance on nonrenewable energies (e.g., fossil fuels) to enabling
+                                                                                                       effective energy recycling, mitigate the impact of nonrenewable energy use on the environment and human
+                                                                                                       health, and attain the goals of livability and sustainability.
+                               A4. Air and Noise Pollution                             Effectively control and monitor noise and emissions from urban traffic to mitigate damage to the ecological
+                                                                                                       environment and human health, thereby achieving sustainability in both the urban environment and the natural
+                                                                                                       environment.
+                               A5. Public and Non-motor Vehicle Use           Promote the use of public and non-motor transportation vehicles and reduce the use of motor vehicles to
+                                                                                                       mitigate the impact of vehicles on the natural environment and attain the sustainable development of urban
+                                                                                                       daily living and the natural environment.
+                               A6. Density of Land Use                                 Promote high-density land use to reduce travel distances and times to lower unnecessary resource use and
+                                                                                                       transportation trips and thereby improve the urban environment.
+   B.Economy         B1. Infrastructures                                           Promote the transportation quality, convenience, and livability of the city through constructing a
+                                                                                                       comprehensive range of transportation infrastructure services to achieve the objectives of economic efficiency
+                                                                                                       and sustainability in urban transportation.
+                               B2. Congestion Severity                                 Provide diverse transportation vehicles, encourage minimal use of private vehicles, and strengthen the overall
+                                                                                                       transportation system network to reduce traffic congestion and improve the livability of the city, and thereby
+                                                                                                       achieve the objectives of economic efficiency and sustainability in urban transportation.
+                               B3. Household Expenses on Transportation  Develop diverse, safe, reliable, and economically feasible transportation options to reduce household expenses
+                                                                                                       on transportation and promote the quality of daily living, thereby improving the livability and transportation
+                                                                                                       efficiency of the city.
+                               B4. Government Investment on                      Improve the efficiency of the government's investment in transportation infrastructure and policy, lower the
+                               Transportation                                                 cost per unit of the investment, and prioritize investment in environmentally friendly transportation systems
+                                                                                                       and infrastructure to improve the efficiency of resource use.
+                               B5. Mixed and Use                                          Promote mixed land use to shorten travel distances and reduce the demand for commuting to reduce household
+                                                                                                       expenses on transportation and improve transportation efficiency.
+                               B6. Technology Application and Management Upgrade technology, improve the energy use and capacity of transportation units, and enhance the efficiency of
+                                                                                                       transportation system operations, monitoring, information management, and law enforcement through
+                                                                                                       innovative governance (e.g., promote the use of hybrid vehicles and smart transportation systems).
+   C.Society            C1. Diversity of the Transportation System     Provide various types of transportation vehicles to satisfy the transportation needs of different groups to achieve
+                                                                                                       social sustainability and enhance the livability of the city.
+                               C2. Quality of the Transportation for               Consider and satisfy the basic transportation needs of disadvantaged groups (e.g., persons with disabilities,
+                               Disadvantaged Groups                                   children, elderly citizens, low-income earners, and the residents in remote areas) in designing transportation
+                                                                                                       systems to promote the livability of the city for all people and maintain the equality in urban development.
+                               C3. Accessibility of the Public Transportation Improve the public transportation network and its accessibility and convenience to reduce the use of private
+                                                                                                       vehicles, lower traffic congestion, and satisfy the basic transportation needs of all people, thereby attaining the
+                                                                                                       livability of the city and the equality in its development.
+                               C4. Safety                                                       Enhance road and sidewalk safety to minimize the risks of traffic accidents and casualties to mitigate the
+                                                                                                       consequent social damage, thereby achieving social sustainability and enhancing the livability of the city.
+                               C5. Health Impact                                           Reduce traffic pollution and accidents to mitigate their damage to public health, thereby improving the
+                                                                                                       livability of the urban environment and sustainable transportation development.
+                               C6. Satisfaction                                               Improve the of transportation infrastructure (e.g., roads and public and non-motor transportation vehicles) to
+                                                                                                       raise public satisfaction, thereby enhancing the livability and sustainability of the urban environment.
+
+
+
+4.3.  Using  the  FDM  to select the  transportation   sustainability    indices that             
+fulﬁll   the goals  of developing  Taipei  City  as  a livable  city                                         
+                                                                                                                                          
+      To  establish    the   transportation      indices   and   strategies    and  objectively 
+fulﬁll the  demands   of   the  area   of  the  empirical     study   and  the          
+considerations   of  planners   to identify    the  most  appropriate    and efficient            
+indices     and    strategies,      the    transportation        sustainability indices           
+(Table  1.)   were  examined   through    an  FDM  expert   questionnaire    to  afﬁrm 
+the  objectivity     of  the   indices   for  further    strategic   planning. Considering 
+the  professional    ﬁ elds of the  experts  and  their   understanding    of
+the transportation     status  of  Taipei  City,   two  experts  from   the  industrial,            
+governmental,    and  academic   sectors   were  selected   (six  in  total)   to  answer  
+the  questionnaires.
+      Table   2   depicts   the   questionnaire      results.   The   expert    consensus                
+value  Gi  is  >   6  for  most   of  the  indices.   In  other   words,   all  18  indices           
+were   considerably     representative     of   transportation       sustainability      in          
+Taipei  City.   However,   for  the  operability    of  future   studies,  these  indices          
+were  selected   from   the   steepest  region   of   the  consensus  curve   as  the          
+threshold    value.   The  three   regions    with   the   largest   differences  in   Gi         
+values   on  the   curve   are   listed   as  follows:    (a)   accessibility     of  public           
+transportation     (Index   C3)  versus  use  of  public   and  non-motor    vehicles                                                                                                           
+(Index    A5),   with    a  difference   of  0.34;    (b)  health    impact    (Index   C5)
+versus  diversity    of transportation     systems  (Index   C1),  with   a  difference
+of  0.19;   (c)  mixed    land  use  (Index   B5)   versus  technology     application
+and   management    (Index    B6),  with    a  difference   of   0.71.   To  obtain    a
+suitable    number   of  selected   indices   for   the  follow-up     research   procedures  
+(total    number   of  indices  selected=     7),  Index   C5  (health   impact)
+was  selected   as the  threshold    in  this  study   (threshold    Value=7.30).
+
+4.4.   Predicting  the  dynamic  trends  of  the transportation sustainability indices  through  data  mining
+
+Temporal     quantitative     data   of   the   seven   selected   transportation
+sustainability      indices   were   collected.    A  time-series    analysis   was   performed 
+to  establish   an autoregressive    integrated    moving   average  model
+(ARIMA)    for  each  index  in  order   to  calculate   the  rate  of change   in each
+index  from   the  2009/Q2    to the  2016/Q4    (31  quarters   in  total).   Because
+of  the  limitations     in  acquiring   the  index   data,  only   the  actual   available
+data  could   be  used  as the  index   application    data.
+For the operation and prediction consistency, the unit of
+
+
+
+
+                                                                                                                                   15
+
+8
+
+
+Table 2
+Index assessment results in the FDM expert  questionnaire.
+
+   Index                                                                    Conservative     Optimistic       Singular Value (a)     Geometric Means                Certi ﬁed    Expert Consensus Value
+                                                                                Value (Ci)          Value (Oi)                                                                                     Value (Zi)   (Gi)
+
+
+                                                                                min       max      min     max     min           max           Ci      Oi       Singular
+                                                                                                                                                                                      Value
+
+   A1. Greenhouse Gas Emissions                          
+   A2. Land Consumption in Transportation            6           8           8         10        7              9                7.13   9.47   8.14                  2.33           8.30
+   A3. Energy Use                                                    5          6            8         9         7               7               5.79   8.19   7.00                  4.41           6.99
+   A4. Air and Noise Pollution                                  4           8           6         10        5              9               5.71    8.19   6.53                 0.49            6.95
+   A5. Use of Public and Non-motor Vehicles          4          9            8         10       6               9               6.24   8.94   7.64                  1.71           7.59
+   A6. Density of Land Use                                      4           8           6         10        5              9               5.68    8.21   6.88                 0.53            6.95
+   B1. Infrastructure                                                 4           7           6         10        5              8                5.67   8.28   6.90                  1.60           6.98
+   B2. Congestion Severity                                      4           8           8         10        6              9                5.96   8.79   7.39                  2.83           7.37
+   B3. Household Expenses on Transportation       4           8           6         10        5              9                5.60   8.07   6.99                  0.47           6.83
+   B4. Government Investment on Transportation   4           8           8         10       6               9               6.19   8.81   7.44                  2.61           7.50
+   B5. Mixed Land Use                                            4           6           6         9          5               7               5.28   7.93   6.29                  2.65           6.60
+   B6. Technology Application and Management    4           7           6         9          5              7                4.68   7.11   5.75                  1.43           5.89
+   C1. Diversity of Transportation Systems             4           8           6         10        5               8               5.99   8.23   6.90                  0.24           7.11
+   C2. Quality of Transportation for Disadvantaged 4          8            6         10       5               9               5.92   8.23   7.31                  0.31           7.08
+         Groups
+   C3. Accessibility of Public Transportation            4          10          8         10       6               10             6.74   9.12   8.07                  0.38           7.93
+   C4. Safety                                                            5           8           9         10        7              9               6.74    9.65   8.30                 3.91            8.20
+   C5. Health Impact                                                4           8           7         10        6              9               6.17    8.43   7.42                 1.26            7.30
+   C6. Satisfaction                                                    4          8            6         10       5               9               5.79   8.38   7.03                  0.59           7.08
+
+
+Note: Grey-highlighted  areas indicate the  indices that  ful ﬁlled  the threshold.
+
+
+Table 3
+Descriptions of the  actual application   data of the  indices.
+
+   Index                                      Measurement Data                                   Relationship with the Index                                         Data Source
+
+   A1.Land Consumption in        Ratio of the amount of land used for        Reveals the extent of the importance that the city       －  Taipei Statistical Database
+         Transportation                  transportation to the total amount of land government associates with transportation                 －  Department of Urban Development, Taipei
+                                                  for public infrastructures                           construction and the traffic status possibly seen in the     City Government
+                                                                                                                    city.
+   A2.Use of Public and Non-     Rate of public and non-motor                   The promotion and use of public and non-motor         －  Statistics Inquiry, Ministry of
+         motor Vehicles                 transportation vehicle use                         transportation vehicles are key criteria for the                  Transportation and Communications
+                                                                                                                    livability of a city.                                                          －  Taiwan Railways Administration, Ministry
+                                                                                                                                                                                                             of Transportation and Communications
+                                                                                                                                                                                                         －  Taipei Rapid Transit Corporation
+                                                                                                                                                                                                         －  Taipei Statistical Database
+                                                                                                                                                                                                         －  Taipei Transportation Statistical System
+   B1.Congestion Severity          Number of cars/motorcycles per 1000     The total number of cars and motorcycles reﬂects the － Taipei Statistical Database
+                                                  population                                                 severity of traffic congestion at a certain extent.          －  Taipei Transportation Statistical System
+   B2.Government Investment   Budgets of the Taipei Department of        The efficiency of government investment on                －  Taipei Statistical Database
+         on Transportation             Transportation                                          transportation construction directly influences the      －  Department of Urban Development, Taipei
+                                                                                                                    quality of urban transportation.                                         City Government
+   C1.Accessibility of the Public Numbers of MRT stations, joint bus         The number of public transportation stations directly   －  Taipei Transportation Statistical System
+         Transportation                  routes, and YouBike stations                    affects the intentions of people to use public
+                                                                                                                    transportation.
+   C2.Safety                               Average monthly number of traffic            Reducing the number of traffic accidents promotes     －  Taipei Transportation Statistical System
+                                                  accidents                                                  urban transportation safety to at a certain extent.        －  Traffic Division, Taipei City Police
+                                                                                                                                                                                                             Department
+   C3.Health Impact                   Standard index average monthly              Air quality is crucial to the health and quality of life of －  Environmental Quality Data Storage
+                                                  pollution levels                                          people. Transportation waste emissions are a major       System, Environmental Protection
+                                                                                                                    cause of urban air pollution.                                             Administration
+
+
+
+                                                                                                                                                                                                              
+observation  was  set as one month; data  observations   from   January  2009           
+to  December    2014   (60   data   observations     in  total)    were    prioritized.                                
+Table  3 illustrates    the data  on  the  actual  application    of  the  indices,   how                                                                                                                                     
+the  data  are  related   to  the  indices,   and  the  data  source.                                                        
+      The  ARIMA   combines   two  types  of  data-generating     process  models,                                                                                                                                                
+namely   the  autoregressive      model   and  the   moving   average   (MA)                                                                                                                                                                                                
+model.  Formula   (4.1)   shows the  generalized   AR (p) model;  Formula   (4.2)                                            
+depicts   the  generalized    MA  model;   and  Formula    (4.3)   displays    the                                                                                                                                                    
+formal   de ﬁnition   of  ARIMA   (,pq)(Yang,  2010).                                                                                                                                                                                                                                                                                         
+ Each index   can be  used to  generate   multiple    models  with   a good  ﬁt.
+(4.1)           The model   with   the  closest ﬁt   for  each index   was  determined   according                                                                                                                                          
+      In   Formula    (4.1),     represents   the   intercept     of   the   constant;            
+represents   the  lag; ai  is  the  coefficient    of     represents  white    noise.
+In  Formula    (4.2),    a   represents   the  intercept    of  the  constant;    p represents  the  lag; 
+ is  the  coefficient    of     represents   white   noise.
+to  the   Akaike   information      criterion     (AIC)   and  the   Schwarz   Bayesian
+criterion     (SBC).  The   smaller    the  AIC   and   SBC  were,   the   higher   the
+
+
+
+                                                                                                                                   16
+
+9
+
+
+
+Table 4                                                                                                             
+Best- ﬁt model and formula derivation of each index.                                           
+
+  Index    Index Application Data                               Finalized                        
+
+                                                                                 
+                                                                                                                         
+  A1        Ratio of the amount of land used for          ARIMA(1,1,1)                 
+               transportation to the amount of land used for all                              
+               public infrastructure
+  A2        Use of public and non-motor vehicles        ARIMA                            
+                                                                                           
+  B1        The number of cars and motorcycles per 1000 ARIMA(0,1,2)          
+               population                                                                                         
+  B2        Budgets by the Taipei Department of        ARIMA(0,1,1)
+               Transportation
+                                                                                                                         
+  C1        The number of MRT stations, bus routes, and ARIMA(1,1,1)
+               YouBike stations                                                                               
+  C2        Rate of vehicle accidents (cases/10,000   ARIMA(3,1,(1,3))            
+               vehicles)                                                                                           
+  C3        Pollutant standards index                          ARIMA(3,1,(5))               
+
+                                                                                                                                     
+goodness-of-ﬁt of a model was considered to be. When the AIC differed    
+                                                                                                                                                                                                             
+considerably from  SBC, the models with  the  closest ﬁt  were selected
+according to  their   parsimony.  The AIC  and SBC were  calculated  as       
+                                                                                                                                      
+shown in Formulas (4.4)  and (4.5).                                                                 
+                                                                                                               
+                                                              
+where is the natural  logarithm  of  the sum of  squared errors;        
+is  the natural   logarithm  of  the total  number  of  samples; represents 
+the total number  of parameters requiring  estimation. Finally,                                                                                                                                                                               2
+the ﬁnalized predictive model  and formula derivation  of  each index is        
+listed in  Table 4.                                                                                             
+     The rates of data changes of the indices from 2009/Q2  to 2016/Q4         
+were calculated  according to  the time-series analysis  of the  dynamic       
+trends of each index at different time points. Thus, each pair of indices        
+had the  same calculation  and comparison  criteria  in  the  subsequent       
+DNP analysis. The quarterly  rate  of change was  calculated using  the
+                                                                                                                                              
+following  formula:                                                                                                
+                                                                                                                     
+                                                                                                                                              
+
+                   3                                                                                 
+                                                                                                                                   
+                                                                                                                         
+where X (t) represents the mean of the index X in quarter t; T1, T2, and T3   
+respectively represent the ﬁ rst, second, and ﬁnal months of a speciﬁed
+                                                                                                                                        
+quarter.                                                                                                                 
+                                                                                                                       
+                                                              
+                                                                                                                        
+                                                                                                                                   
+where ΔX (t) represents the rate of change in X in quarter t relative to the    
+preceding quarter; X (t) represents the mean of X in quarter t; and  X t−1      
+represents the mean of  X  in the  preceding quarter.  Table  5 lists  the
+quarterly rates of change in each index; the rates of change from 2009/        
+Q2 to  2014/Q4   were converted  from  the  data,  whereas those from         
+2015/Q1  to 2016/Q4  were projected using the prediction  models.               
+                                                                                                                         
+
+4.5. Verifying the DNPs                                                                                   
+     There are two types of DNPs: data-oriented and expert-oriented. For       
+the data-oriented DNP, the rate of change in each index was applied as            
+the basis for comparing  the index  pairs and calculating  their  weights;        
+for  the expert-oriented  DNP, the  questionnaires were  used to obtain         
+scores from experts for each index. The results of the two types of DNP       
+were compared.                                                                                               
+     Regarding the dependency among the indices in the DNP, the FDM        
+questionnaire was  employed to  identify   the  interactive  relationships        
+among the  transportation   sustainability   indices  with  the  closest  ﬁt        
+(Fig. 4).  The interactive   relationships were  then implemented  in  the
+expert-oriented and data-oriented DNPs to obtain the weighting matrix         
+of the internal  dependency among the indices (W2).                                     
+
+4.5.1. Verifying the data-oriented DNP
+
+The data-oriented DNP was divided into  three steps. First, the rates
+of  changes in  the  indices  were compared  in  pairs  to determine  the
+ARIMA   , (,pdq)              corresponding level of importance of each index in achieving the goal of
+city  livability.    Second, the  indices  with   internal   dependency  were
+compared  in  pairs  to  determine  the  extent  of  internal  dependency.
+
+Third,  the assessment matrix derived from  the paired comparison was
+multiplied  by the weighted vector of each index to calculate the weight (4,1,5)
+of each index under the goal of city livability. These steps were repeated
+to obtain  the weights of  each index at different time points (t).
+
+4.5.1.1. Weights   of   the   indices  without   considering  their   internal
+dependency (w1). The quarterly  rates of  change in each  index in  the
+same year  were  compared in  pairs  to  obtain  their   weights  without
+considering  their internal  dependency; the changes are represented as
+vector w1. The formula of the paired comparison is expressed as follows:
+
+ 1  represents the  weight  of  the  index  relative  to  index  
+(without   considering  internal   dependency);   respectively
+represent  the   amounts   of   changes  in   .   For   a   simple  
+(4.4)
+comparison of the rates of  changes in the two indices, was divided
+by  and the absolute value was obtained.
+(4.5)
+4.5.1.2.  Index internal dependency weighting matrix. In the  data-oriented  
+DNP, the quarterly rates of  change in each index in the  same
+year were employed to estimate the dependency among the indices. As
+shown in Formula (4.9), represents the dependency weight of 
+relative  to Y when X is the control index;  it also represents the effect of
+the rate of change in Y on the rate of change in X when X is the control
+index. Formula (4.10)  indicates the effect of the rate  of change in Y on
+the rate  of change in  X relative  to  the index  Z when X  is the control
+index.
+  represents the dependency weight of X relative to Y when
+X is  the  control  index;    represents the  rate  of change  in  X;  
+represents the rate of change in Y.
+W2      represents the dependency weight of Y relative to Z when
+X is the control index;  , and  respectively represent the rates
+of changes in X, Y, and Z.
+4.5.1.3. Weights  of   the  indices  involving   their  internal   dependency
+.  Formula w  was employed  to  obtain  the weights  of
+the indices with internal  dependency . Finally, the extent of change
+in the indices at different  time points was used to calculate the changes
+in  the weights of the indices over the 31 quarters 
+
+4.5.2. Verifying the expert-oriented DNP
+To  compare the effectiveness of data-oriented  and expert-oriented
+DNPs, a questionnaire survey was administered to experts. To maintain
+consistency between the  two  phases of analysis of  the  questionnaire
+survey, the  same interviewees were  recruited  for  the  DNP and FDM
+questionnaire surveys. Because of the complexity in the questionnaires,
+only  one expert each from the industrial,  governmental, and academic
+sector was interviewed in theDNP survey. The expert-oriented DNP was
+divided  into  the following  three steps:
+
+4.5.2.1.  Weights  of   the   indices  without    considering their   internal
+dependency. The experts were asked to use the revised version of
+
+                                                                                                                 17
+
+10
+
+
+Table 5
+Quarterly  rates of change in  each index (2009–2016).
+
+   Quarter     Index A1                       Index A2                  Index B1             Index B2                         Index C1                         Index C2                        Index C3
+
+
+                    Land Consumption in   Use of Public and    Congestion         Government Investment  Accessibility of the         Safety (Number of         Health Impact
+                    Transportation              Non-motor               Severity               on Transportation           Public Transportation     Vehicle Accidents/         (Pollutant Standards
+                                                         Vehicles                                                                                                                             10,000 Vehicles)           Index)
+
+
+
+Note: All the  values from    were calculated  from  the actual  data.
+
+
+
+
+
+
+
+
+
+
+                                                                                              Fig.  4. Internal  dependency  among the indices.
+
+
+                                                                                                                                   18
+
+11
+
+
+the 1–9 scale created by Saaty (1990) to compare the seven indices in        
+pairs,  thereby   obtaining    the   weightings   of   the   indices  without         
+considering their internal  dependency (w1). Only those responses with       
+consistency ratios lower than 0.1 in  the matrix  of a paired comparison        
+were considered to satisfy the consistency test.                                             
+                                                                                                                         
+
+4.5.2.2. Index  internal dependency weighting matrix (W2). The experts       
+assessed how each control index was affected by the other indices that       
+exhibited   internal   dependency  according   to   the   extent   of   their        
+influence. The following two  conditions  must be ful ﬁlled: (a)  the self-importance  
+of  each index  was  equal (importance=    1);  (b)  when  a             
+control index was present, the control index has higher importance than       
+the other indices  do (importance>   1).  Although  internal  dependency       
+was observed among  the indices,  the  self-importance of  the  control         
+index was higher than  those of the other indices.  The level of internal         
+dependency among the indices  (W2) was calculated according  to  the        
+FDM questionnaire survey results.                                                                                                                     
+
+4.5.2.3. Weights  of   the  indices  involving   their  internal   dependency      
+(wC). The  formula w 12×=Ww  c was used to calculate  the weights of         
+the indices with internal dependency (wc). Finally, the extent changes in      
+the indices at different time points  was used to calculate the changes in      
+the weights of the indices at three time points, namely in 2009, in 2013,       
+and in 2016.                                                                                                                                                   
+                                                                                                                         
+4.5.3. Comparing the empirical results of the two DNPs
+                                                                               
+     Table 6 and 7 and Fig. 5 illustrate  the changes in the weights of the                                                                                                             
+transportation  sustainability  indices  in  the  data-oriented  DNP. Land                                               
+consumption  in   transportation    (Index   A1)   remained  the   lowest-weighted 
+from  2009 to  2016, with  no  signiﬁcant  change in its  trend.                                                                                                                      
+The weight  of  the  use of public   and non-motor  vehicles  (Index A2)                                                                                                                         
+gradually increased before progressively decreasing; the weight was the                                                                                                                         
+third  to  ﬁfth   highest. The  weight  of  congestion severity  (Index  B1)                                                                                                                        
+gradually  decreased before progressively increasing; this  weight  was                                                                                                                         
+the second to ﬁfth   highest. The weight  of  government investment on                                                                                                                         
+transportation (Index B2) gradually increased and remained the highest                                                                                                                         
+from  2009 to  2016.  The weight  of  government  investment in  transportation 
+(Index  C1)  gradually   decreased before  progressively   increasing; 
+this weight  was the  third  to  ﬁfth  highest, exhibiting   the similar 
+trend  to  Index B1.  The weight   of safety  (Index  C2) gradually                                                                                                                     
+increased before progressively decreasing; this weight was the  second                                                                                                                         
+to ﬁfth highest for  the  majority  of  the  period.  The weight  of  health                                                                                                                        
+impact (Index  C3) gradually  decreased, remaining  the second lowest                                                                                                                             
+throughout the study period.  To further clarify  the trends and compare                                                                                                                        
+them to   the  results of  the  conventional  DNP,  the  quarterly  weight                                                                                                                        
+changes were converted to annual weight changes, as shown in Table 8                                                                                                                        
+and Fig. 6.                                                                                                                        
+                                                                                                                        
+to calculate the weight  changes in the transportation  sustainability  indices 
+for Taipei City  according  to  the responses of each expert. The                                                                                                                       
+geometric mean of  the  responses from the  experts of  the  industrial,                                                                                                                        
+governmental,  and academic  domains was  calculated  for  the  equal                                                                                                                         
+considerations of  the  three domains,  thereby  revealing the  dynamic                                                                                                                        
+weight changes and sequential order,  as shown in Table  9 and Fig.  7
+
+The weight of Index A1 remained relatively stable and was the fourth or
+ﬁfth  highest  for  most  of the  study  period.  The  weight  of  Index  A2
+gradually  increased from third  highest in  2009 to the  highest in 2016.
+The weight  of  Index B1 remained ﬁfth   or sixth  highest overall.  Index
+B2, which  maintained  the highest weight in  2009–2013 and was third
+highest in  2016,  was  a vital   index  for  transportation  sustainability.
+
+Index  C1 maintained  the second highest weight  throughout  the study
+period.  The weight of Index C2 decreased to sixth before recovering to
+fourth.  Index  C3 maintained  the lowest  weight  throughout  the  study
+period with  no signiﬁcant change in its  sequential order.
+To  further  compare the results of  the expert-oriented  and data-oriented DNP, 
+the data-oriented  DNP calculation  results  from  2009 to
+2016 were integrated into  the 2009, 2013, and 2016 data through their
+geometric means. Subsequently, the comparison results were organized
+into  a weight  sequence chart (Table 10.)  and  a dynamic  index trend
+comparison chart (Table 11).
+
+Regarding the sequencing results shown in Table 10., Index B2 was
+the most critical   index in  both  the  data-oriented and  expert-oriented
+DNPs, and Index A2  also exhibited  considerable importance.  By contrast, 
+Index C3 was regarded as the least critical  index. The difference
+between the two DNPs was the most signiﬁcant for Index C1, the weight
+of which  was ﬁfth highest in the data-oriented DNP and second highest
+in  the expert-oriented DNP.
+
+Signiﬁcant differences were observed between the two DNPs in their
+prediction of  future trends in  the indices. As revealed in  Table 11, the
+weight of  Index A1 increased before decreasing in the expert-oriented
+DNP, but decreased slightly before increasing in the data-oriented DNP.
+The weight  of  Index A2  continually  increased in  the  expert-oriented
+DNP, but decreased after peaking in the data-oriented DNP. The weight
+of Index B1 remained relatively  steady in the expert-oriented DNP, but
+it decreased substantially before  increasing in the  data-oriented DNP.
+The weight  of Index  B2 continually   decreased in the  expert-oriented
+DNP, but continually increased in the data-oriented DNP. The weight of
+Index C2 increased slightly before decreasing and remaining relatively
+constant in the expert-oriented DNP, but decreased substantially before
+increasing in the data-oriented DNP. The weight of Index C2 exhibited a
+profound decrease before increasing in the expert-oriented DNP, but it
+increased signiﬁcantly before decreasing in the  data-oriented DNP. Finally, 
+the  weight of  Index C3, which  exhibited the  smallest difference
+between the two DNPs, remained relatively constant in both  the DNPs.
+
+However, some slight differences could still be identiﬁed. The weight of
+Index C3 gradually  increased in  the  expert-oriented DNP, but  slowly
+decreased in the data-oriented DNP.
+In  summary, the  expert-oriented and  data-oriented DNPs were similar 
+in  parts of  the  weighting  sequences and trend  estimation, but
+signiﬁcant differences were observed in most of the  index analysis results. 
+This was attributed to subjective opinions of the experts, who may
+might also be because the data selected in this study were not ideal for
+estimation. Consequently, some of the data could not thoroughly reﬂect
+the conditions as predicted by the  experts; some of the indices involve
+numerous data and  might  be affected  by factors  that are  difficult to
+quantify.  However,  because the goal of  this  study  was to  assess the
+transportation  sustainability  indices and  strategies for  attaining  high
+
+
+
+Table 6
+Quarterly changes in the weights of the indices in the data-oriented DNP 
+
+ 
+
+                                                                                                                   19
+
+12
+
+Table 7
+Quarterly  changes and sequential order  of the weights  of  the indices in  the data-oriented  DNP 
+
+
+
+
+Fig. 5.  Line chart showing the quarterly  changes in the weights of the indices  in         
+the data-oriented  DNP.                                                                                                    
+
+
+livability     in  Taipei   City  through    the  use  of  the  data-oriented    DNP,   the          
+follow-up    suggestions  on  sustainable   transportation     strategies   were  still          
+based on  the  data-oriented     DNP  analysis   results.                                                  
+
+                                                                                                                                             
+4.6.  Sustainable  transportation    strategies to  fulﬁll   the  livability   of  Taipei
+City                                                                                                                                       
+                                                                                                                                                   
+      The  sustainable   transportation     strategies   that  fulﬁll    the  livability     of                                                                                                                                                
+Taipei   City  were   formulated    according    to  the  analysis   results.   The  orientations 
+of the  sustainable transportation strategies in other cities             
+were  reviewed   as references  for  revising   the  transportation     strategies   in                   
+Taipei.   Subsequently,    the  dynamic   changes   in  the  index   weights    were                                                                                                                                                               
+analyzed   to   generalize    the   future   developmental      trend   of   the  transportation 
+in  Taipei   City.  Finally,   discussions   and suggestions   were  made             
+on the   2020  White  Paper  on the  Transportation   Policies  in  Taipei.
+
+4.6.1.   Referencing  urban  transportation   strategies                                                     
+      To   properly     and   effectively      develop    urban    transportation, city         
+governments    have  proposed   transportation      plans  that   are  suitable for          
+their   respective    cities,   formulated     the   vision   of   those  plans,   and   extended  
+their  durations    to 2020,   2040,  or  even into   the second  half  of  the          
+century.   The transportation     dimension   of  the  2010  Greater  London   Plan          
+involved   six  primary    strategic   goals:  support    economic   and  population
+ growth,     strengthen     the   quality    of   daily    living,     improve    safety    and
+privacy,     improve     transportation      accessibility,      reduce    the   effect    of
+transportation      on   climate    change    and   improve    transportation ﬂexibility, 
+and  support    the   2012   London   Olympics    and   Paralympics.     In
+addition,    developmental     strategies   were  established    to  support   the  six
+
+
+Fig.  6. Line  chart showing  the annual  changes in the  weights of  the indices in
+the data-oriented  DNP.
+
+Table 9
+Annual   changes and sequential  order  of  the  index  weights  according  to  the  expert opinions.
+
+wC                                         2009       Order   2013      Order    2016      Order
+
+A1. Land Consumption in Transportation   
+
+A2. Use of Public and Non-motor Vehicles   
+
+B1. Congestion Severity                   
+
+B2. Government Investment in Transportation 0.2723    
+
+C1. Accessibility of Public Transportation 0.1963     
+
+C2. Safety                                
+
+C3. Health Impact                          
+
+
+
+
+Table 8
+Annual changes and sequential  order of  the weights  of the  indices in  the data-oriented  DNP (2009–2016).
+
+
+                                                                                                                                   20
+
+13
+
+
+                                                                                                                         
+                                                                                                                              
+                                                                                                                                                
+                                                                                                                         
+                                                                                                                         
+                                                                                                                         
+Fig. 7. Line chart showing the time-dependent weight changes in the indices in
+                                                                                                                         
+the expert-oriented DNP.
+                                                                                                                         
+                                                                                                                         
+goals. The Transportation 2040  Plan, established to improve  land use        
+and transportation coordination  in Puget Sound, involves the following        
+practical  design principles:  (a)  promote mixed  land  use; (b)  arrange        
+residential areas to  promote high-density  residential  growth;  (c) connect 
+neighborhoods with streets, alleys, and sidewalks; (d) integrate the      
+activity spaces of surrounding communities; (e) establish semipublic or        
+public high-capacity transit  stations near the centers of speci ﬁed cities;      
+(f) design plans for  pedestrians and bicycles; (g) provide  citizens with         
+open spaces; (h) manage parking spaces; (i) improve the advantages of      
+street parking;   and (j)   reduce  the  negative effects  of  parking.   The       
+Southeast Michigan Council of Governments established their Principles     
+Guiding Development of the 2040 Regional Transportation Plan, which are  
+described as follows: (a) emphasize construction on numerous regional       
+assets and provide  strategic investments  in  local-  and regional-scale
+projects under ﬁnite  ﬁnancial  resources; (b) disclose information   pertaining 
+to  transportation  to  the  public;  (c)  improve  the  comprehensiveness 
+of transportation   systems; (d)  strengthen various  modes of         
+travel  and the  connection  among  local  residents, communities,  and        
+global society; (e) enhance the ﬂexibility  and adaptability  of transportation 
+in response to  environmental   dynamics; (f)   provide  various         
+groups with a cooperation framework; and (g) coordinate the plan with         
+other  projects  such as  macroeconomic development  strategies,  sustainability 
+frameworks, residential strategies, environmental plans, and        
+green infrastructures.  The goals of  the 2040  Regional Transportation        
+Plan by the Houston–Galveston Area Council were aimed at improving
+safety, reducing congestion, safeguarding ideal asset management and       
+operations,  strengthening   regional  economic   competitiveness,  and              
+conserving and protecting  natural and  cultural  resources. These goals             
+correspond to four  strategies: improving  system management and operations, 
+improving   the  states of  ideal  maintenance,  expanding  the              
+multimodal  network,  and  coordinating  development.  Finally,  the  effectiveness 
+of the  strategies is examined through  the  use of  relevant assessment indices.
+In response to climate change, Santos and Ribeiro (2013) proposed
+the following  transportation  strategies for  Rio de  Janeiro: (a)  expand
+the railway   and  subway network;   (b)  expand  the bus  rapid  transit
+system; (c)  improve  sustainable bio-fuel;   (d)  enforce  bus plans;  (e)
+promote the  use of  electric  vehicles; (f)   implement  light  vehicle inspection 
+and maintenance plans; and  (g) formulate  vegetable oil  and
+biodiesel reuse plans.  Shiau (2012)  formulated  15  sustainable transportation 
+strategies for  Taipei  City and  determined  their  priority. In
+particular, improving  the accessibility  of non-motorized transportation
+modes, the   use of   biodiesel  and  bio-gasoline,  demand  responsive
+transport services, and accessibility of transportation  to elderly  people
+and people with  disabilities are four  of the ﬁve  highest-priority  strategies.
+In  summary, most transportation   strategies formulated worldwide
+have involved  the following  aspects: (a) accessibility,  promotion,  and
+construction  of   public  transportation;   (b)   friendliness,   safety,  and
+quality  of daily  living;  (c) traffic   management; (d) maintenance of related assets; 
+(e) protection of natural resources; (f) responses to climate
+change; (g)  improvement  of system  ﬂexibility.  Some strategies have
+been associated with the  disclosure of  government information,   land
+use and urban plans, or  master land use plans. Similarly,  most  of the
+contents of the  2020 White Paper on the Transportation Policies in Taipei
+focused on public  transportation,  friendliness,  safety, quality  of  daily
+living,  and traffic management. However, few strategies on maintaining
+assets, responding to climate  change, disclosing government  information, 
+and  linking  transportation  plans with   urban development  plans
+have been proposed by the Taipei  City Government. The disclosure of
+government information  has been regarded only as a subtopic in smart
+transportation.   The  association of   transportation  plans  with   urban
+planning  is barely notable in strategies for constructing an environment
+that  is comfortable,  obstacle-free, and bene ﬁcial for developing public
+transportation.  No consideration has been given to  maintaining 
+assets and responding to climate change.
+
+4.6.2. Future contexts and strategies for the transportation in Taipei City
+
+The goal of this study was to assess the transportation sustainability
+indices and strategies for Taipei  City to  achieve the goal  of livability.
+Therefore, the  follow-up  suggestions of transportation   planning were
+based  on  the  data-oriented  DNP analysis  results.  According  to  the
+aforementioned index  analysis results, the future  conditions  of  transportation 
+in Taipei City  were analyzed, and suggestions were proposed
+on  the 2020  White Paper on the Transportation Policies in Taipei. The
+future  conditions  regarding  the  transportation  plans  in  Taipei  were
+analyzed as follows:
+
+(a)  No signiﬁcant changes in the land  consumption and  use in transportation were observed. 
+This was ascribed to the  status of Taipei City  as  a  high-density  
+development   zone,  with   land   use approaching saturation. Although the 
+Taipei MRT network continues to  under  development, most  developments have occurred  in  the
+New Taipei  City  areas surrounding  Taipei City.  Nearly  all  of the
+land  in Taipei  City  has been  used in  planning  and construction;               
+undeveloped zones have not change substantially in  their  number              
+because of problems in  acquiring   reserved land. Therefore,  little               
+concern is required for  Index A1 (land  consumption in  transporta-        
+tion)  in current  transportation plans for  Taipei City.                                      
+(b) The  weight  of  Index A2 (use  of public   and non-motor  vehicles)               
+peaked in 2013. In 2009–2013, numerous MRT lines were opened,              
+and the construction  of  public  bicycle stations was expanded, exceeding 100 in 2013. 
+Hence, the rate of the  use of public and non-motor  vehicles peaked  in  that  year. 
+Although   the weight   of  A2 decreased slightly  in  2016,  this  index  remains  among the  most              
+prioritized  indices. Therefore, Index A2 should receive considerable             
+attention  in   transportation  planning.  Substantially  associated to               
+Index A2  is Index  C1 (accessibility  of  the public  transportation).                
+Therefore, Index C1 should  also be highly  prioritized  in  transportation planning. 
+According to  the status of Index A1, the  construction of additional MRT stations may 
+be limited  by land  conditions.
+Therefore, decision makers should  increase the use of  public  and
+non-motor  vehicles through  other  dimensions and  improve  their         
+accessibility without  increasing land use.                                                 
+
+(c)  The weight of Index B1 (congestion severity) continually  increased             
+over time. This is attributable to the increasing prevalence of public        
+and  non-motor   vehicles.  Index  B2  (government   investment  in        
+transportation)    was   consistently   the    highest-weighted index        
+throughout  the  speciﬁed years; not only  has  its weight   changed                                                                                                                   Paper on the Transportation Policies in Taipei.
+considerably,  but it   has had also profound  effected  on the  other index weights.
+
+(d)  The weight of  Index C2 (safety) has been one of the highest in the
+overall weighting  sequence. Although its weight has dropped more
+recently, it has remained highly  crucial for transportation  planning
+in  Taipei  City.  This  reveals that  the  urban  transportation  safety
+pertaining  to  roads, sidewalks, and bicycle lanes must continue to
+receive consideration  in future  transportation  strategies for Taipei
+City. Index C3 (health impact) has remained among the indices with
+the  lowest weights. Because the applied data corresponding to the
+index was the air pollution  index, the air quality  in  Taipei City was
+considered stable and acceptable. Therefore, improving  this index
+would not  substantially affect  the overall quality  of  transportation
+in  Taipei  City. This  index  does not require  attention  in  the short
+term.
+
+4.6.3. Suggestions for the 2020 white paper on the Transportation Policies in Taipei
+
+The  general orientation  of  the transportation  strategies for  Taipei
+City  was clariﬁed through  the situational  analysis based on the index
+weighting  results. The analysis results correspond to the suggestions for
+the  urban  transportation  planning  in   Taipei City  in  the  2020  White Paper.
+
+
+
+Table 10
+Weight sequence results of the data-oriented and expert-oriented DNPs.
+
+  wC                                                                       2009                                                2013                                                 2016
+
+                                                                              Data               Conventional             Data               Conventional             Data               Conventional
+
+  A1. Land Consumption in Transportation           7                     5                                7                     4                                7                    4
+  A2. Use of Public and Non-motor Vehicles         3                     3                               3                     3                                3                     1
+  B1. Congestion Severity                                     4                     6                                4                     5                                2                    6
+  B2. Government Investment in Transportation   1                     1                                1                     1                               1                     3
+  C1. Accessibility of Public Transportation           5                     2                               5                     2                                5                     2
+  C2. Safety                                                           2                     4                                2                     6                               4                     5
+  C3. Health Impact                                               6                     7                                6                     7                               6                     7
+
+
+Table 11
+Weighting sequences in the data-oriented and expert-oriented DNPs.
+
+
+
+
+
+
+                                                                                                                   22
+
+15
+
+
+
+
+
+
+Fig. 8. Development topics and execution strategies in the 2020 White Paper on Transportation Policies in Taipei. Source: Department of Transportation, Taipei City
+Government.
+
+
+     This  white  paper lists  sustainable transportation,  affinity   and humanism,  
+and  livability    and  safety  as the   visions  of  development.              
+Corresponding to the  visions are four  speci ﬁc development goals: increase 
+the usage rate of environmentally friendly vehicles to 70%, fully         
+implement  low-pollution   public   transportation   vehicles in   the  city,        
+strengthen obstacle-free environments,  and reduce the  rate  of traffic         
+accidents by 3% annually. Numerous execution strategies (Fig. 8) were        
+formulated on the  basis of the following  dimensions:                                          
+(a)  Establish a  comfortable  and obstacle-free transportation  environment
+(b)  Increase the usage rate of public transportation
+(c)  Examine transportation  services and fee subsidy mechanisms
+(d)  Create a safe and accessible transportation system
+(e)  Promote smart transportation  systems
+(f)  Create an  environment suitable for developing the public transportation network
+
+
+
+                                                                                                                   23
+
+16
+
+(g) Conserve energy and reduce carbon emissions (i.e., fossil fuel usage     
+      and motor vehicle  emissions)                                                                         
+(h) Construct an environmentally  friendly  transportation  environment               
+                                                                                                                               
+     The four  development goals of  the white  paper  correspond to the        
+results of the analysis of the index weights. Index A2 (use of public and              
+non-motor vehicles) accords with the goal of introducing  low-pollution                
+public transportation  vehicles, and Index C2 (Safety) accords with  the              
+goal of reducing  the rate  of traffic  accidents. In  the index  weight 
+dynamic analysis, both of these indices were among those with the highest            
+priority.  Therefore, the development goals of introducing low-pollution                
+public transportation  vehicles and reducing the rate of traffic  accidents             
+should be prioritized over increasing the usage rate of environmentally         
+friendly  vehicles and improving obstacle-free environments.                               
+     On  the overall  transportation  development  in the  city,  increasing              
+the usage rate of  public  transportation,  examining  the transportation               
+services and fee subsidy mechanisms, creating a safe and  easy-to-understand 
+transportation system, conserving energy and reducing carbon           
+emissions, creating  an  environment   suitable  for   developing  public               
+transportation,  and  constructing  an  environmentally   friendly   transportation 
+environment are  consistent with  the assessment dimensions             
+generalized in this study  and should be prioritized  as strategic dimensions  
+for developing   sustainable   transportation   in    Taipei   City.               
+Regarding establishing  comfortable  and  obstacle-free  transportation               
+environments and promoting smart transportation  systems, two related             
+indices were disregarded  in the  FDM phase of  the index  assessment,             
+because they are  the  lowest-priority   dimensions for   the  sustainable             
+transportation  development. For  easy distinction,  Fig.  8 displays  the              
+strategic dimensions and strategies consistent with the weight analysis              
+results colored in  yellow  and orange  (the other  dimensions and strategies are temporarily disregarded).
+               
+                                                                      
+     On the correspondence between the indices and strategies (Fig. 9),              
+managing parking  spaces, establishing a fee-payment mechanism for               
+vehicles entering speciﬁc  regions, and externalizing  parking  grids  on              
+the sides of  the  main  roads correspond to  Index  B1  (congestion severity). 
+Increasing the number of  bicycle lanes and parking facilities in               
+the city,  promoting  the  density of  public  transportation  stations, and              
+promoting  public-transportation-oriented   development  in   newly  developed 
+regions correspond to the  highly  weighted Index C1 (accessibility              
+of  public  transportation)  and  must be  prioritized  in  the  development strategies. 
+Strengthening the  demand  for  response services, rationalizing   public 
+transportation   fees  and  sustainably  managing public  transportation, 
+and  providing   comfortable  pedestrian  spaces             
+correspond to the  highly  weighted  Index A2  (use of public  and  non-motor vehicles), 
+and promoting  road traffic  safety corresponds to the             
+similarly  weighted  Index C2 (safety).  These strategies must be prioritized. 
+Integrating  regional  transportation  networks, reallocating  road               
+spaces, and promoting low-pollution  public  vehicles correspond to the              
+low-weight  Indices A1  (land  consumption  in  transportation)  and  C3              
+(health impact)  and are thus low-priority   strategies. Popularizing low-ﬂoor buses, 
+humanizing  transportation   facilities,   expanding  value-added information applications, 
+integrating   and managing  traffic  information, and providing 
+convenient public information  services do not correspond to  any of  the 
+indices examined  in  this  study. Therefore, these strategies are 
+lowest-priority  in promoting  sustainable transportation.                                                                                                           
+                                                                                                                               
+                                                                                                                               
+5.  Policy  implication   and  conclusion                                                                 
+                                                                                                                               
+     This  section  summarizes  the   analysis results,   namely  the  preliminary 
+generalization and selection of the indices, results of the data-oriented DNP, 
+and comparison between the  data- and expert-oriented               
+DNPs. In addition, from  the data-oriented DNP results, suggestions for              
+the Taipei City  Government regarding  the white  paper on transportation policies 
+in  Taipei City  are offered.                                                                 
+(a)  Aggregating  the  transportation    sustainability   indices:   Previous
+studies on livable  cities and  sustainable transportation (Section 2)
+were  generalized to derive 18  indices along three dimensions (environmental,  economic, and social).
+(b)  Selecting  the  indices  applicable   for  attaining    the  livability    of
+Taipei  City:   From the  preliminary   list  of  transportation  sustain-
+ability  indices that  satisfy the principles of  a livable  city, the  ﬁrst-phase FDM 
+expert questionnaire survey was performed. Six experts with   industrial, governmental, and 
+academic   backgrounds  in transportation were  invited  to evaluate the  indices. The threshold
+value for FDM selection was 7.30; seven critical indices were above this threshold.
+
+(c)  Data-oriented   DNP  results:  The rates  of changes in  the  indices
+were  implemented   in  the  DNP  to  obtain   the  quarterly  weight
+changes in the indices in 2009–2016. The weights of Index A1 were
+0.1172, 0.1600, and 0.1431 in  2009, 2013, and 2016, respectively.
+The weight  non-signiﬁcantly increased before decreasing over the
+years. Therefore, the  function of  the index  is (1 is negative). 
+The index  had the  lowest weight  of  the seven selected
+indices.  The  corresponding  weights  for  Index  A2  were  0.1427,
+0.1645, and 0.2002.  This index  was initially   among the top  three
+indices but became the top-priority   index in  2016, increasing in  a
+linear manner. Therefore, the function  of the index is   1 at+ a 2 (a1 is
+positive).  The corresponding  weights  of  Index  B1  were  0.1133,
+0.1279,  and 0.1164.  No signi ﬁcant changes were observed in the
+weight of the index or  its priority.  Therefore, the constant a, which
+did  not change over time,  was used to interpret  the index. The respective weights 
+of  Index  B1 were  0.2723,  0.2326,  and 0.1696.
+Because the weight  of  this  index  decreased steadily and linearly
+over time, the function  of the index is   1 at+ a 2 (a1 is negative). The
+overall  priority   of  this index  was the  third-highest  in  2016.  The
+corresponding  weights   of  Index  C1  were  0.1963,   0.2158,  and
+0.1882. No  signiﬁcant changes were observed in the weight of the
+index  or  its   priority.   Therefore,  the  constant a,  which   did  not
+change over time, was used to  interpret  the index.  The respective
+weights of  Index C2 were 0.1289,  0.0729, and 0.1391.  This index
+was  one of  three  highest-priority   indices over  the  study  period.
+Because the weight  of this  index  initially   decreased and then increased over time, 
+the function of this index  is (1 is positive). 
+The corresponding  weights of  Index  C3  were  0.0290,
+0.0260, and 0.0431.  No signi ﬁcant changes were identiﬁed in the
+weight  of  the  index  and its  priority. Therefore, the  constant  a,
+which did  not change over time,  was used to interpret the  index.
+
+(d)  Comparison   of  the  data-   and  expert-oriented    DNPs:  The  sequencing
+results of the two DNPs show that Index B2 was the most
+critical  index  in  both DNPs, Index A2  also exhibited  considerable
+importance, and Index C3 was the  least critical.  The most notable
+difference between the two DNPs was in Index C1, which  was the
+ﬁfth  highest-weighted in  the data-oriented  DNP but second in  the
+expert-oriented DNP. Signi ﬁcant differences between the two DNPs
+were also noted regarding  their  prediction  of the  future trends  of
+the indices. As shown in Table 11, the weight of Index A1 increased
+before  decreasing in   the  expert-oriented  DNP, but it decreased
+slightly  before increasing in the  data-oriented DNP. In  the expert-oriented DNP, 
+the weight of  Index A2 continually  increased, but it in  Taipei City.  
+Index B1 remained relatively  constant in  the expert-oriented DNP,
+decreased after increasing in the data-oriented DNP. The weight of
+but it decreased substantially before increasing in the data-oriented
+DNP.  In  the  expert-oriented  DNP, the  weight  of  Index  B2  continually  decreased, 
+but the opposite trend was observed in the data-oriented  DNP. 
+The weight  of  Index  C2 slightly   increased before
+decreasing or remaining  relatively  constant in the  expert-oriented
+DNP, but a substantial decrease was observed before an increase in
+the  data-oriented  DNP. The  weight  of  Index  C2 profoundly decreased 
+before increasing in the  expert-oriented  DNP, yet the opposite was 
+observed in the data-oriented DNP. Finally, the weight of
+
+
+                                                                                                                   24
+
+17
+
+
+
+
+Index C3, which exhibited  the smallest difference between the two              
+DNPs, remained constant throughout the  study period  in both  the              
+DNPs. However, some slight differences were identi ﬁed. The weight           
+of Index C3 gradually increased in the expert-oriented DNP, but the              
+opposite was observed in the data-oriented DNP.                                          
+(e) Suggestions  for  the white   paper on  the transportation    policies               
+in  Taipei  City   according   to  the  dynamic   trends  of  the  index               
+weights:  Regarding the four  development goals listed in  the 2020             
+White Paper on the  Transportation Policies in Taipei, the  dynamic              
+analysis of  the index  weights  shows that  Indices A2  and  C2 are              
+among the  highest-priority   indices.  Therefore,  the  two  goals  of              
+introducing  low-pollution   public  transportation  and  reducing the
+rate  of  traffic  accidents  should be  regarded as  the most  critical
+goals. Regarding the execution of the strategies, the management of
+parking spaces, establishment of a fee-payment mechanism for the
+vehicles  entering speci ﬁc regions, and  externalization  of  parking
+grids to  the sides of the  main roads correspond to  Index B1 (congestion  severity). 
+Increasing  the  number   of  bicycle   lanes  and
+parking   facilities in  the city, promoting the density of public
+transportation  stations, and focusing on the development of  public
+transportation  systems in  newly developed  regions correspond to
+the highly weighted Index C1 (accessibility of public
+transportation) and must be prioritized as development strategies.
+
+Fig. 9. Priority sequence of the execution strategies in the 2020 White Paper on Transportation Policies in Taipei.
+
+
+
+
+                                                                                                                   25
+
+18
+
+              
+Strengthening     the    demand    for    response    services,    rationalizing
+public   transportation      fees,  sustainably    managing    public    transportation, 
+and  providing     comfortable    pedestrian   spaces  correspond    to         
+the   highly     weighted     Index    A2   (use    of   public     and   non-motor            
+Vehicles),   and   promoting    road   traffic    safety  corresponds    to  Index           
+C2 (safety),   which   was  similarly    weighted.   These  strategies  must  be          
+prioritized.       Integrating       regional     transportation        networks,      
+allocating   road  spaces,  and promoting    low-pollution      public   vehicles           
+correspond    to   the   low-weight     Indices    A1   (land    consumption     in          
+transportation)      and   C3  (health    impact),    both    of  which    are   low-priority strategies.
+Popularizing low-ﬂoor buses, humanizing transportation facilities, expanding value-added information applications, 
+integrating and managing    traffic   information,      and  providing convenient public information services did not correspond to          
+any  of  the  indices   investigated    in  this   study.  Therefore, these  strategies 
+should    be  considered    the  lowest-priority       strategies   in   promoting 
+the sustainable transportation in Taipei City. The 2020 White  Paper on the  Transportation 
+Policies in  Taipei  focused  on  public transportation, friendliness, safety, quality of daily living,                                                                                                                                              
+traffic    management,     similar    to   urban    development     strategies   in          
+most  cities.  However,   the  Taipei   City  Government   has  proposed  few                 
+strategies   on   maintaining      assets,  responding     to   climate    change,                                                                                                                                                     
+disclosing   government    information,      and  associating   transportation                   
+planning     with    urban    development     planning.     The    disclosure    of                
+government   information     has been  regarded  as only   a subtopic  in  the                                                                                                                                                          
+development    of   smart   transportation      systems.   The  association    of          
+transportation     planning    with    urban   planning    is  barely    notable   in                
+strategies   aimed    at  constructing     an  environment      that   is  comfortable, 
+obstacle-free,    and   beneﬁcial   for   developing    public   transportation. 
+No consideration has been attached to maintaining assets and responding to climate change.                                                                           
+                                                                                                                                                
+                                                                                                                                                
+Here,   we  must   make   a  brief   declaration     that   this   study   does  not          
+involve   any  emerging   technology    or  new  hardware   architecture    (Alam,                                                                                                                                                            
+Mehmood,    Katib,    Albogami,     &   Albeshri,     2017;    Arfat    et   al.,   2017;                                                                                                                                                
+Rashid,  Royston,   Gary,   Patrick,    &  Mukesh,   2017),   nor   does  it  involve                  
+any personal   information     from  emerging   technology    users.  The focus  of          
+this  study   is  to  return    to  the   essence  of  urban   development    with    dynamic 
+perspective     that    toward    realistic     urban    situations.     And,    for                
+achieving    ultimate     goal  of   urban    sustainability     and   urban    livability                   
+(Yigitcanlar     and    Teriman,    2015),     we   expect    to   formulate     a   more                                                                                                                                                          
+transparent   and  realistic   urban   development    strategies  that   incorporate            
+only  few   concise  tools   and  materials,    including    Fuzzy   Delphi   method,               
+extendible   open  data  (i.e.,   big  data),  auto-regressive    integrated    moving                                                                                                                                                          
+average  model  and  Analytic    Network    Process. Unlike   the  previous   ANP                
+or  AHP  studies   that   focus   on  converting     qualitative     information     into           
+quantitative     parameters     (Wey   &   Chiu,   2013;    Chan,   Wey   &   Chang,                                                                                                                                                              
+2014),  in  this  study,  we  ﬁ rstly  attempt   to  integrate   the dynamic    changes          
+of  extendible    open   data   (big   data)   and   ANP  mechanisms    to   address                
+quantitative     issues  directly.    In  other    words,   our  main    innovation    not                                                                                                                                                           
+only  reveals  the  dynamic   weight   changes  in data-oriented     ANP, but  also                                                                                                                                              
+expresses  the  dynamic    concept   of   indices   or  alternatives     that   change          
+overtime. Surely, the emerging technologies, industry-driven mechanisms, intelligent 
+systems   or  any   ICT-based   hardware    (e.g.,   autonomic  systems, 
+self-driving    vehicles,   cloud   computing,    mobile   big  data          
+fogs, internet    of  things,   and  distributed    systems)  that   were  not  covered                 
+in this  study   still  worth   to  be considered   in  further    to promote   the  three                                                                                                                                                          
+priority     development     goals   (i.e.,   smart    growth;    sustainable     growth,                 
+inclusive   growth)    that   set  by  European   Union   (Schlingensiepen     et  al.,          
+2016).   Finally,    we  reiterate    that   the  policy    implications     of  this   study                                                                                                                                                          
+may  offer  a  solution   for  current    needs  related  to  urban   planning    in  the                
+whole   world,   especially   in   developing    cities,  and  may   serve  as a  more          
+transparent    decision-making     or  selection   basis  for   developing    sustainable 
+and livable urban life in near future.                                                                
+
+
+
+
