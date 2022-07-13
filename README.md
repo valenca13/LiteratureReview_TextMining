@@ -16,13 +16,15 @@ also provides guidelines to use text mining in literature reviews.
 If you use any of the material in this repository, **please cite the
 reference above**.
 
-### 1. Dataset
+#### 1. Dataset
 
-#### \* [Excel sheet with main information of papers and filtering process.](/Data/table_systematic_review.xlsx)
+-   [Excel sheet with main information of all collected papers and
+    filtering process.](/Data/table_systematic_review.xlsx)
 
-#### \* [Full eligible papers used for the topic modelling and bigrams in .txt\* and .pdf.](/Data/Full_papers/)
+-   [Full eligible papers used for the topic modelling and bigrams in
+    .txt\* and .pdf.](/Data/Full_papers/)
 
-### 2. Guidelines
+#### 2. Guidelines
 
 -   [Historical Context Analysis](Historical_Context_Abs_TM.md):
     Analysis of how the concepts and topics evolve throughout time by
@@ -32,12 +34,10 @@ reference above**.
     main topics expressed in the literature by using topic modeling and
     bigrams in full papers.
 
-### 3. Code
+#### 3. Code
 
 The full scripts used for producing all the results are found in:
 
 -   [Historical Context Analysis](/Scripts/Script_Historical_Analysis.R)
 
 -   [Specific Paper Analysis](/Scripts/LDA%20R%20script.R)
-
-#### 

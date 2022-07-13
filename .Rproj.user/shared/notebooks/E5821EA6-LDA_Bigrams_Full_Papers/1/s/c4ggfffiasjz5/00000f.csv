@@ -2,5 +2,7 @@
 "0","             k, "
 "0","             method=""Gibbs"", "
 "0","             control=list(seed = 42)) "
-"0","          "
 "0",""
+"0","lda_topics <- ldaOut %>%"
+"0","  tidy(matrix = ""beta"") %>%"
+"0","          arrange(desc(beta))"

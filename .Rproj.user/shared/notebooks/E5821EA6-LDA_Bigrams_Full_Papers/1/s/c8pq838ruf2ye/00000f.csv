@@ -1,0 +1,67 @@
+"0","library(quanteda)"
+"2","Package version: 3.2.1
+Unicode version: 13.0
+ICU version: 69.1
+"
+"2","Parallel computing: 12 of 12 threads used.
+"
+"2","See https://quanteda.io for tutorials and examples.
+"
+"2","
+Attaching package: ‘quanteda’
+
+"
+"2","The following objects are masked from ‘package:koRpus’:
+
+    tokens, types
+
+"
+"2","The following object is masked from ‘package:tm’:
+
+    stopwords
+
+"
+"2","The following objects are masked from ‘package:NLP’:
+
+    meta, meta<-
+
+"
+"0","library(igraph)"
+"2","
+Attaching package: ‘igraph’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    as_data_frame, groups, union
+
+"
+"2","The following objects are masked from ‘package:purrr’:
+
+    compose, simplify
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    crossing
+
+"
+"2","The following object is masked from ‘package:tibble’:
+
+    as_data_frame
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    union
+
+"
+"0","library(ggraph)"
+"0","library(tidyverse)"
+"0","library(tidyr)"
+"0","library(broom)"
