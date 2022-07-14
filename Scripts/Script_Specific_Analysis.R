@@ -160,6 +160,6 @@ ggraph(bigram_network, layout = "fr") +
   geom_edge_link(aes(edge_alpha = n), show.legend = FALSE,
                  arrow = a, end_cap = circle(.03, 'inches')) +
   geom_node_point(color = "lightblue", size = 2) +
-  geom_node_text(aes(label = name), vjust = .7, hjust = 0.1) +
+  geom_node_text(aes(label = name), vjust = .7, hjust = 0.3, size = 2.5) +
   theme_void()
 
