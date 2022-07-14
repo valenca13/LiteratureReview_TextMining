@@ -1,5 +1,5 @@
 ---
-title: "Historical context analysis - word frequency counts"
+title: "Historical context analysis - Word frequency counts"
 output: github_document
 always_allow_html: yes
 ---

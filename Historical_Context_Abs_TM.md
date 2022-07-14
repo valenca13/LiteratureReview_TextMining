@@ -1,4 +1,4 @@
-Historical context analysis - word frequency counts
+Historical context analysis - Word frequency counts
 ================
 
 This code was elaborated to evaluate the evolution of topics discussed

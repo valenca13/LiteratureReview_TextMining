@@ -1,4 +1,4 @@
-Specific paper analysis - Topic Modelling and bigrams
+Specific paper analysis - Topic modelling and bigrams
 ================
 
 #### 1. Import libraries
@@ -18,13 +18,13 @@ library(textstem)
 
 #### 2. Import papers
 
-After downloading the papers we converted the pdf files to “.txt” files
-and manually removed: information of the authors and journal,
+After downloading the papers we converted the “.pdf” files to “.txt”
+files and manually removed the information of the authors and journal,
 acknowledgments, funding, supplemental material, disclosure statement,
-references.
+and references.
 
-> Note: This prior data cleaning ensures that the information provided
-> by the model was only from the paper’s text body.
+> **Note:\`** This prior data cleaning ensures that the information
+> provided by the model was only from the paper’s text body.
 
 ``` r
 folder <- "Data\\Full_papers"
@@ -74,6 +74,9 @@ corpus <- Corpus(VectorSource(text7))
 
 #### 5. Topic modelling - Latent Dirichlet Allocation (LDA)
 
+Topic modelling is a Natural Language Processing technique that
+discovers patterns of words (topics) of a collection of documents.
+
 ##### a) Create Document-Term-Matrix (DTM)
 
 ``` r
@@ -113,7 +116,7 @@ print(topten)
 k <- 6
 ```
 
-> Note: The number of topics is defined prior to the model.
+> **Note:** The number of topics is defined prior to the model.
 
 ##### d) Run LDA using Gibbs sampling
 
@@ -157,9 +160,9 @@ ggplot(
 
 ![](LDA_Bigrams_Full_Papers_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
-> Note: If you run the algorithm many times, the topics will maintain
-> the same. Nonetheless, the order of the topics may appear differently
-> which is coherent to the “bag of words” assumption.
+> **Note:** If you run the algorithm many times, the topics will
+> maintain the same. Nonetheless, the order of the topics may appear
+> differently.
 
 #### 6. Bigrams
 
