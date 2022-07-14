@@ -1,2 +1,0 @@
-"0","bigrams_separated <- bigrams_df %>%"
-"0","  separate(bigram, c(""word1"", ""word2""), sep = "" "")"

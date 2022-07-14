@@ -1,3 +1,0 @@
-"0","bigrams_filtered <- bigrams_separated %>%"
-"0","  filter(!word1 %in% stop_words$word) %>%"
-"0","  filter(!word2 %in% stop_words$word)"

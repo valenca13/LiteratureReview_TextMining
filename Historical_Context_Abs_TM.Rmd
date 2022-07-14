@@ -160,7 +160,7 @@ ggplot(
     x = "Words", y ="Normalized frequency - Total of 2 papers")
 ```
 
-> The process is the same for other periods of time. At the end, it is possible to compare the most frequent words in abstracts of papers from different periods. 
+> **Note:** The process is the same for other periods of time. At the end, it is possible to compare the most frequent words in abstracts of papers from different periods. 
 
 In case you want to check how to perform this algorithm in the other periods, the complete code that was used for the paper can be assessed [here](Scripts/Script_Historical_Analysis.R). 
 

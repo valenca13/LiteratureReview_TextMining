@@ -1,6 +1,0 @@
-"0","tokenizing_abstract <- A78_85 %>%"
-"0","  mutate(id = row_number()) %>% #Create new id for each abstract"
-"0","  unnest_tokens(word, abstract) %>%"
-"0","  anti_join(stop_words) #Remove stopwords (english package of stopwords)"
-"1","[38;5;232mJoining, by = ""word""[39m
-"

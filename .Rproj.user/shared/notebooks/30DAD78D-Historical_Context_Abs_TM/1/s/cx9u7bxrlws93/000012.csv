@@ -1,8 +1,0 @@
-"0","ggplot("
-"0","  word_counts, aes (x = word2, y = n/max(n), fill = ""red"")"
-"0",") +"
-"0","  geom_col() + "
-"0","  coord_flip() + "
-"0","  labs("
-"0","    title = ""Most frequent words of filtered abstracts: 1978 - 1985"","
-"0","    x = ""Words"", y =""Normalized frequency - Total of 2 papers"")"

@@ -175,9 +175,9 @@ ggplot(
 
 ![](Historical_Context_Abs_TM_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
-> The process is the same for other periods of time. At the end, it is
-> possible to compare the most frequent words in abstracts of papers
-> from different periods.
+> **Note:** The process is the same for other periods of time. At the
+> end, it is possible to compare the most frequent words in abstracts of
+> papers from different periods.
 
 In case you want to check how to perform this algorithm in the other
 periods, the complete code that was used for the paper can be assessed

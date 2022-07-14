@@ -1,2 +1,0 @@
-"0","bigrams_df %>%"
-"0","  count(bigram, sort = TRUE)"
