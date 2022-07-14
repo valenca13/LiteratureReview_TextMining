@@ -11,7 +11,8 @@ paper:
 
 Additionally, the code presented in this repository can be adapted and
 is reproducible to perform other literature reviews. This repository
-also provides guidelines to use text mining in literature reviews.
+also provides guidelines on how to use text mining in literature
+reviews.
 
 If you use any of the material in this repository, **please cite the
 reference above**.
