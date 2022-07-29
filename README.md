@@ -4,10 +4,10 @@ Using text mining in systematic literature reviews
 This repository was created for the replication of the results of the
 paper:
 
-> Valença, G.; Moura, F.; Morais de Sá. A. *Using text mining in
-> systematic literature reviews: Methodology proposal and application to
-> road space allocation.* Paper submitted to Communications in
-> Transportation Research. 2022.
+> *Using text mining in systematic literature reviews: Methodology
+> proposal and application to road space allocation.* Paper submitted to
+> the International Journal of Information Management Data Insight,
+> 2022.
 
 Additionally, the code presented in this repository can be adapted and
 is reproducible to perform other literature reviews. This repository
