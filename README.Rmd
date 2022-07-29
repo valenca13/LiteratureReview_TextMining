@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This repository was created for the replication of the results of the paper: 
 
-> _Using text mining in systematic literature reviews: Methodology proposal and application to road space allocation._ Paper submitted to the International Journal of Information Management Data Insight, 2022. 
+> _Using text mining in systematic literature reviews: Methodology proposal and application to road space allocation._ Paper submitted to the International Journal of Information Management Data Insights, 2022. 
 
 Additionally, the code presented in this repository can be adapted and is reproducible to perform other literature reviews. This repository also provides guidelines on how to use text mining in literature reviews.   
 

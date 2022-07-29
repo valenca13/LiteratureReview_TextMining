@@ -6,7 +6,7 @@ paper:
 
 > *Using text mining in systematic literature reviews: Methodology
 > proposal and application to road space allocation.* Paper submitted to
-> the International Journal of Information Management Data Insight,
+> the International Journal of Information Management Data Insights,
 > 2022.
 
 Additionally, the code presented in this repository can be adapted and
