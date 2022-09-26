@@ -151,9 +151,9 @@ word_counts <- tokenizing_abstract %>%
 
 ```{r}
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray75") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 1978 - 1985",

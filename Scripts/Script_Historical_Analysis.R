@@ -77,9 +77,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray75") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 1978 - 1985",
@@ -151,9 +151,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray65") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 1986 - 1990",
@@ -223,9 +223,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray65") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 1991 - 1995",
@@ -296,9 +296,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray55") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 1996 - 2000",
@@ -367,9 +367,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray45") + 
   coord_flip() +
   labs(
     title = "Most frequent words of filtered abstracts: 2001 - 2005",
@@ -440,9 +440,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray40") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 2006 - 2010",
@@ -511,9 +511,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "gray35") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 2011 - 2015",
@@ -586,9 +586,9 @@ word_counts <- tokenizing_abstract %>%
 
 #Plot word count
 ggplot(
-  word_counts, aes (x = word2, y = n/max(n), fill = "red")
+  word_counts, aes (x = word2, y = n/max(n))
 ) +
-  geom_col() + 
+  geom_col(fill = "grey20") + 
   coord_flip() + 
   labs(
     title = "Most frequent words of filtered abstracts: 2016 - 2020",
