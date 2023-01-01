@@ -3,9 +3,11 @@ Using text mining in systematic literature reviews
 
 This page was created to reproduce the results of the paper:
 
-> *Using text mining in systematic literature reviews: Emerging road
-> space allocation solutions for smart cities*. Paper submitted to the
-> International Journal of Information Management Data Insights. 2022.
+> Valença, G.; Moura, F.; Morais de Sá, A. (2023). How can we develop
+> road space allocation solutions for smart cities using emerging
+> information technologies? A review using text mining. International
+> Journal of Information Management Data Insights, 3(1), 100150.
+> <https://doi.org/10.1016/j.jjimei.2022.100150>
 
 Also, this material provides the code and guidelines that explain step
 by step on performing text mining in systematic literature reviews. The
